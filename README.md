@@ -652,3 +652,29 @@ per-lap intervention count or PID tuning narrative for the open-challenge
 wall-following controller specifically -- that remains a gap, not invented
 here.
 
+## Systems Thinking and Engineering Decisions
+
+This section corresponds to the "Systems Thinking and Engineering
+Decisions" criterion judges use to evaluate our documentation -- the
+fourth of five criteria, and the one that looks across subsystems rather
+than at any single one of them
+[Rule C.b30, p.47: "Evidence of testing and tuning, not just final code. Criterion 4: Systems"].
+It specifically looks at how our subsystems work together (mobility,
+power, sensors, software, frame)
+[Rule C.b31, p.48: "How subsystems work together (mobility, power, sensors, software, frame)."],
+the engineering reasoning behind our decisions
+[Rule C.b32, p.48: "Engineering reasoning behind decisions."],
+our constraints and tradeoffs
+[Rule C.b33, p.48: "Constraints and tradeoffs."],
+our iteration and testing cycles
+[Rule C.b34, p.48: "Iteration and testing cycles."],
+and risk identification and mitigation
+[Rule C.b35, p.48: "Risk identification and mitigation actions. What evaluators are looking for:"].
+
+*Much of the cross-subsystem content below is synthesized from facts
+already verified and cited in the Mobility, Power/Sensor, and Software
+sections -- it isn't new material, just presented from a whole-system
+angle rather than a single-subsystem one. New, team-specific
+constraint/tradeoff content confirmed directly by the team for this
+section is called out explicitly.*
+
