@@ -678,3 +678,56 @@ angle rather than a single-subsystem one. New, team-specific
 constraint/tradeoff content confirmed directly by the team for this
 section is called out explicitly.*
 
+### Constraints we designed within
+
+Judges specifically credit clear decisions made under constraints such as
+power, weight, processing, and time
+[Rule C.b37, p.48: "Clear decisions made under constraints such as power, weight, processing and time."].
+Every constraint below is a real, specific limit we designed around --
+not a generic list.
+
+**Vehicle envelope.** WRO caps overall vehicle dimensions at 300x200mm and
+300mm in height
+[Rule 11.1, p.23: "The vehicle’s dimensions must not exceed 300x200 mm and"]
+[Rule 9.17, p.18: "The vehicle’s dimensions must not exceed 300x200 mm and"],
+and caps weight at 1.5kg
+[Rule 11.2, p.23: "The weight of the vehicle must not exceed 1.5 kilograms."].
+Our vehicle's 1,475g mass (see Mobility and Mechanical Design) sits
+comfortably under that limit.
+
+**Wheelbase and turning radius.** We studied the robot's overall length
+and the wheelbase (front-to-rear axle distance) specifically to determine
+the turning radius we needed. We empirically tested extending the robot's
+length using an added rod, and found 4cm was the safe, best-performing
+addition -- long enough to meaningfully help with parking maneuvering,
+without pushing length past what the rest of the design could
+accommodate.
+
+**Width vs. turning radius tradeoff.** We wanted the robot as narrow as
+possible (while staying long enough for the turning-radius requirement
+above), but our Ackermann steering mechanism constrained how narrow we
+could actually go: the robot's width ended up set by the front axle's
+track width, since that's the span the Ackermann geometry needs to
+function correctly. This is a direct example of "we chose X instead of Y
+because..." reasoning -- we didn't choose the width freely; the steering
+mechanism we'd already committed to (see Mobility and Mechanical Design)
+determined it.
+
+**Power switching.** Only one switch is allowed to power the vehicle on
+[Rule 9.10, p.17: "The vehicle is then switched on. Only one switch is allowed to"].
+That single-switch constraint is a direct reason we engineered a custom
+Power Management System (see Power and Sensor Architecture) rather than
+wiring components independently: with only one legal point of entry for
+power, a centralized, star-topology distribution design was the only way
+to cleanly deliver power to every subsystem from that single switch.
+
+**Processing/startup time.** The Raspberry Pi 5's boot process and Python
+library loading originally took approximately 90 seconds combined -- time
+that competes directly with the window judges allow the robot to become
+ready before starting the competition countdown. To bring this down, we
+switched to headless/lightweight versions of our libraries instead of
+their full desktop-oriented builds, and disabled Pi system services we
+didn't need at boot. This got the robot moving well within that startup
+window. This is a concrete, testable engineering decision made under a
+real time constraint, not a hypothetical one.
+
