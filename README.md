@@ -765,3 +765,31 @@ IMU calibration, a single fixed sensor) wouldn't have worked, and the
 actual solution came from how two subsystems (sensing geometry and
 control software) interact.
 
+### What judges look for
+
+At the top level, judges credit documentation that names real constraints,
+a concrete data-driven decision, and a specific risk with its mitigation,
+such as: *"We considered two architectures: on board vision only and a
+split system with edge processing off the robot ... We reduced frame rate
+from 30 fps to 15 fps to keep CPU below 70 percent. Our risk table
+identified overheating as a failure mode, so we added a fan and verified
+temperatures stayed below 60 degrees Celsius"*
+[Rule C.b87, p.53: "Level 6 example “We considered two architectures: on board vision only and"].
+A block diagram of subsystems with a brief explanation of how they
+interact, but without that depth, scores at the next level down
+[Rule C.b88, p.53: "Level 4 example “Our overall system is shown in the block diagram"].
+A list of decisions made without detailed reasoning scores lower still
+[Rule C.b89, p.53: "Level 2 example “We made several decisions during the season, for example"],
+and documentation that only describes the final design with no mention of
+choices, tradeoffs, or problems scores zero
+[Rule C.b90, p.53: "Level 0 example Documentation only describes the final design with no mention"].
+
+Self-check questions for this section: did we identify constraints such as
+power, weight, time, or processing
+[Rule C.b58, p.50: "Did we identify constraints such as power, weight, time or processing?"];
+have we shown at least one design tradeoff and explained our choice
+[Rule C.b59, p.50: "Have we shown at least one design trade off and explained our"];
+and did we show how our design changed over time
+[Rule C.b60, p.50: "Did we show how our design changed over time (version 1, 2,"]
+-- answered above as incremental refinement rather than a version-by-version
+redesign, per the team's own account, not invented here.
