@@ -484,3 +484,12 @@ newest sensors.
 *This diagram is adapted from last year's team repository (source:
 team-2025), reused as-is -- not redrawn for 2026, per the caveat above.*
 
+### Calibration
+
+Judges specifically look for calibration methods
+[Rule C.b18, p.46: "Calibration methods"].
+Neither the DFRobot URM09 ultrasonic sensors nor the SparkFun BNO086 IMU
+required a dedicated calibration procedure -- both performed reliably
+right out of the box, so no team-developed calibration methodology exists
+for either.
+
