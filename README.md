@@ -813,3 +813,8 @@ has moved into the coach role, Hasan Mfleh and Hadi Moalla continue as
 students, and Haidar Saad has joined as a new student -- confirmed
 directly by the team, not assumed.*
 
+With 3 students and 1 coach, the team is well above the minimum team size
+the rules exclude: a single team member plus a single coach is not
+considered a valid team and cannot participate
+[Rule 2.3, p.4: "1 team member and 1 coach are not considered a team and"].
+
