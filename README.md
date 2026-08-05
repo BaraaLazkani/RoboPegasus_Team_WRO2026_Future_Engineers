@@ -540,3 +540,40 @@ side of the lane to keep. Detected color masks feed directly into the
 navigation logic to decide the lane-keeping side for each pillar
 encountered.
 
+### State machine and control flow
+
+The obstacle-challenge control flow is organized as a state machine built
+around per-pillar handling functions:
+
+1. **Startup.** The robot exits the parking section; the startup sequence
+   itself differs depending on whether the run is CW or CCW.
+2. **First pillar.** The robot takes a photo and calls a `pass_first_pillar`
+   function, selected by the detected color and by CW/CCW direction.
+3. **Repositioning.** After `pass_first_pillar` completes, a maneuver
+   (dependent on the robot's current position) repositions the robot ready
+   for the next section and the next photo.
+4. **Subsequent pillars.** Each pillar is handled by a function named for
+   its color combination and direction (for example `Red_Red_ccw`,
+   `Red_Green_ccw`). There are also `<Color>_None_<direction>` variants
+   (for example `Red_None_ccw`) that currently behave identically to their
+   same-color counterpart; these exist specifically to have a defined
+   behavior ready in case a pillar's expected color signal changes under
+   the season's Surprise Rule, which can add or modify existing rules
+   before the international final
+   [Rule 6, p.8: "A surprise rule for the international competition can be announced before the"].
+5. **After the first lap,** the robot already knows each pillar's color
+   from the first pass, so it stops taking photos and passes each pillar
+   directly using the already-determined color/direction function.
+6. **Shared control primitives**, used inside every pillar-passing
+   function:
+   - `turn_right` / `turn_left` -- discrete turning maneuvers.
+   - `dual_pid` -- follows both an MPU/IMU heading reference and a target
+     distance from a specific wall simultaneously.
+   - `MPU_PID` -- follows only an MPU/IMU heading reference, with no wall
+     distance term.
+7. **Parking.** The robot always parks from the same fixed
+   position/orientation regardless of which direction the lap ran in, so
+   a `reverse_cw_to_ccw` function (or its opposite) flips the approach
+   direction where needed so the final parking maneuver is always
+   consistent, using the Backward Parking method described below.
+
