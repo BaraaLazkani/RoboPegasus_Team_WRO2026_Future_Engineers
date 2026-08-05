@@ -828,3 +828,16 @@ Each of our three students -- Hasan, Hadi, and Haidar -- participates on
 this team only, in accordance with the rule that any student may
 participate in one team only
 [Rule 2.5, p.4: "Any student may participate in one team only."].
+
+### Age eligibility
+
+The 2026 age group for this category covers students aged 14-22, born
+between 2004 and 2012
+[Rule 2.8, p.4: "The age group for this category is defined for students in the"].
+This age window is evaluated by the age a participant turns during the
+2026 calendar year, not their age on the day of competition
+[Rule 2.9, p.4: "The maximum age reflects the age that the participant turns in the"].
+All three of our students fall within this window: Haidar Saad was born
+in 2004 (turning 22 in 2026, the oldest age this category allows), and
+Hasan Mfleh and Hadi Moalla were both born in 2005.
+
