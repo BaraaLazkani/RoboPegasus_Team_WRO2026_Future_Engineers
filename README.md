@@ -24,3 +24,20 @@ detail that another team could reproduce our robot
 Documentation is worth 30 of the total competition points
 [Rule 10.2.3, p.21: "30 points for the engineering journal documentation"].
 
+### Repository
+
+Our 2026 repository is public at
+[github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers](https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers),
+which satisfies the requirement that GitHub repositories be set for public
+viewing with visible content
+[Rule 7.b4.5, p.9: "GitHub repositories must be set for public viewing and the content must"].
+Per the rules, the repository has to stay public from the moment it is
+submitted for an international competition through at least 12 months
+afterward
+[Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"].
+
+*Note on access: last year's repository access notes mentioned that a VPN
+may be required to view the repository from some restricted regions.
+The team has confirmed this is still true for this year's repository as
+well -- adapted from last year's documentation, not a rule requirement.*
+
