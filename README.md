@@ -493,3 +493,29 @@ required a dedicated calibration procedure -- both performed reliably
 right out of the box, so no team-developed calibration methodology exists
 for either.
 
+## Software Architecture and Obstacle Strategy
+
+This section covers the discussion and motivation for the vehicle's
+obstacle-management design, as part of the design discussion required for
+the repository's documentation
+[Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+It corresponds to the "Software Architecture and Obstacle Strategy"
+criterion judges use to evaluate our documentation, which specifically
+looks at code modularity and structure
+[Rule C.b23, p.47: "Code modularity and structure"],
+state machines or control flow
+[Rule C.b24, p.47: "State machines or control flow"],
+our lane following and obstacle obedience strategy
+[Rule C.b25, p.47: "Lane following and obstacle obedience strategy"],
+explanation of the algorithms used
+[Rule C.b26, p.47: "Explanation of algorithms used"],
+and basic code documentation and comments
+[Rule C.b27, p.47: "Basic code documentation and comments What evaluators are looking for:"].
+
+*This content is adapted from last year's team repository (source:
+team-2025), confirmed by the team as still accurate for 2026 -- open
+challenge navigation and pillar-color detection are unchanged; only the
+parking approach changed, and that change is described below using last
+year's own already-documented "Backward Parking" method, which the team
+confirmed now matches this year's actual approach.*
+
