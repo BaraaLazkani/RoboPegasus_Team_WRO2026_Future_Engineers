@@ -577,3 +577,38 @@ around per-pillar handling functions:
    direction where needed so the final parking maneuver is always
    consistent, using the Backward Parking method described below.
 
+### Parking
+
+This year's parking approach: the robot walks past the parking lot first,
+then enters it in reverse from the rear axle, rather than entering forward
+from the front as in previous seasons. This corresponds exactly to what
+was already documented last year (but not used at the time) as "Backward
+Parking":
+
+1. **Approach detection.** The robot drives backward along the lane, using
+   its rear-right sensor to monitor for the parking entrance. When the
+   entrance gap is detected, it continues a small additional distance to
+   confirm it has reached the correct spot (avoiding a false trigger at
+   the wall edge).
+2. **Maneuver.** The robot steers right and reverses into the parking lot
+   entrance. As soon as the back half of the robot clears the first wall,
+   it steers left to align itself parallel with the walls. This reversing
+   trajectory is smoother and gives more precise alignment control than
+   the forward-entry approach used previously.
+3. **Sensing.** Parking uses a combination of sensors: ultrasonic sensors
+   mounted on the sides and rear measure distance from the parking lot
+   walls and detect the entrance gap; the IMU (now the SparkFun BNO086,
+   see the Power and Sensor Architecture section) provides orientation and
+   heading for precise turning; and the infrared sensor, mounted above the
+   chassis for a top-down view, detects the lot boundaries and helps avoid
+   wall collisions.
+
+*Last year's "Forward Parking" description (entering from the front,
+right-side sensor monitoring) is superseded by the above for 2026 and
+should not be presented as this year's method.*
+
+#### Testing
+
+The reworked backward-entry parking maneuver has been tested 100 times,
+succeeding on all 100 attempts.
+
