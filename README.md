@@ -651,4 +651,4 @@ attempts) directly address these two points; we still don't have a
 per-lap intervention count or PID tuning narrative for the open-challenge
 wall-following controller specifically -- that remains a gap, not invented
 here.
-</content>
+
