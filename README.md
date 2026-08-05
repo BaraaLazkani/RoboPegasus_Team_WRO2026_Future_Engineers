@@ -136,3 +136,44 @@ reproducibility criterion
 and its corresponding checklist question
 [Rule C.b63, p.51: "Do we have at least three meaningful commits with clear messages?"].
 
+### Reproducibility and GitHub Quality
+
+This is one of five criteria judges use to evaluate our documentation,
+scored on the same four-level scale as the others (0/2/4/6 points)
+[Rule C.b37, p.48: "Clear decisions made under constraints such as power, weight, processing and time."].
+At the top level, judges look for a fully reproducible robot, a clear
+GitHub project structure, meaningful commit messages, a documented testing
+workflow, and versioning or release notes -- for example: *"Our GitHub
+repository contains all code, CAD, STL files and wiring diagrams. The
+README explains how to assemble the robot step by step. Each major change
+is recorded with a commit message ... Release v1.0 corresponds to the
+regional event, and v2.0 to the final international version."*
+[Rule C.b91, p.54: "Level 6 example “Our GitHub repository contains all code, CAD, STL files"].
+A README of at least 5000 characters with required commits present and
+CAD/code/wiring included, such that another team could reproduce the
+robot with reasonable effort, scores at the next level down
+[Rule C.b92, p.54: "Level 4 example “The repository includes the full code base, 3D models"].
+A repository that exists but has poor structure, missing or unclear files,
+and limited reproducibility scores lower still
+[Rule C.b93, p.54: "Level 2 example “We uploaded our final code to GitHub. The README"],
+and a missing, empty, or inaccessible repository scores zero
+[Rule C.b94, p.54: "Level 0 example Missing repository, empty repository or repository that cannot be"].
+
+Reproducibility of the robot itself is one of the things evaluators
+specifically look for
+[Rule C.b43, p.49: "Reproducibility of the robot What evaluators are looking for:"],
+alongside professional, usable documentation
+[Rule C.b44, p.49: "Professional and usable documentation."]
+and evidence that the repository reflects our actual engineering process,
+not just a final code dump
+[Rule C.b45, p.49: "Evidence that the repository reflects the engineering process, not only a final"].
+Self-check questions we should be able to answer "yes" to before
+submission: could another team rebuild our robot from our documentation
+[Rule C.b61, p.50: "Could another team rebuild our robot from our documentation?"];
+does our README explain how the system works and how to build it
+[Rule C.b62, p.51: "Does our README explain how the system works and how to build"];
+and are CAD, wiring, and code files all inside the repository
+[Rule C.b64, p.51: "Are CAD, wiring, and code files all inside the repository? C.6 Glossary"]
+-- for which we already have real evidence: the STL and DXF part files
+now included in `models/`.
+
