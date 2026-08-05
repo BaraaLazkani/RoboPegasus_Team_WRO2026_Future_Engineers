@@ -110,3 +110,29 @@ The team has already produced this design data: 3D-printed part files
   specific development tools a team used
   [Rule 7.b5, p.10: "Code provided on GitHub and Hard Copy must be well documented with"].
 
+### Commit history
+
+The rules require the repository's commit history to contain at least
+three commits on a fixed schedule: the first no later than 2 months before
+the competition, containing at least 1/5 of the final code
+[Rule 7.b4.1, p.9: "the first commit not later than 2 months before the competition –"];
+the second no later than 1 month before the competition
+[Rule 7.b4.2, p.9: "The second commit not later than 1 month before the competition,"];
+and the third no later than 2 weeks before the competition, which is the
+commit primarily used for evaluation and scoring
+[Rule 7.b4.3, p.9: "The third commit not later than 2 weeks before the competition. Note:"].
+
+The team's approach is to commit continuously as work is finished, rather
+than working to a fixed schedule, with contributions from every team
+member and as many commits as make sense (distributed roughly evenly
+across the team, without forcing an artificial split) -- as long as this
+still lands at least one real commit inside each of the three required
+windows above. This satisfies the rule that more commits than the minimum
+three are allowed
+[Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"],
+and supports a meaningful commit history as evaluated under the
+reproducibility criterion
+[Rule C.b39, p.48: "Commit history (at least three meaningful commits)"]
+and its corresponding checklist question
+[Rule C.b63, p.51: "Do we have at least three meaningful commits with clear messages?"].
+
