@@ -259,3 +259,48 @@ reproduce that section's exact hole spacing and angular relationships at
 our compact scale, preserving the steering geometry while eliminating the
 unusable length of the original plate.
 
+### Testing and iteration
+
+We tested our gear reduction and drivetrain configuration against our
+target performance before finalizing the design, and use of testing to
+refine the mechanical design is one of the things evaluators specifically
+look for
+[Rule C.b14, p.46: "Use of testing to refine the mechanical design. Criterion 2: Power and"]
+-- for example, judges specifically credit documentation showing testing
+between alternative configurations with a measured, quantified outcome,
+such as *"We tested two gear ratios: 1:30 and 1:50 ... We selected 1:50
+because it increased lap consistency from 60 percent to 85 percent over 20
+runs"*
+[Rule C.b75, p.52: "Level 6 example “We tested two gear ratios: 1:30 and 1:50. At"].
+By contrast, a description that only states the mechanism used (for
+example, *"Our robot uses a differential drive with two 12 V DC motors and
+omni wheels ... shown in Figure 3"*) without a testing/tuning narrative
+scores at the next level down
+[Rule C.b76, p.52: "Level 4 example “Our robot uses a differential drive with two 12"],
+a description with no diagrams or reasoning (*"Our robot has a strong
+chassis with four wheels and two motors. It drives well and is stable on
+the track"*) scores lower still
+[Rule C.b77, p.52: "Level 2 example “Our robot has a strong chassis with four wheels"],
+and a photo with no explanation at all scores zero
+[Rule C.b78, p.52: "Level 0 example “Here is a picture of our robot.” (No further"].
+
+Judges also specifically look for whether we understood how mechanical
+design affects performance
+[Rule C.b12, p.46: "Evidence that the team understood how mechanical design affects performance."],
+and whether we clearly explained why our particular drive and steering
+solution was selected
+[Rule C.b13, p.46: "Clear explanation of why a particular drive and steering solution was selected."].
+Self-check questions for this section: have we explained why we chose this
+chassis and drive system
+[Rule C.b49, p.50: "Have we explained why we chose this chassis and drive system?"];
+do we include diagrams of the mechanical layout
+[Rule C.b50, p.50: "Do we include diagrams of the mechanical layout?"];
+and did we describe any tests or changes that improved the design
+[Rule C.b51, p.50: "Did we describe any tests or changes that improved the design? Power"].
+
+*This last self-check is a genuine gap right now: beyond the gear-ratio
+tuning noted above (from last year, confirmed still valid), we don't yet
+have a documented account of 2026-specific mechanical tests or design
+changes. This should be filled in once such testing has actually been
+done -- not invented here.*
+
