@@ -818,3 +818,13 @@ the rules exclude: a single team member plus a single coach is not
 considered a valid team and cannot participate
 [Rule 2.3, p.4: "1 team member and 1 coach are not considered a team and"].
 
+### Category and team membership
+
+The team participates only in the Future Engineers category this season,
+consistent with the rule that a team may only participate in one WRO
+category per season
+[Rule 2.4, p.4: "A team may only participate in one of the WRO categories in"].
+Each of our three students -- Hasan, Hadi, and Haidar -- participates on
+this team only, in accordance with the rule that any student may
+participate in one team only
+[Rule 2.5, p.4: "Any student may participate in one team only."].
