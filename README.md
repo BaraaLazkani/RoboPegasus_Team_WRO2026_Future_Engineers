@@ -365,3 +365,34 @@ temperatures such as summer competition conditions. The two processors
 communicate over a USB serial connection, exchanging computer vision
 results and navigation commands.
 
+### Sensor array
+
+The array consists of 7 ultrasonic sensors, an IMU, and a camera, in the
+same overall count and positions as last year -- but with real changes
+this year to two component models and to servo coverage, both confirmed
+directly by the team, not assumed:
+
+- **Ultrasonic sensors:** 7x DFRobot URM09 (previously HC-SR04). Mounted
+  below the 9cm height threshold for reliable wall detection.
+- **Dynamic positioning:** 5 servos total (previously 3) -- both
+  ultrasonic sensors on the left side now have servos, both on the right
+  side now have servos, and the front ultrasonic sensor now also has a
+  servo. Dynamic positioning keeps these sensors oriented perpendicular to
+  walls regardless of vehicle attitude, which meaningfully improves
+  measurement accuracy over a fixed angle.
+- **IMU:** SparkFun BNO086 (previously MPU6050), providing orientation and
+  acceleration data for dead reckoning and complementing the ultrasonic
+  array for navigation.
+- **Camera:** Arducam 64MP Hawk-Eye module, for computer vision tasks
+  including pillar detection/classification and path planning.
+- **Infrared sensor:** mounted on a long holder above the chassis for a
+  top-down view, used specifically during parking maneuvers to detect lot
+  boundaries and avoid wall collisions, positioned at maximum distance from
+  the chassis to minimize reflection interference.
+
+*This entire sensor breakdown is adapted from last year's team repository
+with the confirmed 2026 model/servo changes applied -- if the exact wiring
+diagram, mounting hardware, or any other sensor-array detail beyond what's
+listed above has also changed for 2026, that hasn't been confirmed and
+isn't reflected here; flag it if so.*
+
