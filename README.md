@@ -77,3 +77,36 @@ laser cutting machines to produce the vehicle's elements
 The team has already produced this design data: 3D-printed part files
 (`models/STL Files/`) and laser-cut part files (`models/Cut/`).
 
+### What the documentation must include
+
+- **Design discussion.** A discussion of, and motivation for, the vehicle's
+  mobility, power and sense, and obstacle management design
+  [Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+  This content lives in this repository's dedicated design sections (to be
+  drafted separately), not duplicated here.
+- **Photos.** Photos of the vehicle from every side, from the top and
+  bottom, plus a team photo
+  [Rule 7.b2, p.9: "Photos of the vehicle (from every side, from top and bottom), and"].
+- **Videos.** A YouTube link for each challenge showing the vehicle driving
+  autonomously, with at least 30 seconds of actual driving shown per video
+  [Rule 7.b3, p.9: "URL to YouTube (should be either public or accessible by link) showing"].
+  *Status: not yet recorded -- links to be added once available. This is a
+  known gap, not an oversight; do not treat the absence of a link here as
+  the section being complete.*
+- **README.** A README.md with a description of the designed solution of
+  at least 5000 characters in English, covering what modules the code
+  consists of, how they relate to the vehicle's electromechanical
+  components, and the process to build/compile/upload the code to the
+  vehicle's controllers
+  [Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"].
+  README content and structure is itself one of the things judges evaluate
+  under the reproducibility criterion
+  [Rule C.b40, p.48: "README content and structure"].
+  *This 5000-character requirement applies to the complete README, which
+  this section alone does not yet satisfy -- it will be met once the
+  design, sensor, and software sections are merged in alongside this one.*
+- **Code comments.** Code on GitHub (and in the hard copy) must be well
+  documented with comments, since judges may not have access to the
+  specific development tools a team used
+  [Rule 7.b5, p.10: "Code provided on GitHub and Hard Copy must be well documented with"].
+
