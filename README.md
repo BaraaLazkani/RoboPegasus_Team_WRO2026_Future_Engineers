@@ -731,3 +731,13 @@ didn't need at boot. This got the robot moving well within that startup
 window. This is a concrete, testable engineering decision made under a
 real time constraint, not a hypothetical one.
 
+### Iteration and testing
+
+Aside from the specific, already-documented 2026 changes -- the
+DFRobot URM09/SparkFun BNO086 sensor swap, the added servos, the 4cm
+wheelbase-extension rod, the reworked backward-entry parking maneuver, and
+the Pi startup-time optimization above -- this year is mostly an
+incremental refinement of last year's platform rather than a ground-up
+redesign
+[Rule C.b34, p.48: "Iteration and testing cycles."].
+
