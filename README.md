@@ -225,3 +225,20 @@ rear plexi panel is positioned slightly lower than the front panel, which
 shifts the center of mass forward to improve stability during acceleration
 and cornering.
 
+### Drivetrain
+
+The primary drivetrain uses a JGA25-370 DC motor operating at 245 RPM,
+selected for its balance of torque, power efficiency, and cost. At 12V, the
+motor delivers 350 RPM no-load speed at 0.1A, reaching maximum efficiency
+at 245 RPM with 1.4 kg-cm torque and 2.4W power consumption; its stall
+specifications are 5.2 kg-cm torque at 2.2A. An integrated 3:1 gearbox
+raises output torque to 4.2 kg-cm while reducing output speed to
+approximately 82 RPM. With a 32mm wheel radius, this yields a tractive
+force of approximately 12.85 N and a linear velocity of approximately
+0.27 m/s at maximum efficiency, comfortably powering the 1,475g vehicle
+(at an estimated 0.02 rolling-resistance coefficient, the calculated power
+required for constant velocity is roughly 0.09W with the motor's ~90%
+efficiency factored in) -- substantial reserve capacity above and beyond
+the minimum required for propulsion, which we rely on for acceleration and
+dynamic maneuvering.
+
