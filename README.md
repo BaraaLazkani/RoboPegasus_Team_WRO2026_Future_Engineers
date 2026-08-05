@@ -841,3 +841,10 @@ All three of our students fall within this window: Haidar Saad was born
 in 2004 (turning 22 in 2026, the oldest age this category allows), and
 Hasan Mfleh and Hadi Moalla were both born in 2005.
 
+Our coach, Baraa Lazkani, was also born in 2004 -- turning 22 in 2026,
+comfortably above the minimum coach age of 18 years old required at
+international events
+[Rule 2.6, p.4: "The minimum age of a coach at an international event is 18"].
+Coaches are permitted to work with more than one team
+[Rule 2.7, p.4: "Coaches may work with more than one team."], which does
+not require any statement here about whether Baraa coaches other teams.
