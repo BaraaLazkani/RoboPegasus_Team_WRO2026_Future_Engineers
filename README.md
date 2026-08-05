@@ -329,3 +329,26 @@ sensor array is also adapted from last year, but with real, confirmed
 2026 changes to sensor models and servo count, called out explicitly
 below -- not carried over silently.*
 
+### Power source and distribution
+
+The robot is powered by a Zeee Li-Poly battery: 11.1V (3S configuration),
+2200mAh capacity, 50C continuous discharge rate, up to 110A continuous
+maximum current output, approximately 185g, with an XT60 connector. Power
+is distributed using a custom Power Management System (PMS) built on a
+star topology -- each component receives power directly from a central
+distribution point rather than a daisy chain, which avoids voltage drops
+and current-induced interference between subsystems, isolates each
+component's current draw from the others, and simplifies fault isolation
+and cable management. The battery's 50C/110A capacity comfortably covers
+simultaneous peak demand from the drivetrain, processors, and sensor array
+without voltage sag. At a typical estimated operating power draw, the
+battery supports roughly 50 minutes of runtime, with a safety-factor
+budget (80% battery usage) of roughly 41 minutes -- comfortably covering
+multiple competition runs per charge.
+
+The PMS includes a dedicated DC-DC step-down converter, which regulates
+and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
+(SBC) and Arduino Mega (SBM) require -- satisfying the requirement that a
+voltage stabilizer provide adequate power to the SBC/SBM
+[Rule D.b11, p.55: "a voltage stabilizer: it is required to provide adequate power supply for"].
+
