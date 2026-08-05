@@ -793,3 +793,16 @@ and did we show how our design changed over time
 [Rule C.b60, p.50: "Did we show how our design changed over time (version 1, 2,"]
 -- answered above as incremental refinement rather than a version-by-version
 redesign, per the team's own account, not invented here.
+
+## Team and Age Groups Definitions
+
+### Our team
+
+RoboPegasus consists of 3 students
+[Rule 2.1, p.4: "A team consists of 2 or 3 students."],
+guided by one coach
+[Rule 2.2, p.4: "A team is guided by a coach."]:
+
+- **Coach:** Baraa Lazkani
+- **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
+
