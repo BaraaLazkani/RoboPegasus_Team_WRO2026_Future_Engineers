@@ -242,3 +242,20 @@ efficiency factored in) -- substantial reserve capacity above and beyond
 the minimum required for propulsion, which we rely on for acceleration and
 dynamic maneuvering.
 
+### Steering
+
+The vehicle uses Ackermann steering, driven by an MG996R high-torque servo
+(9.4 kg-cm stall torque at 4.8V, 11 kg-cm at 6V; 0.17s/60 degrees and
+0.14s/60 degrees at those respective voltages), which receives direct PWM
+signals from the Arduino Mega with no additional driver circuitry, keeping
+steering-response latency low. The Ackermann steering geometry itself was
+adapted from an existing 4WD Ackermann chassis kit -- the only major
+component adapted from an outside design rather than built from scratch --
+because the original kit's chassis platform (approximately 24cm) was far
+larger than our target robot size (16-18cm). We identified the essential
+mounting holes, pivot points, and structural elements from the forward
+section of the original mounting plate, then used CAD modeling to
+reproduce that section's exact hole spacing and angular relationships at
+our compact scale, preserving the steering geometry while eliminating the
+unusable length of the original plate.
+
