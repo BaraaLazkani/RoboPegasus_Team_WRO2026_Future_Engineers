@@ -190,3 +190,38 @@ plans to write the Engineering Journal PDF only after the GitHub
 repository/README is complete, so this section intentionally does not
 draft that content yet.*
 
+## Mobility and Mechanical Design
+
+This section covers the discussion and motivation for the vehicle's mobility
+design, as part of the design discussion required for the repository's
+documentation
+[Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+It corresponds to the "Mobility and Mechanical Design" criterion judges use
+to evaluate our documentation, which specifically looks at our chassis
+design choices
+[Rule C.b7, p.45: "Chassis design choices"],
+our steering and drive mechanism
+[Rule C.b8, p.45: "Steering and drive mechanism"],
+our torque and speed reasoning
+[Rule C.b9, p.45: "Torque and speed reasoning"],
+mechanical stability and rigidity
+[Rule C.b10, p.46: "Mechanical stability and rigidity"],
+and justification of our design choices
+[Rule C.b11, p.46: "Justification of design choices What evaluators are looking for:"].
+
+*This content is adapted from last year's team repository (source:
+team-2025), confirmed by the team as still accurate for the 2026 robot's
+drivetrain, steering, and chassis -- only the ultrasonic and IMU sensor
+models changed, which are covered in the Power and Sensor Architecture
+section, not here.*
+
+### Chassis
+
+The chassis uses a hybrid material approach: 3mm plexiglass panels for
+primary structural elements, combined with PLA 3D-printed components for
+complex mechanical interfaces. Overall vehicle dimensions are 29cm length
+x 17.5cm width x 29cm height, with a total system weight of 1,475g. The
+rear plexi panel is positioned slightly lower than the front panel, which
+shifts the center of mass forward to improve stability during acceleration
+and cornering.
+
