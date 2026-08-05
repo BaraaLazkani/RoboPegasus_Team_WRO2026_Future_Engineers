@@ -304,3 +304,28 @@ have a documented account of 2026-specific mechanical tests or design
 changes. This should be filled in once such testing has actually been
 done -- not invented here.*
 
+## Power and Sensor Architecture
+
+This section covers the discussion and motivation for the vehicle's power
+and sense design, as part of the design discussion required for the
+repository's documentation
+[Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+It corresponds to the "Power and Sensor Architecture" criterion judges use
+to evaluate our documentation, which specifically looks at our power
+system architecture
+[Rule C.b15, p.46: "Power system architecture"],
+current draw reasoning and distribution
+[Rule C.b16, p.46: "Current draw reasoning and distribution"],
+sensor selection and placement
+[Rule C.b17, p.46: "Sensor selection and placement"],
+calibration methods
+[Rule C.b18, p.46: "Calibration methods"],
+and wiring diagrams
+[Rule C.b19, p.46: "Wiring diagrams What evaluators are looking for:"].
+
+*The power system and processors below are adapted from last year's team
+repository (source: team-2025), confirmed unchanged by the team. The
+sensor array is also adapted from last year, but with real, confirmed
+2026 changes to sensor models and servo count, called out explicitly
+below -- not carried over silently.*
+
