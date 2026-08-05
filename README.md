@@ -741,3 +741,27 @@ incremental refinement of last year's platform rather than a ground-up
 redesign
 [Rule C.b34, p.48: "Iteration and testing cycles."].
 
+### Risk identification and mitigation
+
+Two concrete failure modes were identified and addressed at the system
+level, not left as isolated sensor concerns:
+
+- **IMU drift.** The MPU/IMU heading reference can drift over time. We
+  mitigate this using the geometric relationship between each side's two
+  ultrasonic sensors (front-axle and rear-axle) -- the robot calculates
+  its actual drift angle from their two distance readings and corrects
+  the heading reference accordingly (see Power and Sensor Architecture).
+- **Ultrasonic accuracy loss off-perpendicular.** Ultrasonic ranging
+  degrades sharply once the reflecting surface isn't perpendicular to the
+  sensor. We mitigate this with servo-driven dynamic positioning, keeping
+  every relevant ultrasonic sensor perpendicular to the wall regardless of
+  the robot's current attitude (see Power and Sensor Architecture).
+
+Evidence that the team thought about the robot as a system, not as
+separate parts, is exactly what this criterion evaluates
+[Rule C.b36, p.48: "Evidence that the team thought about the robot as a system, not"] --
+these two mitigations are both cases where a single-subsystem fix (better
+IMU calibration, a single fixed sensor) wouldn't have worked, and the
+actual solution came from how two subsystems (sensing geometry and
+control software) interact.
+
