@@ -41,3 +41,39 @@ may be required to view the repository from some restricted regions.
 The team has confirmed this is still true for this year's repository as
 well -- adapted from last year's documentation, not a rule requirement.*
 
+### Repository structure
+
+We are keeping the same top-level folder structure as last year's
+repository, to the extent it fits what this year's rules ask for:
+
+```
+t-photos/    # Team photos
+v-photos/    # Vehicle photos (all sides, top, bottom)
+video/       # Video demonstrations and links
+schemes/     # Electrical schematics and diagrams
+src/         # Source code for all components
+models/      # 3D printed and laser cut parts
+other/       # Additional resources (images, files, GIFs)
+README.md    # This documentation
+LICENSE      # Project license
+```
+
+*This structure is adapted from last year's team repository
+(source: team-2025), confirmed by the team as still the intended layout for
+2026 -- not evidence about this year's rules.*
+
+This structure is intended to satisfy the requirement that the repository
+be clearly organized, with meaningful GitHub structure
+[Rule C.b38, p.48: "GitHub structure and clarity"],
+correct file organization
+[Rule C.b41, p.48: "File organization"],
+and all of the required technical files -- CAD, code, and wiring
+information -- present and included
+[Rule C.b42, p.48: "CAD, code, wiring and related technical files"].
+The repository's code covers all components programmed to participate in
+the competition, and may also include the files used by 3D printers and
+laser cutting machines to produce the vehicle's elements
+[Rule 7.b4, p.9: "Link to a GitHub public repository with the code for all components"].
+The team has already produced this design data: 3D-printed part files
+(`models/STL Files/`) and laser-cut part files (`models/Cut/`).
+
