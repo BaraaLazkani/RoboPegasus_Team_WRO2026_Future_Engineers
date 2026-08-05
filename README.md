@@ -531,3 +531,12 @@ adapting its turning logic to the section geometry it detects, and
 continues wall-following/turning until the required number of laps is
 complete.
 
+### Obstacle Challenge: pillar detection
+
+Pillar color is detected and classified via the Raspberry Pi 5's computer
+vision pipeline, distinguishing red and green pillar configurations
+(Red-Green, Green-Red, Red-Red, and Green-Green cases) to determine which
+side of the lane to keep. Detected color masks feed directly into the
+navigation logic to decide the lane-keeping side for each pillar
+encountered.
+
