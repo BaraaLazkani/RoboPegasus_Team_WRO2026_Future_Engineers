@@ -352,3 +352,16 @@ and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
 voltage stabilizer provide adequate power to the SBC/SBM
 [Rule D.b11, p.55: "a voltage stabilizer: it is required to provide adequate power supply for"].
 
+### Processing
+
+An Arduino Mega 2560 serves as the primary sensor interface and real-time
+control processor -- handling sensor data acquisition, motor control, and
+real-time navigation decisions -- chosen for its cost-effectiveness, 54
+digital pins and 16 analog inputs (enough I/O for our full sensor array),
+and proven reliability in robotics applications. A Raspberry Pi 5 (8GB RAM,
+with active cooling) handles computer vision processing separately; active
+cooling specifically guards against thermal throttling in high ambient
+temperatures such as summer competition conditions. The two processors
+communicate over a USB serial connection, exchanging computer vision
+results and navigation commands.
+
