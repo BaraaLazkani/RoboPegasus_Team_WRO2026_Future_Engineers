@@ -432,3 +432,37 @@ changes relative to the walls during a maneuver, not just by a generic
   wall regardless of the robot's current attitude, which is the whole
   reason the sensor count and servo count both grew for 2026 (see above).
 
+### What judges look for
+
+Judges specifically look for evidence that we planned power distribution,
+not just connected parts
+[Rule C.b20, p.46: "Evidence that the team planned power distribution, not only connected parts."],
+justification for our sensor choices and positions
+[Rule C.b21, p.46: "Justification for sensor choices and positions."],
+and consideration of noise, interference, shadows, and similar issues
+[Rule C.b22, p.46: "Consideration of noise, interference, shadows and similar issues. Criterion 3: Software Architecture"]
+-- addressed above in the field-geometry and failure-point reasoning, and
+in the Wiring diagram and Calibration sections below.
+
+At the top level, judges credit a documented power budget with sensor
+trade-offs justified by real testing, such as: *"The total current draw
+during peak acceleration is approximately 3.2 A for the drive motors and
+0.8 A for electronics. We therefore selected a 5 A step down regulator. We
+tested two camera positions ... which reduced misdetection by 40 percent"*
+[Rule C.b79, p.52: "Level 6 example “The total current draw during peak acceleration is approximately"].
+A wiring diagram with sensor placement explained, but without that level
+of testing narrative, scores at the next level down
+[Rule C.b80, p.52: "Level 4 example “Figure 5 shows our wiring diagram. The main 3"].
+A bare component list without diagrams or explanation scores lower still
+[Rule C.b81, p.52: "Level 2 example “We use a LiPo battery and several sensors: two"],
+and no mention of power or sensor placement at all scores zero
+[Rule C.b82, p.52: "Level 0 example No mention of how parts are powered or where"].
+
+Self-check questions for this section: do we show how power is distributed
+and regulated
+[Rule C.b52, p.50: "Do we show how power is distributed and regulated?"];
+have we justified our sensor choices and positions
+[Rule C.b53, p.50: "Have we justified our sensor choices and positions?"];
+and is there at least one wiring diagram and description of calibration
+[Rule C.b54, p.50: "Is there at least one wiring diagram and description of calibration? Software"].
+
