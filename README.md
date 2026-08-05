@@ -177,3 +177,16 @@ and are CAD, wiring, and code files all inside the repository
 -- for which we already have real evidence: the STL and DXF part files
 now included in `models/`.
 
+### Hard copy
+
+A hard copy (the Engineering Journal) must also be submitted at the
+international final; it exists mainly as a fallback in case the GitHub
+repository is inaccessible, and to help judges track teams during the
+competition, but GitHub remains the main source for scoring
+[Rule 7.b5, p.10: "Code provided on GitHub and Hard Copy must be well documented with"].
+
+*Team decision: the hard copy itself is out of scope for now. The team
+plans to write the Engineering Journal PDF only after the GitHub
+repository/README is complete, so this section intentionally does not
+draft that content yet.*
+
