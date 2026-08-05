@@ -806,3 +806,10 @@ guided by one coach
 - **Coach:** Baraa Lazkani
 - **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
 
+*Roster note, adapted from last year's team repository (source:
+team-2025), not evidence about this year's rules: last year's team had
+Baraa Lazkani as a student, with Obai Ibrahim as coach. For 2026, Baraa
+has moved into the coach role, Hasan Mfleh and Hadi Moalla continue as
+students, and Haidar Saad has joined as a new student -- confirmed
+directly by the team, not assumed.*
+
