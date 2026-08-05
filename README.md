@@ -396,3 +396,39 @@ diagram, mounting hardware, or any other sensor-array detail beyond what's
 listed above has also changed for 2026, that hasn't been confirmed and
 isn't reflected here; flag it if so.*
 
+### Sensor placement: field geometry and failure-point reasoning
+
+Judges credit sensor placement justified by field geometry and evidence of
+failure-point/redundancy considerations, at the top rubric level
+[Rule C.b14, p.46: "Use of testing to refine the mechanical design. Criterion 2: Power and"].
+Our placement choices are driven directly by how the robot's own geometry
+changes relative to the walls during a maneuver, not just by a generic
+"more sensors is better" logic:
+
+- **Two rear ultrasonics** let the parking routine know when the robot is
+  fully inside the parking lot -- a distinct requirement from the side
+  sensors' wall-following role.
+- **Two ultrasonics per side (front-axle and rear-axle),** rather than
+  one, because which end of the robot is actually closest to the wall
+  depends on the maneuver: driving forward while turning right brings the
+  *front* of the robot closest to the wall, while driving backward while
+  turning right brings the *back* of the robot closest to the wall. A
+  single side sensor would be reading the wrong distance during roughly
+  half of these maneuvers; having one sensor near each axle means the
+  relevant distance is always available on both sides regardless of
+  direction of travel or turn.
+- **The same front/rear-axle side-sensor pair also compensates for IMU
+  drift:** since the two sensors' physical separation is known, the robot
+  can geometrically compute how many degrees it has actually drifted from
+  the two distance readings, and use that to correct the MPU/IMU heading
+  reference over time -- a concrete failure-point mitigation for sensor
+  drift, not just a navigation feature.
+- **The front ultrasonic** exists specifically to detect obstacles
+  directly ahead of the robot, a role none of the side/rear sensors can
+  fill.
+- **Servos on the ultrasonics** exist because ultrasonic ranging accuracy
+  degrades sharply once the reflecting surface isn't perpendicular to the
+  sensor -- dynamic positioning keeps each sensor perpendicular to the
+  wall regardless of the robot's current attitude, which is the whole
+  reason the sensor count and servo count both grew for 2026 (see above).
+
