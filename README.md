@@ -466,3 +466,21 @@ have we justified our sensor choices and positions
 and is there at least one wiring diagram and description of calibration
 [Rule C.b54, p.50: "Is there at least one wiring diagram and description of calibration? Software"].
 
+### Wiring diagram
+
+Judges specifically look for at least one wiring diagram
+[Rule C.b19, p.46: "Wiring diagrams What evaluators are looking for:"].
+The wiring diagram is the same one used last year (source: team-2025,
+`schemes/Full Schematic Circuit Diagram of the Robot/Full Circuit Diagram
+of the Robot.PNG`), reused as-is for 2026. It was produced in Fritzing,
+which does not have exact component symbols for the URM09 ultrasonic or
+BNO086 IMU, so those two components are represented with generic/illustrative
+symbols rather than exact part renders -- the diagram is accurate for
+overall wiring topology, not a literal part-for-part illustration of the
+newest sensors.
+
+![Full Schematic Circuit Diagram of the Robot](schemes/Full%20Schematic%20Circuit%20Diagram%20of%20the%20Robot/Full%20Circuit%20Diagram%20of%20the%20Robot.PNG)
+
+*This diagram is adapted from last year's team repository (source:
+team-2025), reused as-is -- not redrawn for 2026, per the caveat above.*
+
