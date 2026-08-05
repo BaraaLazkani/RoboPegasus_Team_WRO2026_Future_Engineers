@@ -519,3 +519,15 @@ parking approach changed, and that change is described below using last
 year's own already-documented "Backward Parking" method, which the team
 confirmed now matches this year's actual approach.*
 
+### Open Challenge navigation
+
+At startup, the robot reads distance from its left and right ultrasonic
+sensors (`d_left`, `d_right`) to establish its spatial relationship to the
+surrounding walls, and determines its driving direction by comparing them:
+CCW if the right distance is less than the left, CW otherwise. During a
+lap, the robot executes a turning maneuver whenever either ultrasonic
+sensor detects an opening (a distance reading greater than 120cm),
+adapting its turning logic to the section geometry it detects, and
+continues wall-following/turning until the required number of laps is
+complete.
+
