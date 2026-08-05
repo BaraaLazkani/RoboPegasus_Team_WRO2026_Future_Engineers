@@ -612,3 +612,43 @@ should not be presented as this year's method.*
 The reworked backward-entry parking maneuver has been tested 100 times,
 succeeding on all 100 attempts.
 
+### What judges look for
+
+At the top level, judges credit a justified control approach with a real
+state machine and a documented tuning process, such as: *"Our lane
+following uses a proportional controller ... We tried bang-bang control,
+but it produced oscillations near corners. The finite state machine ...
+shows states for LaneFollow, AvoidPillarLeft and AvoidPillarRight. We log
+the number of interventions per lap and tuned the controller to minimize
+these interventions"*
+[Rule C.b83, p.53: "Level 6 example “Our lane following uses a proportional controller based on"].
+A flowchart with modules explained, but without that tuning narrative,
+scores at the next level down
+[Rule C.b84, p.53: "Level 4 example “Figure 7 shows the flowchart of our main program."].
+A basic description without a clear structure scores lower still
+[Rule C.b85, p.53: "Level 2 example “We wrote code that reads the camera and sensors"],
+and code with no explanation at all scores zero
+[Rule C.b86, p.53: "Level 0 example Only code listings with no explanation of what the"].
+
+Judges also specifically look for our understanding of how the software
+structure supports the robot's behavior
+[Rule C.b28, p.47: "Understanding of how software structure supports the robot's behavior."],
+clear strategies for lane following, obstacle avoidance, and side
+obedience
+[Rule C.b29, p.47: "Clear strategies for lane following, obstacle avoidance and side obedience."],
+and evidence of testing and tuning, not just final code
+[Rule C.b30, p.47: "Evidence of testing and tuning, not just final code. Criterion 4: Systems"].
+Self-check questions for this section: do we show a flowchart or state
+machine for our software
+[Rule C.b55, p.50: "Do we show a flowchart or state machine for our software?"];
+do we explain how we follow lanes and avoid obstacles
+[Rule C.b56, p.50: "Do we explain how we follow lanes and avoid obstacles?"];
+and have we included some descriptions of testing or tuning
+[Rule C.b57, p.50: "Have we included some descriptions of testing or tuning? Systems Thinking and"].
+
+The state machine above and the parking trial results (100/100 successful
+attempts) directly address these two points; we still don't have a
+per-lap intervention count or PID tuning narrative for the open-challenge
+wall-following controller specifically -- that remains a gap, not invented
+here.
+</content>
