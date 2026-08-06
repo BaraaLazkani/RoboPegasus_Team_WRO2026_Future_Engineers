@@ -414,11 +414,16 @@ directly by the team, not assumed:
   <img src="other/images/BNO086.webp" alt="SparkFun BNO086 IMU" width="30%">
   <img src="other/images/Arducam.jpeg" alt="Arducam 64MP Hawk-Eye camera" width="30%">
 </p>
+<p align="center">
+  <img src="other/images/SG90.webp" alt="SG90 servo, dynamic sensor positioning" width="30%">
+  <img src="other/images/IR Sensor.jpg" alt="Infrared sensor" width="30%">
+</p>
 
 *The URM09 and BNO086 photos above are this year's actual sensors,
 provided directly by the team -- not carried over from last year's
-repository. The camera photo is reused from last year's repository
-(source: team-2025), confirmed unchanged for 2026.*
+repository. The camera, servo, and infrared sensor photos are reused
+from last year's repository (source: team-2025), confirmed unchanged
+for 2026.*
 
 ### Sensor placement: field geometry and failure-point reasoning
 
@@ -639,19 +644,74 @@ stateDiagram-v2
    direction where needed so the final parking maneuver is always
    consistent, using the Backward Parking method described below.
 
+**Red pillar case:**
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/1.PNG" alt="Red pillar case, step 1" width="18%">
+  <img src="other/images/Obstacle-Challenge/2.PNG" alt="Red pillar case, step 2" width="18%">
+  <img src="other/images/Obstacle-Challenge/3.PNG" alt="Red pillar case, step 3" width="18%">
+  <img src="other/images/Obstacle-Challenge/4.PNG" alt="Red pillar case, step 4" width="18%">
+  <img src="other/images/Obstacle-Challenge/5.PNG" alt="Red pillar case, step 5" width="18%">
+</p>
 <p align="center">
   <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="45%">
+</p>
+
+**Green pillar case:**
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/6.PNG" alt="Green pillar case, step 1" width="13%">
+  <img src="other/images/Obstacle-Challenge/7.PNG" alt="Green pillar case, step 2" width="13%">
+  <img src="other/images/Obstacle-Challenge/8.PNG" alt="Green pillar case, step 3" width="13%">
+  <img src="other/images/Obstacle-Challenge/9.PNG" alt="Green pillar case, step 4" width="13%">
+  <img src="other/images/Obstacle-Challenge/10.PNG" alt="Green pillar case, step 5" width="13%">
+  <img src="other/images/Obstacle-Challenge/11.PNG" alt="Green pillar case, step 6" width="13%">
+  <img src="other/images/Obstacle-Challenge/12.PNG" alt="Green pillar case, step 7" width="13%">
+</p>
+<p align="center">
   <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" alt="Startup, CCW, green pillar case" width="45%">
+</p>
+
+**Clockwise (CW) navigation mode:**
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/13.PNG" alt="CW navigation, step 1" width="23%">
+  <img src="other/images/Obstacle-Challenge/14.PNG" alt="CW navigation, step 2" width="23%">
+  <img src="other/images/Obstacle-Challenge/15.PNG" alt="CW navigation, step 3" width="23%">
+  <img src="other/images/Obstacle-Challenge/16.PNG" alt="CW navigation, step 4" width="23%">
 </p>
 <p align="center">
   <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" alt="Startup, CW case" width="45%">
+</p>
+
+**Example scenario -- post-CCW red pillar transition (corner positioning):**
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/17.PNG" alt="Corner positioning, step 1" width="30%">
+  <img src="other/images/Obstacle-Challenge/18.PNG" alt="Corner positioning, step 2" width="30%">
+  <img src="other/images/Obstacle-Challenge/19.PNG" alt="Corner positioning, step 3" width="30%">
+</p>
+<p align="center">
   <img src="other/gif files/Corner-Positioning-Protocol-Obstacle-challenge.gif" alt="Corner positioning protocol" width="45%">
+</p>
+
+**Visual example -- Green-Red, counter-clockwise:**
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/20.PNG" alt="Green-Red CCW, step 1" width="13%">
+  <img src="other/images/Obstacle-Challenge/21.PNG" alt="Green-Red CCW, step 2" width="13%">
+  <img src="other/images/Obstacle-Challenge/22.PNG" alt="Green-Red CCW, step 3" width="13%">
+  <img src="other/images/Obstacle-Challenge/23.PNG" alt="Green-Red CCW, step 4" width="13%">
+  <img src="other/images/Obstacle-Challenge/24.PNG" alt="Green-Red CCW, step 5" width="13%">
+  <img src="other/images/Obstacle-Challenge/25.PNG" alt="Green-Red CCW, step 6" width="13%">
+  <img src="other/images/Obstacle-Challenge/26.PNG" alt="Green-Red CCW, step 7" width="13%">
+  <img src="other/images/Obstacle-Challenge/27.PNG" alt="Green-Red CCW, step 8" width="13%">
 </p>
 <p align="center">
   <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" alt="Green-Red, CCW case" width="45%">
 </p>
 
-*Demonstration GIFs adapted from last year's team repository (source:
+*Demonstration images and GIFs adapted from last year's team repository (source:
 team-2025) -- these show last season's physical robot; the pillar
 navigation logic itself is confirmed unchanged for 2026, not evidence
 about this year's rules.*
