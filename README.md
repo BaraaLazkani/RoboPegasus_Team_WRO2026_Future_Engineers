@@ -879,3 +879,16 @@ work: our Ackermann steering mechanism adapts the geometry of an existing
 chassis design (see Mobility and Mechanical Design) -- the kind of
 disclosed, justified reuse the rules anticipate, not the kind of
 undisclosed copying rule 3.7 prohibits.
+
+### Competition-day conduct
+
+While the competition is running, our team will not communicate in any
+way with people outside the competition area, except where a judge
+specifically allows supervised communication
+[Rule 3.4, p.4: "A team is not allowed to communicate in any way with people"].
+Team members will not bring or use mobile phones or any other
+communication device in the competition area
+[Rule 3.5, p.4: "Team members are not allowed to bring and use mobile phones or"].
+We will not destroy or tamper with competition courts, tables, materials,
+or other teams' vehicles
+[Rule 3.6, p.4: "Destruction or tampering with competition courts/tables, materials, or vehicles of other teams"].
