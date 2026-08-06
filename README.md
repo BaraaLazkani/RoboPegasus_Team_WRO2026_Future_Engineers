@@ -904,3 +904,10 @@ Suspected violations specifically related to independent construction
 consequences up to preventing the team from progressing to the next
 competition even if they would otherwise place well
 [Rule 3.8, p.4: "If there is a suspicion in relation to rule 3.3 and 3.7,"].
+
+## Vehicle Material & Regulations Compliance
+
+This section confirms our vehicle meets the rules' physical and
+material regulations, cross-referencing the actual measurements and
+component choices already documented in Mobility and Mechanical Design
+and Power and Sensor Architecture.
