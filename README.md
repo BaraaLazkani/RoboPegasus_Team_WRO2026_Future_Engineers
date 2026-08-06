@@ -413,20 +413,12 @@ for either.
 
 This section covers the discussion and motivation for the vehicle's
 obstacle-management design, as part of the design discussion required for
-the repository's documentation
-[Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+the repository's documentation.
 It corresponds to the "Software Architecture and Obstacle Strategy"
 criterion judges use to evaluate our documentation, which specifically
-looks at code modularity and structure
-[Rule C.b23, p.47: "Code modularity and structure"],
-state machines or control flow
-[Rule C.b24, p.47: "State machines or control flow"],
-our lane following and obstacle obedience strategy
-[Rule C.b25, p.47: "Lane following and obstacle obedience strategy"],
-explanation of the algorithms used
-[Rule C.b26, p.47: "Explanation of algorithms used"],
-and basic code documentation and comments
-[Rule C.b27, p.47: "Basic code documentation and comments What evaluators are looking for:"].
+looks at code modularity and structure, state machines or control flow,
+our lane following and obstacle obedience strategy, explanation of the
+algorithms used, and basic code documentation and comments.
 
 *This content is adapted from last year's team repository (source:
 team-2025), confirmed by the team as still accurate for 2026 -- open
@@ -475,8 +467,7 @@ around per-pillar handling functions:
    same-color counterpart; these exist specifically to have a defined
    behavior ready in case a pillar's expected color signal changes under
    the season's Surprise Rule, which can add or modify existing rules
-   before the international final
-   [Rule 6, p.8: "A surprise rule for the international competition can be announced before the"].
+   before the international final.
 5. **After the first lap,** the robot already knows each pillar's color
    from the first pass, so it stops taking photos and passes each pillar
    directly using the already-determined color/direction function.
@@ -536,31 +527,19 @@ following uses a proportional controller ... We tried bang-bang control,
 but it produced oscillations near corners. The finite state machine ...
 shows states for LaneFollow, AvoidPillarLeft and AvoidPillarRight. We log
 the number of interventions per lap and tuned the controller to minimize
-these interventions"*
-[Rule C.b83, p.53: "Level 6 example “Our lane following uses a proportional controller based on"].
+these interventions"*.
 A flowchart with modules explained, but without that tuning narrative,
-scores at the next level down
-[Rule C.b84, p.53: "Level 4 example “Figure 7 shows the flowchart of our main program."].
-A basic description without a clear structure scores lower still
-[Rule C.b85, p.53: "Level 2 example “We wrote code that reads the camera and sensors"],
-and code with no explanation at all scores zero
-[Rule C.b86, p.53: "Level 0 example Only code listings with no explanation of what the"].
+scores at the next level down.
+A basic description without a clear structure scores lower still, and
+code with no explanation at all scores zero.
 
 Judges also specifically look for our understanding of how the software
-structure supports the robot's behavior
-[Rule C.b28, p.47: "Understanding of how software structure supports the robot's behavior."],
-clear strategies for lane following, obstacle avoidance, and side
-obedience
-[Rule C.b29, p.47: "Clear strategies for lane following, obstacle avoidance and side obedience."],
-and evidence of testing and tuning, not just final code
-[Rule C.b30, p.47: "Evidence of testing and tuning, not just final code. Criterion 4: Systems"].
+structure supports the robot's behavior, clear strategies for lane
+following, obstacle avoidance, and side obedience, and evidence of
+testing and tuning, not just final code.
 Self-check questions for this section: do we show a flowchart or state
-machine for our software
-[Rule C.b55, p.50: "Do we show a flowchart or state machine for our software?"];
-do we explain how we follow lanes and avoid obstacles
-[Rule C.b56, p.50: "Do we explain how we follow lanes and avoid obstacles?"];
-and have we included some descriptions of testing or tuning
-[Rule C.b57, p.50: "Have we included some descriptions of testing or tuning? Systems Thinking and"].
+machine for our software; do we explain how we follow lanes and avoid
+obstacles; and have we included some descriptions of testing or tuning.
 
 The state machine above and the parking trial results (100/100 successful
 attempts) directly address these two points; we still don't have a
