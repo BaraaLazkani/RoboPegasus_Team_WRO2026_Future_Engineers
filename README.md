@@ -921,3 +921,22 @@ must not exceed 300x200mm and 300mm in height
 [Rule 9.17, p.18: "The vehicle’s dimensions must not exceed 300x200 mm and"],
 and weight must not exceed 1.5 kilograms
 [Rule 11.2, p.23: "The weight of the vehicle must not exceed 1.5 kilograms."].
+
+### Drivetrain and wheels
+
+Our vehicle is a 4-wheeled, rear-wheel-drive vehicle with Ackermann
+steering at the front axle (see Mobility and Mechanical Design), which
+satisfies the requirement that a vehicle be 4-wheeled with one driving
+axle and one steering actuator, built as front-wheel, rear-wheel, or
+four-wheel drive -- not a differential wheeled base
+[Rule 11.3, p.23: "The vehicle must be a 4 wheeled vehicle with one driving axle"].
+Our wheels are plain rubber wheels, not omnidirectional wheels, ball
+casters, or spherical wheels
+[Rule 11.4, p.23: "The vehicle cannot use any kind of an omnidirectional wheel, ball caster"].
+A single JGA25-370 motor drives the rear axle through a custom
+differential mechanism and gearbox (see Mobility and Mechanical Design) --
+well within the maximum of two driving motors allowed, connected directly
+or through gearing rather than independently to each wheel
+[Rule 11.13, p.23: "A maximum of two motors may be used to make the vehicle"],
+and not an electronic differential with one motor per side
+[Rule 11.5, p.23: "The use of an electronic differentials with one motor per side (like"].
