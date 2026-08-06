@@ -961,3 +961,14 @@ links exist anywhere in the sensor or communication chain, satisfying the
 requirement that only wire connections be used for inter-component
 communication
 [Rule 11.17, p.24: "Only wire connections are permitted for communication between vehicle electromechanical components."].
+
+### Controllers and materials
+
+Our controllers are a Raspberry Pi 5 (SBC) and an Arduino Mega 2560 (SBM)
+(see Power and Sensor Architecture), matching the rule that either type
+of controller is allowed with no brand restriction
+[Rule 11.8, p.23: "The controller used for the vehicle can be either Single board computer"].
+Our chassis uses a plexiglass and PLA 3D-printed hybrid construction (see
+Mobility and Mechanical Design), which the rules permit -- any material or
+building system is allowed, with no restriction to a specific type
+[Rule 11.19, p.24: "The vehicle can be built using any type of hardware kits and"].
