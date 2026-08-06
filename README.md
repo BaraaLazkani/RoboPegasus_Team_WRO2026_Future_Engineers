@@ -11,30 +11,24 @@ self-driving vehicle for the WRO Future Engineers competition, season 2026.
 Real engineering means not only building a solution but communicating it, so
 alongside the vehicle design and code, our team must provide documentation
 of our engineering progress, the final vehicle design, and the final
-vehicle source code
-[Rule 7, p.8: "Real engineering is about creating a solution and communicating or sharing the"].
+vehicle source code.
 This documentation lives primarily on GitHub, with all information and
-documentation for the international competition written in English
-[Rule 7, p.8: "Real engineering is about creating a solution and communicating or sharing the"].
+documentation for the international competition written in English.
 The Engineering Journal and this GitHub repository together are meant to
 demonstrate our engineering process (not only the final robot), let judges
 evaluate our design decisions and systems thinking, and provide enough
-detail that another team could reproduce our robot
-[Rule appendix-C, p.44: "C.1 Purpose of the Engineering Journal and GitHub Repository The Engineering Journal"].
-Documentation is worth 30 of the total competition points
-[Rule 10.2.3, p.21: "30 points for the engineering journal documentation"].
+detail that another team could reproduce our robot.
+Documentation is worth 30 of the total competition points.
 
 ### Repository
 
 Our 2026 repository is public at
 [github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers](https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers),
 which satisfies the requirement that GitHub repositories be set for public
-viewing with visible content
-[Rule 7.b4.5, p.9: "GitHub repositories must be set for public viewing and the content must"].
+viewing with visible content.
 Per the rules, the repository has to stay public from the moment it is
 submitted for an international competition through at least 12 months
-afterward
-[Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"].
+afterward.
 
 *Note on access: last year's repository access notes mentioned that a VPN
 may be required to view the repository from some restricted regions.
@@ -63,33 +57,25 @@ LICENSE      # Project license
 2026 -- not evidence about this year's rules.*
 
 This structure is intended to satisfy the requirement that the repository
-be clearly organized, with meaningful GitHub structure
-[Rule C.b38, p.48: "GitHub structure and clarity"],
-correct file organization
-[Rule C.b41, p.48: "File organization"],
-and all of the required technical files -- CAD, code, and wiring
-information -- present and included
-[Rule C.b42, p.48: "CAD, code, wiring and related technical files"].
+be clearly organized, with meaningful GitHub structure, correct file
+organization, and all of the required technical files -- CAD, code, and
+wiring information -- present and included.
 The repository's code covers all components programmed to participate in
 the competition, and may also include the files used by 3D printers and
-laser cutting machines to produce the vehicle's elements
-[Rule 7.b4, p.9: "Link to a GitHub public repository with the code for all components"].
+laser cutting machines to produce the vehicle's elements.
 The team has already produced this design data: 3D-printed part files
 (`models/STL Files/`) and laser-cut part files (`models/Cut/`).
 
 ### What the documentation must include
 
 - **Design discussion.** A discussion of, and motivation for, the vehicle's
-  mobility, power and sense, and obstacle management design
-  [Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+  mobility, power and sense, and obstacle management design.
   This content lives in this repository's dedicated design sections (to be
   drafted separately), not duplicated here.
 - **Photos.** Photos of the vehicle from every side, from the top and
-  bottom, plus a team photo
-  [Rule 7.b2, p.9: "Photos of the vehicle (from every side, from top and bottom), and"].
+  bottom, plus a team photo.
 - **Videos.** A YouTube link for each challenge showing the vehicle driving
-  autonomously, with at least 30 seconds of actual driving shown per video
-  [Rule 7.b3, p.9: "URL to YouTube (should be either public or accessible by link) showing"].
+  autonomously, with at least 30 seconds of actual driving shown per video.
   *Status: not yet recorded -- links to be added once available. This is a
   known gap, not an oversight; do not treat the absence of a link here as
   the section being complete.*
@@ -97,30 +83,24 @@ The team has already produced this design data: 3D-printed part files
   at least 5000 characters in English, covering what modules the code
   consists of, how they relate to the vehicle's electromechanical
   components, and the process to build/compile/upload the code to the
-  vehicle's controllers
-  [Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"].
+  vehicle's controllers.
   README content and structure is itself one of the things judges evaluate
-  under the reproducibility criterion
-  [Rule C.b40, p.48: "README content and structure"].
+  under the reproducibility criterion.
   *This 5000-character requirement applies to the complete README, which
   this section alone does not yet satisfy -- it will be met once the
   design, sensor, and software sections are merged in alongside this one.*
 - **Code comments.** Code on GitHub (and in the hard copy) must be well
   documented with comments, since judges may not have access to the
-  specific development tools a team used
-  [Rule 7.b5, p.10: "Code provided on GitHub and Hard Copy must be well documented with"].
+  specific development tools a team used.
 
 ### Commit history
 
 The rules require the repository's commit history to contain at least
 three commits on a fixed schedule: the first no later than 2 months before
-the competition, containing at least 1/5 of the final code
-[Rule 7.b4.1, p.9: "the first commit not later than 2 months before the competition –"];
-the second no later than 1 month before the competition
-[Rule 7.b4.2, p.9: "The second commit not later than 1 month before the competition,"];
-and the third no later than 2 weeks before the competition, which is the
-commit primarily used for evaluation and scoring
-[Rule 7.b4.3, p.9: "The third commit not later than 2 weeks before the competition. Note:"].
+the competition, containing at least 1/5 of the final code; the second no
+later than 1 month before the competition; and the third no later than 2
+weeks before the competition, which is the commit primarily used for
+evaluation and scoring.
 
 The team's approach is to commit continuously as work is finished, rather
 than working to a fixed schedule, with contributions from every team
@@ -128,19 +108,14 @@ member and as many commits as make sense (distributed roughly evenly
 across the team, without forcing an artificial split) -- as long as this
 still lands at least one real commit inside each of the three required
 windows above. This satisfies the rule that more commits than the minimum
-three are allowed
-[Rule 7.b4.4, p.9: "More commits are allowed. The repository must contain a README.md file with"],
-and supports a meaningful commit history as evaluated under the
-reproducibility criterion
-[Rule C.b39, p.48: "Commit history (at least three meaningful commits)"]
-and its corresponding checklist question
-[Rule C.b63, p.51: "Do we have at least three meaningful commits with clear messages?"].
+three are allowed, and supports a meaningful commit history as evaluated
+under the reproducibility criterion and its corresponding checklist
+question.
 
 ### Reproducibility and GitHub Quality
 
 This is one of five criteria judges use to evaluate our documentation,
-scored on the same four-level scale as the others (0/2/4/6 points)
-[Rule C.b37, p.48: "Clear decisions made under constraints such as power, weight, processing and time."].
+scored on the same four-level scale as the others (0/2/4/6 points).
 At the top level, judges look for a fully reproducible robot, a clear
 GitHub project structure, meaningful commit messages, a documented testing
 workflow, and versioning or release notes -- for example: *"Our GitHub
@@ -148,42 +123,30 @@ repository contains all code, CAD, STL files and wiring diagrams. The
 README explains how to assemble the robot step by step. Each major change
 is recorded with a commit message ... Release v1.0 corresponds to the
 regional event, and v2.0 to the final international version."*
-[Rule C.b91, p.54: "Level 6 example “Our GitHub repository contains all code, CAD, STL files"].
 A README of at least 5000 characters with required commits present and
 CAD/code/wiring included, such that another team could reproduce the
-robot with reasonable effort, scores at the next level down
-[Rule C.b92, p.54: "Level 4 example “The repository includes the full code base, 3D models"].
+robot with reasonable effort, scores at the next level down.
 A repository that exists but has poor structure, missing or unclear files,
-and limited reproducibility scores lower still
-[Rule C.b93, p.54: "Level 2 example “We uploaded our final code to GitHub. The README"],
-and a missing, empty, or inaccessible repository scores zero
-[Rule C.b94, p.54: "Level 0 example Missing repository, empty repository or repository that cannot be"].
+and limited reproducibility scores lower still, and a missing, empty, or
+inaccessible repository scores zero.
 
 Reproducibility of the robot itself is one of the things evaluators
-specifically look for
-[Rule C.b43, p.49: "Reproducibility of the robot What evaluators are looking for:"],
-alongside professional, usable documentation
-[Rule C.b44, p.49: "Professional and usable documentation."]
-and evidence that the repository reflects our actual engineering process,
-not just a final code dump
-[Rule C.b45, p.49: "Evidence that the repository reflects the engineering process, not only a final"].
+specifically look for, alongside professional, usable documentation and
+evidence that the repository reflects our actual engineering process, not
+just a final code dump.
 Self-check questions we should be able to answer "yes" to before
-submission: could another team rebuild our robot from our documentation
-[Rule C.b61, p.50: "Could another team rebuild our robot from our documentation?"];
-does our README explain how the system works and how to build it
-[Rule C.b62, p.51: "Does our README explain how the system works and how to build"];
-and are CAD, wiring, and code files all inside the repository
-[Rule C.b64, p.51: "Are CAD, wiring, and code files all inside the repository? C.6 Glossary"]
--- for which we already have real evidence: the STL and DXF part files
-now included in `models/`.
+submission: could another team rebuild our robot from our documentation;
+does our README explain how the system works and how to build it; and are
+CAD, wiring, and code files all inside the repository -- for which we
+already have real evidence: the STL and DXF part files now included in
+`models/`.
 
 ### Hard copy
 
 A hard copy (the Engineering Journal) must also be submitted at the
 international final; it exists mainly as a fallback in case the GitHub
 repository is inaccessible, and to help judges track teams during the
-competition, but GitHub remains the main source for scoring
-[Rule 7.b5, p.10: "Code provided on GitHub and Hard Copy must be well documented with"].
+competition, but GitHub remains the main source for scoring.
 
 *Team decision: the hard copy itself is out of scope for now. The team
 plans to write the Engineering Journal PDF only after the GitHub
