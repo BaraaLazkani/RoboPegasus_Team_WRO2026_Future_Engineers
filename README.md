@@ -911,3 +911,13 @@ This section confirms our vehicle meets the rules' physical and
 material regulations, cross-referencing the actual measurements and
 component choices already documented in Mobility and Mechanical Design
 and Power and Sensor Architecture.
+
+### Size and weight
+
+Our vehicle measures 29cm x 17.5cm x 29cm and weighs 1,475g (see Mobility
+and Mechanical Design), comfortably within the rules' limits: dimensions
+must not exceed 300x200mm and 300mm in height
+[Rule 11.1, p.23: "The vehicle’s dimensions must not exceed 300x200 mm and"]
+[Rule 9.17, p.18: "The vehicle’s dimensions must not exceed 300x200 mm and"],
+and weight must not exceed 1.5 kilograms
+[Rule 11.2, p.23: "The weight of the vehicle must not exceed 1.5 kilograms."].
