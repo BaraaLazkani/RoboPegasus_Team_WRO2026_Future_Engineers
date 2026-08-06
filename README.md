@@ -249,20 +249,11 @@ done -- not invented here.*
 
 This section covers the discussion and motivation for the vehicle's power
 and sense design, as part of the design discussion required for the
-repository's documentation
-[Rule 7.b1, p.9: "Discussion, information and motivation for the vehicle's mobility, power and sense, and"].
+repository's documentation.
 It corresponds to the "Power and Sensor Architecture" criterion judges use
 to evaluate our documentation, which specifically looks at our power
-system architecture
-[Rule C.b15, p.46: "Power system architecture"],
-current draw reasoning and distribution
-[Rule C.b16, p.46: "Current draw reasoning and distribution"],
-sensor selection and placement
-[Rule C.b17, p.46: "Sensor selection and placement"],
-calibration methods
-[Rule C.b18, p.46: "Calibration methods"],
-and wiring diagrams
-[Rule C.b19, p.46: "Wiring diagrams What evaluators are looking for:"].
+system architecture, current draw reasoning and distribution, sensor
+selection and placement, calibration methods, and wiring diagrams.
 
 *The power system and processors below are adapted from last year's team
 repository (source: team-2025), confirmed unchanged by the team. The
@@ -290,8 +281,7 @@ multiple competition runs per charge.
 The PMS includes a dedicated DC-DC step-down converter, which regulates
 and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
 (SBC) and Arduino Mega (SBM) require -- satisfying the requirement that a
-voltage stabilizer provide adequate power to the SBC/SBM
-[Rule D.b11, p.55: "a voltage stabilizer: it is required to provide adequate power supply for"].
+voltage stabilizer provide adequate power to the SBC/SBM.
 
 ### Processing
 
@@ -340,8 +330,7 @@ isn't reflected here; flag it if so.*
 ### Sensor placement: field geometry and failure-point reasoning
 
 Judges credit sensor placement justified by field geometry and evidence of
-failure-point/redundancy considerations, at the top rubric level
-[Rule C.b14, p.46: "Use of testing to refine the mechanical design. Criterion 2: Power and"].
+failure-point/redundancy considerations, at the top rubric level.
 Our placement choices are driven directly by how the robot's own geometry
 changes relative to the walls during a maneuver, not just by a generic
 "more sensors is better" logic:
@@ -376,41 +365,28 @@ changes relative to the walls during a maneuver, not just by a generic
 ### What judges look for
 
 Judges specifically look for evidence that we planned power distribution,
-not just connected parts
-[Rule C.b20, p.46: "Evidence that the team planned power distribution, not only connected parts."],
-justification for our sensor choices and positions
-[Rule C.b21, p.46: "Justification for sensor choices and positions."],
-and consideration of noise, interference, shadows, and similar issues
-[Rule C.b22, p.46: "Consideration of noise, interference, shadows and similar issues. Criterion 3: Software Architecture"]
--- addressed above in the field-geometry and failure-point reasoning, and
-in the Wiring diagram and Calibration sections below.
+not just connected parts, justification for our sensor choices and
+positions, and consideration of noise, interference, shadows, and similar
+issues -- addressed above in the field-geometry and failure-point
+reasoning, and in the Wiring diagram and Calibration sections below.
 
 At the top level, judges credit a documented power budget with sensor
 trade-offs justified by real testing, such as: *"The total current draw
 during peak acceleration is approximately 3.2 A for the drive motors and
 0.8 A for electronics. We therefore selected a 5 A step down regulator. We
-tested two camera positions ... which reduced misdetection by 40 percent"*
-[Rule C.b79, p.52: "Level 6 example “The total current draw during peak acceleration is approximately"].
+tested two camera positions ... which reduced misdetection by 40 percent"*.
 A wiring diagram with sensor placement explained, but without that level
-of testing narrative, scores at the next level down
-[Rule C.b80, p.52: "Level 4 example “Figure 5 shows our wiring diagram. The main 3"].
-A bare component list without diagrams or explanation scores lower still
-[Rule C.b81, p.52: "Level 2 example “We use a LiPo battery and several sensors: two"],
-and no mention of power or sensor placement at all scores zero
-[Rule C.b82, p.52: "Level 0 example No mention of how parts are powered or where"].
+of testing narrative, scores at the next level down.
+A bare component list without diagrams or explanation scores lower still,
+and no mention of power or sensor placement at all scores zero.
 
 Self-check questions for this section: do we show how power is distributed
-and regulated
-[Rule C.b52, p.50: "Do we show how power is distributed and regulated?"];
-have we justified our sensor choices and positions
-[Rule C.b53, p.50: "Have we justified our sensor choices and positions?"];
-and is there at least one wiring diagram and description of calibration
-[Rule C.b54, p.50: "Is there at least one wiring diagram and description of calibration? Software"].
+and regulated; have we justified our sensor choices and positions; and is
+there at least one wiring diagram and description of calibration.
 
 ### Wiring diagram
 
-Judges specifically look for at least one wiring diagram
-[Rule C.b19, p.46: "Wiring diagrams What evaluators are looking for:"].
+Judges specifically look for at least one wiring diagram.
 The wiring diagram is the same one used last year (source: team-2025,
 `schemes/Full Schematic Circuit Diagram of the Robot/Full Circuit Diagram
 of the Robot.PNG`), reused as-is for 2026. It was produced in Fritzing,
@@ -427,8 +403,7 @@ team-2025), reused as-is -- not redrawn for 2026, per the caveat above.*
 
 ### Calibration
 
-Judges specifically look for calibration methods
-[Rule C.b18, p.46: "Calibration methods"].
+Judges specifically look for calibration methods.
 Neither the DFRobot URM09 ultrasonic sensors nor the SparkFun BNO086 IMU
 required a dedicated calibration procedure -- both performed reliably
 right out of the box, so no team-developed calibration methodology exists
