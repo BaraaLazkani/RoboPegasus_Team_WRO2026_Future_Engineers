@@ -552,19 +552,11 @@ here.
 This section corresponds to the "Systems Thinking and Engineering
 Decisions" criterion judges use to evaluate our documentation -- the
 fourth of five criteria, and the one that looks across subsystems rather
-than at any single one of them
-[Rule C.b30, p.47: "Evidence of testing and tuning, not just final code. Criterion 4: Systems"].
+than at any single one of them.
 It specifically looks at how our subsystems work together (mobility,
-power, sensors, software, frame)
-[Rule C.b31, p.48: "How subsystems work together (mobility, power, sensors, software, frame)."],
-the engineering reasoning behind our decisions
-[Rule C.b32, p.48: "Engineering reasoning behind decisions."],
-our constraints and tradeoffs
-[Rule C.b33, p.48: "Constraints and tradeoffs."],
-our iteration and testing cycles
-[Rule C.b34, p.48: "Iteration and testing cycles."],
-and risk identification and mitigation
-[Rule C.b35, p.48: "Risk identification and mitigation actions. What evaluators are looking for:"].
+power, sensors, software, frame), the engineering reasoning behind our
+decisions, our constraints and tradeoffs, our iteration and testing
+cycles, and risk identification and mitigation.
 
 *Much of the cross-subsystem content below is synthesized from facts
 already verified and cited in the Mobility, Power/Sensor, and Software
@@ -576,17 +568,12 @@ section is called out explicitly.*
 ### Constraints we designed within
 
 Judges specifically credit clear decisions made under constraints such as
-power, weight, processing, and time
-[Rule C.b37, p.48: "Clear decisions made under constraints such as power, weight, processing and time."].
+power, weight, processing, and time.
 Every constraint below is a real, specific limit we designed around --
 not a generic list.
 
 **Vehicle envelope.** WRO caps overall vehicle dimensions at 300x200mm and
-300mm in height
-[Rule 11.1, p.23: "The vehicle’s dimensions must not exceed 300x200 mm and"]
-[Rule 9.17, p.18: "The vehicle’s dimensions must not exceed 300x200 mm and"],
-and caps weight at 1.5kg
-[Rule 11.2, p.23: "The weight of the vehicle must not exceed 1.5 kilograms."].
+300mm in height, and caps weight at 1.5kg.
 Our vehicle's 1,475g mass (see Mobility and Mechanical Design) sits
 comfortably under that limit.
 
@@ -608,8 +595,7 @@ because..." reasoning -- we didn't choose the width freely; the steering
 mechanism we'd already committed to (see Mobility and Mechanical Design)
 determined it.
 
-**Power switching.** Only one switch is allowed to power the vehicle on
-[Rule 9.10, p.17: "The vehicle is then switched on. Only one switch is allowed to"].
+**Power switching.** Only one switch is allowed to power the vehicle on.
 That single-switch constraint is a direct reason we engineered a custom
 Power Management System (see Power and Sensor Architecture) rather than
 wiring components independently: with only one legal point of entry for
@@ -633,8 +619,7 @@ DFRobot URM09/SparkFun BNO086 sensor swap, the added servos, the 4cm
 wheelbase-extension rod, the reworked backward-entry parking maneuver, and
 the Pi startup-time optimization above -- this year is mostly an
 incremental refinement of last year's platform rather than a ground-up
-redesign
-[Rule C.b34, p.48: "Iteration and testing cycles."].
+redesign.
 
 ### Risk identification and mitigation
 
@@ -653,12 +638,11 @@ level, not left as isolated sensor concerns:
   the robot's current attitude (see Power and Sensor Architecture).
 
 Evidence that the team thought about the robot as a system, not as
-separate parts, is exactly what this criterion evaluates
-[Rule C.b36, p.48: "Evidence that the team thought about the robot as a system, not"] --
-these two mitigations are both cases where a single-subsystem fix (better
-IMU calibration, a single fixed sensor) wouldn't have worked, and the
-actual solution came from how two subsystems (sensing geometry and
-control software) interact.
+separate parts, is exactly what this criterion evaluates -- these two
+mitigations are both cases where a single-subsystem fix (better IMU
+calibration, a single fixed sensor) wouldn't have worked, and the actual
+solution came from how two subsystems (sensing geometry and control
+software) interact.
 
 ### What judges look for
 
@@ -668,26 +652,19 @@ such as: *"We considered two architectures: on board vision only and a
 split system with edge processing off the robot ... We reduced frame rate
 from 30 fps to 15 fps to keep CPU below 70 percent. Our risk table
 identified overheating as a failure mode, so we added a fan and verified
-temperatures stayed below 60 degrees Celsius"*
-[Rule C.b87, p.53: "Level 6 example “We considered two architectures: on board vision only and"].
+temperatures stayed below 60 degrees Celsius"*.
 A block diagram of subsystems with a brief explanation of how they
-interact, but without that depth, scores at the next level down
-[Rule C.b88, p.53: "Level 4 example “Our overall system is shown in the block diagram"].
-A list of decisions made without detailed reasoning scores lower still
-[Rule C.b89, p.53: "Level 2 example “We made several decisions during the season, for example"],
+interact, but without that depth, scores at the next level down.
+A list of decisions made without detailed reasoning scores lower still,
 and documentation that only describes the final design with no mention of
-choices, tradeoffs, or problems scores zero
-[Rule C.b90, p.53: "Level 0 example Documentation only describes the final design with no mention"].
+choices, tradeoffs, or problems scores zero.
 
 Self-check questions for this section: did we identify constraints such as
-power, weight, time, or processing
-[Rule C.b58, p.50: "Did we identify constraints such as power, weight, time or processing?"];
-have we shown at least one design tradeoff and explained our choice
-[Rule C.b59, p.50: "Have we shown at least one design trade off and explained our"];
-and did we show how our design changed over time
-[Rule C.b60, p.50: "Did we show how our design changed over time (version 1, 2,"]
--- answered above as incremental refinement rather than a version-by-version
-redesign, per the team's own account, not invented here.
+power, weight, time, or processing; have we shown at least one design
+tradeoff and explained our choice; and did we show how our design changed
+over time -- answered above as incremental refinement rather than a
+version-by-version redesign, per the team's own account, not invented
+here.
 
 ## Team and Age Groups Definitions
 
