@@ -348,6 +348,19 @@ and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
 (SBC) and Arduino Mega (SBM) require -- satisfying the requirement that a
 voltage stabilizer provide adequate power to the SBC/SBM.
 
+<p align="center">
+  <img src="other/images/Li-Poly Battery.jpg" alt="Zeee Li-Poly battery, 11.1V 2200mAh" width="30%">
+  <img src="other/images/PMS.PNG" alt="Custom Power Management System" width="30%">
+  <img src="other/images/PMS Diagram.PNG" alt="PMS schematic diagram" width="30%">
+</p>
+<p align="center">
+  <img src="other/images/Star Wiring.PNG" alt="Star-topology power distribution" width="45%">
+</p>
+
+*Power system photos/diagrams adapted from last year's team repository
+(source: team-2025); the battery and PMS design are confirmed unchanged
+for 2026, not evidence about this year's rules.*
+
 ### Processing
 
 An Arduino Mega 2560 serves as the primary sensor interface and real-time
@@ -360,6 +373,16 @@ cooling specifically guards against thermal throttling in high ambient
 temperatures such as summer competition conditions. The two processors
 communicate over a USB serial connection, exchanging computer vision
 results and navigation commands.
+
+<p align="center">
+  <img src="other/images/Arduino Mega.jpg" alt="Arduino Mega 2560" width="30%">
+  <img src="other/images/Pi with Active Cooler.avif" alt="Raspberry Pi 5 with active cooling" width="30%">
+  <img src="other/images/BTS7960 Motor Driver.jpg" alt="BTS7960 motor driver" width="30%">
+</p>
+
+*Processor/driver photos adapted from last year's team repository
+(source: team-2025); the processing architecture is confirmed unchanged
+for 2026, not evidence about this year's rules.*
 
 ### Sensor array
 
@@ -386,11 +409,16 @@ directly by the team, not assumed:
   boundaries and avoid wall collisions, positioned at maximum distance from
   the chassis to minimize reflection interference.
 
-*This entire sensor breakdown is adapted from last year's team repository
-with the confirmed 2026 model/servo changes applied -- if the exact wiring
-diagram, mounting hardware, or any other sensor-array detail beyond what's
-listed above has also changed for 2026, that hasn't been confirmed and
-isn't reflected here; flag it if so.*
+<p align="center">
+  <img src="other/images/urm09.jpg" alt="DFRobot URM09 ultrasonic sensor" width="30%">
+  <img src="other/images/BNO086.webp" alt="SparkFun BNO086 IMU" width="30%">
+  <img src="other/images/Arducam.jpeg" alt="Arducam 64MP Hawk-Eye camera" width="30%">
+</p>
+
+*The URM09 and BNO086 photos above are this year's actual sensors,
+provided directly by the team -- not carried over from last year's
+repository. The camera photo is reused from last year's repository
+(source: team-2025), confirmed unchanged for 2026.*
 
 ### Sensor placement: field geometry and failure-point reasoning
 
