@@ -940,3 +940,24 @@ or through gearing rather than independently to each wheel
 [Rule 11.13, p.23: "A maximum of two motors may be used to make the vehicle"],
 and not an electronic differential with one motor per side
 [Rule 11.5, p.23: "The use of an electronic differentials with one motor per side (like"].
+
+### Autonomy and communication
+
+The vehicle operates fully autonomously with no radio communication or
+remote control while running (see the state machine described in
+Software Architecture and Obstacle Strategy)
+[Rule 11.6, p.23: "A vehicle must be autonomous and finish the “missions” by itself. Any"].
+Consistent with this, no team member interferes with or assists the
+vehicle once a round is running -- no manual data entry, visual, audio,
+or other signaling to the vehicle during a run
+[Rule 11.7, p.23: "Participants are not allowed to interfere with or assist the vehicle while"].
+The Raspberry Pi 5's built-in WiFi and Bluetooth hardware is disabled
+during competition runs, satisfying the requirement that any built-in
+wireless capability be turned off and confirmable by judges
+[Rule 11.10, p.23: "Teams cannot use any kind of RF, Bluetooth, Wi-Fi, or any kind"].
+Every connection between our electromechanical components -- sensors,
+motors, and the two processors -- is a wired connection; no wireless
+links exist anywhere in the sensor or communication chain, satisfying the
+requirement that only wire connections be used for inter-component
+communication
+[Rule 11.17, p.24: "Only wire connections are permitted for communication between vehicle electromechanical components."].
