@@ -670,10 +670,7 @@ here.
 
 ### Our team
 
-RoboPegasus consists of 3 students
-[Rule 2.1, p.4: "A team consists of 2 or 3 students."],
-guided by one coach
-[Rule 2.2, p.4: "A team is guided by a coach."]:
+RoboPegasus consists of 3 students, guided by one coach:
 
 - **Coach:** Baraa Lazkani
 - **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
@@ -687,39 +684,32 @@ directly by the team, not assumed.*
 
 With 3 students and 1 coach, the team is well above the minimum team size
 the rules exclude: a single team member plus a single coach is not
-considered a valid team and cannot participate
-[Rule 2.3, p.4: "1 team member and 1 coach are not considered a team and"].
+considered a valid team and cannot participate.
 
 ### Category and team membership
 
 The team participates only in the Future Engineers category this season,
 consistent with the rule that a team may only participate in one WRO
-category per season
-[Rule 2.4, p.4: "A team may only participate in one of the WRO categories in"].
+category per season.
 Each of our three students -- Hasan, Hadi, and Haidar -- participates on
 this team only, in accordance with the rule that any student may
-participate in one team only
-[Rule 2.5, p.4: "Any student may participate in one team only."].
+participate in one team only.
 
 ### Age eligibility
 
 The 2026 age group for this category covers students aged 14-22, born
-between 2004 and 2012
-[Rule 2.8, p.4: "The age group for this category is defined for students in the"].
+between 2004 and 2012.
 This age window is evaluated by the age a participant turns during the
-2026 calendar year, not their age on the day of competition
-[Rule 2.9, p.4: "The maximum age reflects the age that the participant turns in the"].
+2026 calendar year, not their age on the day of competition.
 All three of our students fall within this window: Haidar Saad was born
 in 2004 (turning 22 in 2026, the oldest age this category allows), and
 Hasan Mfleh and Hadi Moalla were both born in 2005.
 
 Our coach, Baraa Lazkani, was also born in 2004 -- turning 22 in 2026,
 comfortably above the minimum coach age of 18 years old required at
-international events
-[Rule 2.6, p.4: "The minimum age of a coach at an international event is 18"].
-Coaches are permitted to work with more than one team
-[Rule 2.7, p.4: "Coaches may work with more than one team."], which does
-not require any statement here about whether Baraa coaches other teams.
+international events.
+Coaches are permitted to work with more than one team, which does not
+require any statement here about whether Baraa coaches other teams.
 
 ## Responsibilities and Team's Own Work
 
