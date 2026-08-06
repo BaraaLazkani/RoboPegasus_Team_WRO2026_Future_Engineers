@@ -857,3 +857,25 @@ WRO Guiding Principles
 [Rule 3.1, p.4: "A team should play fair and be respectful towards teams, coaches, judges,"].
 Every team member and our coach have already signed the WRO Ethics Code
 [Rule 3.2, p.4: "Every team and coach need to undersign the WRO Ethics Code. The"].
+
+### Ownership of the work
+
+All coding of the vehicle and its construction was done solely by the
+team -- our coach's role has been to support us organizationally and with
+questions or problems, not to program or build the vehicle themselves,
+consistent with the rule that coaching may not include programming the
+vehicle or its construction
+[Rule 3.3, p.4: "Coding of the vehicle and its construction (if applicable) may be"].
+Our control program and design are our own work: the state machine,
+navigation algorithms, and sensor integration described in the Software
+Architecture and Power and Sensor Architecture sections were built by the
+team, not copied from or too similar to a solution sold online or used by
+another team
+[Rule 3.7, p.4: "It is not allowed to use a vehicle’s control program that is"].
+The one exception is explicitly documented elsewhere and was a deliberate,
+disclosed engineering choice, not an attempt to disguise non-original
+work: our Ackermann steering mechanism adapts the geometry of an existing
+4WD chassis kit, customized and re-integrated into our own compact
+chassis design (see Mobility and Mechanical Design) -- the kind of
+disclosed, justified reuse the rules anticipate, not the kind of
+undisclosed copying rule 3.7 prohibits.
