@@ -189,6 +189,21 @@ rear plexi panel is positioned slightly lower than the front panel, which
 shifts the center of mass forward to improve stability during acceleration
 and cornering.
 
+<p align="center">
+  <img src="other/images/Back_Plexi.PNG" alt="Rear plexi panel with differential mechanism" width="30%">
+  <img src="other/images/Motor_Holder.PNG" alt="Motor holder" width="30%">
+  <img src="other/images/Hexagonal Rod.PNG" alt="Hexagonal drive rod" width="30%">
+</p>
+<p align="center">
+  <img src="other/images/Axis_1.PNG" alt="Axis assembly, view 1" width="30%">
+  <img src="other/images/Axis_2.PNG" alt="Axis assembly, view 2" width="30%">
+  <img src="other/images/Axis_Holder.PNG" alt="Axis holder" width="30%">
+</p>
+
+*Chassis and drivetrain component photos adapted from last year's team
+repository (source: team-2025); the chassis design itself is confirmed
+unchanged for 2026, not evidence about this year's rules.*
+
 ### Drivetrain
 
 The primary drivetrain uses a JGA25-370 DC motor operating at 245 RPM,
@@ -205,6 +220,26 @@ required for constant velocity is roughly 0.09W with the motor's ~90%
 efficiency factored in) -- substantial reserve capacity above and beyond
 the minimum required for propulsion, which we rely on for acceleration and
 dynamic maneuvering.
+
+<p align="center">
+  <img src="other/images/DC_Motor.jpg" alt="JGA25-370 DC motor" width="30%">
+  <img src="other/images/Our_Differentisl_Replica.PNG" alt="Custom differential replica" width="30%">
+  <img src="other/images/Differential_Holder.PNG" alt="Differential holder" width="30%">
+</p>
+
+Our rear axle uses a custom differential mechanism (not an electronic,
+one-motor-per-side setup) -- for reference, the two broad differential
+types this design draws on:
+
+<p align="center">
+  <img src="other/images/Differential-Image-1.webp" alt="Open differential diagram" width="30%">
+  <img src="other/images/locking diff.jpg" alt="Locking differential diagram" width="30%">
+  <img src="other/images/kmp-lsd-with-names-01.png" alt="Limited-slip differential diagram" width="30%">
+</p>
+
+*Motor and differential photos/diagrams adapted from last year's team
+repository (source: team-2025); the drivetrain design is confirmed
+unchanged for 2026, not evidence about this year's rules.*
 
 ### Steering
 
@@ -223,6 +258,16 @@ reproduce that section's exact hole spacing and angular relationships at
 our compact scale, preserving the steering geometry while eliminating the
 unusable length of the original plate.
 
+<p align="center">
+  <img src="other/images/Servo Mg996R.webp" alt="MG996R steering servo" width="30%">
+  <img src="other/images/Ackermann_Steering_1.png" alt="Ackermann steering geometry" width="30%">
+  <img src="other/images/Ackermann_Steering_4.PNG" alt="Original vs. custom Ackermann plate comparison" width="30%">
+</p>
+
+*Steering photos/diagrams adapted from last year's team repository
+(source: team-2025); the steering mechanism is confirmed unchanged for
+2026, not evidence about this year's rules.*
+
 ### Testing and iteration
 
 We tested our gear reduction and drivetrain configuration against our
@@ -240,6 +285,17 @@ scores at the next level down, a description with no diagrams or reasoning
 (*"Our robot has a strong chassis with four wheels and two motors. It
 drives well and is stable on the track"*) scores lower still, and a photo
 with no explanation at all scores zero.
+
+<p align="center">
+  <img src="other/images/Expirement1.PNG" alt="Mechanical test 1" width="23%">
+  <img src="other/images/Expirement2.PNG" alt="Mechanical test 2" width="23%">
+  <img src="other/images/Expirement3.PNG" alt="Mechanical test 3" width="23%">
+  <img src="other/images/Expirements_Legend.PNG" alt="Test legend" width="23%">
+</p>
+
+*Test photos adapted from last year's mechanical testing (source:
+team-2025), documenting the gear-ratio testing referenced above; not
+evidence about this year's rules.*
 
 Judges also specifically look for whether we understood how mechanical
 design affects performance, and whether we clearly explained why our
