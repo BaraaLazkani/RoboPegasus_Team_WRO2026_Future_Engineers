@@ -1,6 +1,10 @@
 RoboPegasus — WRO Future Engineers 2026
 ====
 
+<p align="center">
+  <img src="other/images/RoboPegasus_Logo.png" alt="RoboPegasus Logo" width="35%">
+</p>
+
 This repository contains the engineering materials of RoboPegasus's
 self-driving vehicle for the WRO Future Engineers competition, season 2026.
 
@@ -74,6 +78,11 @@ The team has already produced this design data: 3D-printed part files
   drafted separately), not duplicated here.
 - **Photos.** Photos of the vehicle from every side, from the top and
   bottom, plus a team photo.
+  *Status: not yet taken for 2026 -- last year's vehicle and team photos
+  are intentionally not reused here, since they show a different robot
+  revision and a different team roster. This is a known gap, not an
+  oversight; do not treat the absence of new photos here as the section
+  being complete.*
 - **Videos.** A YouTube link for each challenge showing the vehicle driving
   autonomously, with at least 30 seconds of actual driving shown per video.
   *Status: not yet recorded -- links to be added once available. This is a
