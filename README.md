@@ -769,11 +769,8 @@ and Power and Sensor Architecture.
 
 Our vehicle measures 29cm x 17.5cm x 29cm and weighs 1,475g (see Mobility
 and Mechanical Design), comfortably within the rules' limits: dimensions
-must not exceed 300x200mm and 300mm in height
-[Rule 11.1, p.23: "The vehicle’s dimensions must not exceed 300x200 mm and"]
-[Rule 9.17, p.18: "The vehicle’s dimensions must not exceed 300x200 mm and"],
-and weight must not exceed 1.5 kilograms
-[Rule 11.2, p.23: "The weight of the vehicle must not exceed 1.5 kilograms."].
+must not exceed 300x200mm and 300mm in height, and weight must not exceed
+1.5 kilograms.
 
 ### Drivetrain and wheels
 
@@ -781,47 +778,37 @@ Our vehicle is a 4-wheeled, rear-wheel-drive vehicle with Ackermann
 steering at the front axle (see Mobility and Mechanical Design), which
 satisfies the requirement that a vehicle be 4-wheeled with one driving
 axle and one steering actuator, built as front-wheel, rear-wheel, or
-four-wheel drive -- not a differential wheeled base
-[Rule 11.3, p.23: "The vehicle must be a 4 wheeled vehicle with one driving axle"].
+four-wheel drive -- not a differential wheeled base.
 Our wheels are plain rubber wheels, not omnidirectional wheels, ball
-casters, or spherical wheels
-[Rule 11.4, p.23: "The vehicle cannot use any kind of an omnidirectional wheel, ball caster"].
+casters, or spherical wheels.
 A single JGA25-370 motor drives the rear axle through a custom
 differential mechanism and gearbox (see Mobility and Mechanical Design) --
 well within the maximum of two driving motors allowed, connected directly
-or through gearing rather than independently to each wheel
-[Rule 11.13, p.23: "A maximum of two motors may be used to make the vehicle"],
-and not an electronic differential with one motor per side
-[Rule 11.5, p.23: "The use of an electronic differentials with one motor per side (like"].
+or through gearing rather than independently to each wheel, and not an
+electronic differential with one motor per side.
 
 ### Autonomy and communication
 
 The vehicle operates fully autonomously with no radio communication or
 remote control while running (see the state machine described in
-Software Architecture and Obstacle Strategy)
-[Rule 11.6, p.23: "A vehicle must be autonomous and finish the “missions” by itself. Any"].
+Software Architecture and Obstacle Strategy).
 Consistent with this, no team member interferes with or assists the
 vehicle once a round is running -- no manual data entry, visual, audio,
-or other signaling to the vehicle during a run
-[Rule 11.7, p.23: "Participants are not allowed to interfere with or assist the vehicle while"].
+or other signaling to the vehicle during a run.
 The Raspberry Pi 5's built-in WiFi and Bluetooth hardware is disabled
 during competition runs, satisfying the requirement that any built-in
-wireless capability be turned off and confirmable by judges
-[Rule 11.10, p.23: "Teams cannot use any kind of RF, Bluetooth, Wi-Fi, or any kind"].
+wireless capability be turned off and confirmable by judges.
 Every connection between our electromechanical components -- sensors,
 motors, and the two processors -- is a wired connection; no wireless
 links exist anywhere in the sensor or communication chain, satisfying the
 requirement that only wire connections be used for inter-component
-communication
-[Rule 11.17, p.24: "Only wire connections are permitted for communication between vehicle electromechanical components."].
+communication.
 
 ### Controllers and materials
 
 Our controllers are a Raspberry Pi 5 (SBC) and an Arduino Mega 2560 (SBM)
 (see Power and Sensor Architecture), matching the rule that either type
-of controller is allowed with no brand restriction
-[Rule 11.8, p.23: "The controller used for the vehicle can be either Single board computer"].
+of controller is allowed with no brand restriction.
 Our chassis uses a plexiglass and PLA 3D-printed hybrid construction (see
 Mobility and Mechanical Design), which the rules permit -- any material or
-building system is allowed, with no restriction to a specific type
-[Rule 11.19, p.24: "The vehicle can be built using any type of hardware kits and"].
+building system is allowed, with no restriction to a specific type.
