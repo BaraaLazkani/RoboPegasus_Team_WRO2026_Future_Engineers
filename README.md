@@ -546,12 +546,21 @@ continues wall-following/turning until the required number of laps is
 complete.
 
 <p align="center">
-  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="30%">
-  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="30%">
+  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="18%">
+  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="18%">
+  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="18%">
+  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="18%">
+  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="18%">
+</p>
+<p align="center">
   <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="30%">
 </p>
 <p align="center">
-  <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart" width="60%">
+  <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart (combined)" width="60%">
+</p>
+<p align="center">
+  <img src="other/images/Open-Challenge/Algorithm Flowchart Part1.PNG" alt="Open Challenge algorithm flowchart, part 1" width="45%">
+  <img src="other/images/Open-Challenge/Algorithm Flowchart Part2.PNG" alt="Open Challenge algorithm flowchart, part 2" width="45%">
 </p>
 <p align="center">
   <img src="other/gif files/Open Challenge.gif" alt="Open Challenge demonstration">
@@ -582,6 +591,16 @@ encountered.
   <img src="other/images/Camera-Photos/RR-Mask.png" alt="Red-Red case, color mask" width="22%">
   <img src="other/images/Camera-Photos/GG.png" alt="Green-Green case, camera view" width="22%">
   <img src="other/images/Camera-Photos/GG-Mask.png" alt="Green-Green case, color mask" width="22%">
+</p>
+
+Single-pillar detection examples (used by the color duplication algorithm
+when only one pillar color is in frame):
+
+<p align="center">
+  <img src="other/images/Camera-Photos/R.png" alt="Single red pillar, camera view" width="22%">
+  <img src="other/images/Camera-Photos/R-Mask.png" alt="Single red pillar, color mask" width="22%">
+  <img src="other/images/Camera-Photos/G.png" alt="Single green pillar, camera view" width="22%">
+  <img src="other/images/Camera-Photos/G-Mask.png" alt="Single green pillar, color mask" width="22%">
 </p>
 
 *Camera/mask images adapted from last year's team repository (source:
