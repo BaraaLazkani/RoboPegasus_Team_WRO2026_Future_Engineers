@@ -532,6 +532,23 @@ adapting its turning logic to the section geometry it detects, and
 continues wall-following/turning until the required number of laps is
 complete.
 
+<p align="center">
+  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="30%">
+  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="30%">
+  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="30%">
+</p>
+<p align="center">
+  <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart" width="60%">
+</p>
+<p align="center">
+  <img src="other/gif files/Open Challenge.gif" alt="Open Challenge demonstration">
+</p>
+
+*Open Challenge images and demonstration GIF adapted from last year's team
+repository (source: team-2025) -- the GIF shows last season's physical
+robot; the navigation logic itself is confirmed unchanged for 2026, not
+evidence about this year's rules.*
+
 ### Obstacle Challenge: pillar detection
 
 Pillar color is detected and classified via the Raspberry Pi 5's computer
@@ -541,10 +558,55 @@ side of the lane to keep. Detected color masks feed directly into the
 navigation logic to decide the lane-keeping side for each pillar
 encountered.
 
+<p align="center">
+  <img src="other/images/Camera-Photos/RG.png" alt="Red-Green case, camera view" width="22%">
+  <img src="other/images/Camera-Photos/RG-Mask.png" alt="Red-Green case, color mask" width="22%">
+  <img src="other/images/Camera-Photos/GR.png" alt="Green-Red case, camera view" width="22%">
+  <img src="other/images/Camera-Photos/GR-MAsk.png" alt="Green-Red case, color mask" width="22%">
+</p>
+<p align="center">
+  <img src="other/images/Camera-Photos/RR.png" alt="Red-Red case, camera view" width="22%">
+  <img src="other/images/Camera-Photos/RR-Mask.png" alt="Red-Red case, color mask" width="22%">
+  <img src="other/images/Camera-Photos/GG.png" alt="Green-Green case, camera view" width="22%">
+  <img src="other/images/Camera-Photos/GG-Mask.png" alt="Green-Green case, color mask" width="22%">
+</p>
+
+*Camera/mask images adapted from last year's team repository (source:
+team-2025) -- the pillar-color detection logic is confirmed unchanged
+for 2026, not evidence about this year's rules.*
+
 ### State machine and control flow
 
 The obstacle-challenge control flow is organized as a state machine built
 around per-pillar handling functions:
+
+```mermaid
+stateDiagram-v2
+    [*] --> Startup
+    Startup --> FirstPillar: exits parking section (CW/CCW-dependent sequence)
+    FirstPillar --> Reposition: take photo, call pass_first_pillar(color, direction)
+    Reposition --> PillarLoop: maneuver into position for next section + photo
+
+    state PillarLoop {
+        [*] --> PhotoAndPass
+        PhotoAndPass --> PhotoAndPass: next pillar, lap 1 (colors still unknown -- take photo, call Color_Color_direction())
+        PhotoAndPass --> NoPhotoPass: first lap complete, colors now known
+        NoPhotoPass --> NoPhotoPass: pass pillar directly (no photo)
+    }
+
+    PillarLoop --> Parking: three laps complete
+    Parking --> [*]: Backward Parking (reverse_cw_to_ccw flips direction if needed)
+
+    note right of PillarLoop
+        Shared control primitives used by
+        every pillar-passing function:
+        turn_right / turn_left
+        dual_pid (heading + wall distance)
+        MPU_PID (heading only)
+        Color_None_direction variants exist
+        for the Surprise Rule
+    end note
+```
 
 1. **Startup.** The robot exits the parking section; the startup sequence
    itself differs depending on whether the run is CW or CCW.
@@ -576,6 +638,23 @@ around per-pillar handling functions:
    a `reverse_cw_to_ccw` function (or its opposite) flips the approach
    direction where needed so the final parking maneuver is always
    consistent, using the Backward Parking method described below.
+
+<p align="center">
+  <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="45%">
+  <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" alt="Startup, CCW, green pillar case" width="45%">
+</p>
+<p align="center">
+  <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" alt="Startup, CW case" width="45%">
+  <img src="other/gif files/Corner-Positioning-Protocol-Obstacle-challenge.gif" alt="Corner positioning protocol" width="45%">
+</p>
+<p align="center">
+  <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" alt="Green-Red, CCW case" width="45%">
+</p>
+
+*Demonstration GIFs adapted from last year's team repository (source:
+team-2025) -- these show last season's physical robot; the pillar
+navigation logic itself is confirmed unchanged for 2026, not evidence
+about this year's rules.*
 
 ### Parking
 
