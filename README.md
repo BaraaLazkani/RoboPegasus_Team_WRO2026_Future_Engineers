@@ -892,3 +892,15 @@ communication device in the competition area
 We will not destroy or tamper with competition courts, tables, materials,
 or other teams' vehicles
 [Rule 3.6, p.4: "Destruction or tampering with competition courts/tables, materials, or vehicles of other teams"].
+
+### Consequences of violations
+
+If any of these rules are broken, judges may interview the team or
+individual members about the vehicle or program before deciding on
+consequences
+[Rule 3.9, p.5: "If any of the rules mentioned in this document are broken or"].
+Suspected violations specifically related to independent construction
+(rule 3.3) or original work (rule 3.7) can trigger an investigation, with
+consequences up to preventing the team from progressing to the next
+competition even if they would otherwise place well
+[Rule 3.8, p.4: "If there is a suspicion in relation to rule 3.3 and 3.7,"].
