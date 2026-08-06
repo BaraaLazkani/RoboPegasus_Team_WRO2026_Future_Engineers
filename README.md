@@ -848,3 +848,12 @@ international events
 Coaches are permitted to work with more than one team
 [Rule 2.7, p.4: "Coaches may work with more than one team."], which does
 not require any statement here about whether Baraa coaches other teams.
+
+## Responsibilities and Team's Own Work
+
+Our team plays fair and is respectful towards other teams, coaches,
+judges, and competition organizers. By competing in WRO, we accept the
+WRO Guiding Principles
+[Rule 3.1, p.4: "A team should play fair and be respectful towards teams, coaches, judges,"].
+Every team member and our coach have already signed the WRO Ethics Code
+[Rule 3.2, p.4: "Every team and coach need to undersign the WRO Ethics Code. The"].
