@@ -715,10 +715,8 @@ require any statement here about whether Baraa coaches other teams.
 
 Our team plays fair and is respectful towards other teams, coaches,
 judges, and competition organizers. By competing in WRO, we accept the
-WRO Guiding Principles
-[Rule 3.1, p.4: "A team should play fair and be respectful towards teams, coaches, judges,"].
-Every team member and our coach have already signed the WRO Ethics Code
-[Rule 3.2, p.4: "Every team and coach need to undersign the WRO Ethics Code. The"].
+WRO Guiding Principles.
+Every team member and our coach have already signed the WRO Ethics Code.
 
 ### Ownership of the work
 
@@ -726,14 +724,12 @@ All coding of the vehicle and its construction was done solely by the
 team -- our coach's role has been to support us organizationally and with
 questions or problems, not to program or build the vehicle themselves,
 consistent with the rule that coaching may not include programming the
-vehicle or its construction
-[Rule 3.3, p.4: "Coding of the vehicle and its construction (if applicable) may be"].
+vehicle or its construction.
 Our control program and design are our own work: the state machine,
 navigation algorithms, and sensor integration described in the Software
 Architecture and Power and Sensor Architecture sections were built by the
 team, not copied from or too similar to a solution sold online or used by
-another team
-[Rule 3.7, p.4: "It is not allowed to use a vehicle’s control program that is"].
+another team.
 The one exception is explicitly documented elsewhere and was a deliberate,
 disclosed engineering choice, not an attempt to disguise non-original
 work: our Ackermann steering mechanism adapts the geometry of an existing
@@ -746,26 +742,21 @@ undisclosed copying rule 3.7 prohibits.
 
 While the competition is running, our team will not communicate in any
 way with people outside the competition area, except where a judge
-specifically allows supervised communication
-[Rule 3.4, p.4: "A team is not allowed to communicate in any way with people"].
+specifically allows supervised communication.
 Team members will not bring or use mobile phones or any other
-communication device in the competition area
-[Rule 3.5, p.4: "Team members are not allowed to bring and use mobile phones or"].
+communication device in the competition area.
 We will not destroy or tamper with competition courts, tables, materials,
-or other teams' vehicles
-[Rule 3.6, p.4: "Destruction or tampering with competition courts/tables, materials, or vehicles of other teams"].
+or other teams' vehicles.
 
 ### Consequences of violations
 
 If any of these rules are broken, judges may interview the team or
 individual members about the vehicle or program before deciding on
-consequences
-[Rule 3.9, p.5: "If any of the rules mentioned in this document are broken or"].
+consequences.
 Suspected violations specifically related to independent construction
 (rule 3.3) or original work (rule 3.7) can trigger an investigation, with
 consequences up to preventing the team from progressing to the next
-competition even if they would otherwise place well
-[Rule 3.8, p.4: "If there is a suspicion in relation to rule 3.3 and 3.7,"].
+competition even if they would otherwise place well.
 
 ## Vehicle Material & Regulations Compliance
 
