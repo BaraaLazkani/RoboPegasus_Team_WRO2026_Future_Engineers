@@ -132,9 +132,8 @@ just a final code dump.
 Self-check questions we should be able to answer "yes" to before
 submission: could another team rebuild our robot from our documentation;
 does our README explain how the system works and how to build it; and are
-CAD, wiring, and code files all inside the repository -- for which we
-already have real evidence: the STL and DXF part files now included in
-`models/`.
+CAD, wiring, and code files all inside the repository, including the
+STL and DXF part files in `models/`.
 
 ### Hard copy
 
@@ -371,8 +370,6 @@ The array consists of 7 ultrasonic sensors, an IMU, and a camera:
   <img src="other/images/SG90.webp" alt="SG90 servo, dynamic sensor positioning" width="30%">
   <img src="other/images/IR Sensor.jpg" alt="Infrared sensor" width="30%">
 </p>
-
-The URM09 and BNO086 photos above are this year's actual sensors.
 
 ### Sensor placement: field geometry and failure-point reasoning
 
@@ -730,8 +727,6 @@ cycles, and risk identification and mitigation.
 
 Judges specifically credit clear decisions made under constraints such as
 power, weight, processing, and time.
-Every constraint below is a real, specific limit we designed around --
-not a generic list.
 
 **Vehicle envelope.** WRO caps overall vehicle dimensions at 300x200mm and
 300mm in height, and caps weight at 1.5kg.
@@ -770,8 +765,7 @@ ready before starting the competition countdown. To bring this down, we
 switched to headless/lightweight versions of our libraries instead of
 their full desktop-oriented builds, and disabled Pi system services we
 didn't need at boot. This got the robot moving well within that startup
-window. This is a concrete, testable engineering decision made under a
-real time constraint, not a hypothetical one.
+window.
 
 ### Iteration and testing
 
@@ -866,8 +860,7 @@ Hasan Mfleh and Hadi Moalla were both born in 2005.
 Our coach, Baraa Lazkani, was also born in 2004 -- turning 22 in 2026,
 comfortably above the minimum coach age of 18 years old required at
 international events.
-Coaches are permitted to work with more than one team, which does not
-require any statement here about whether Baraa coaches other teams.
+Coaches are permitted to work with more than one team.
 
 ## Responsibilities and Team's Own Work
 
@@ -888,13 +881,10 @@ navigation algorithms, and sensor integration described in the Software
 Architecture and Power and Sensor Architecture sections were built by the
 team, not copied from or too similar to a solution sold online or used by
 another team.
-The one exception is explicitly documented elsewhere and was a deliberate,
-disclosed engineering choice, not an attempt to disguise non-original
-work: our Ackermann steering mechanism adapts the geometry of an existing
-4WD chassis kit, customized and re-integrated into our own compact
-chassis design (see Mobility and Mechanical Design) -- the kind of
-disclosed, justified reuse the rules anticipate, not the kind of
-undisclosed copying rule 3.7 prohibits.
+The one exception is our Ackermann steering mechanism, which adapts the
+geometry of an existing 4WD chassis kit, customized and re-integrated
+into our own compact chassis design (see Mobility and Mechanical
+Design).
 
 ### Competition-day conduct
 
