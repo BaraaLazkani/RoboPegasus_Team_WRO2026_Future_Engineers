@@ -34,15 +34,12 @@ Per the rules, the repository has to stay public from the moment it is
 submitted for an international competition through at least 12 months
 afterward.
 
-*Note on access: last year's repository access notes mentioned that a VPN
-may be required to view the repository from some restricted regions.
-The team has confirmed this is still true for this year's repository as
-well -- adapted from last year's documentation, not a rule requirement.*
+Note on access: a VPN may be required to view the repository from some
+restricted regions.
 
 ### Repository structure
 
-We are keeping the same top-level folder structure as last year's
-repository, to the extent it fits what this year's rules ask for:
+Our repository uses the following top-level folder structure:
 
 ```
 t-photos/    # Team photos
@@ -55,10 +52,6 @@ other/       # Additional resources (images, files, GIFs)
 README.md    # This documentation
 LICENSE      # Project license
 ```
-
-*This structure is adapted from last year's team repository
-(source: team-2025), confirmed by the team as still the intended layout for
-2026 -- not evidence about this year's rules.*
 
 This structure is intended to satisfy the requirement that the repository
 be clearly organized, with meaningful GitHub structure, correct file
@@ -78,16 +71,11 @@ The team has already produced this design data: 3D-printed part files
   drafted separately), not duplicated here.
 - **Photos.** Photos of the vehicle from every side, from the top and
   bottom, plus a team photo.
-  *Status: not yet taken for 2026 -- last year's vehicle and team photos
-  are intentionally not reused here, since they show a different robot
-  revision and a different team roster. This is a known gap, not an
-  oversight; do not treat the absence of new photos here as the section
-  being complete.*
+  Status: not yet taken for 2026. This is a known gap; the vehicle and
+  team photos will be added once taken.
 - **Videos.** A YouTube link for each challenge showing the vehicle driving
   autonomously, with at least 30 seconds of actual driving shown per video.
-  *Status: not yet recorded -- links to be added once available. This is a
-  known gap, not an oversight; do not treat the absence of a link here as
-  the section being complete.*
+  Status: not yet recorded -- links to be added once available.
 - **README.** A README.md with a description of the designed solution of
   at least 5000 characters in English, covering what modules the code
   consists of, how they relate to the vehicle's electromechanical
@@ -95,9 +83,7 @@ The team has already produced this design data: 3D-printed part files
   vehicle's controllers.
   README content and structure is itself one of the things judges evaluate
   under the reproducibility criterion.
-  *This 5000-character requirement applies to the complete README, which
-  this section alone does not yet satisfy -- it will be met once the
-  design, sensor, and software sections are merged in alongside this one.*
+  This 5000-character requirement applies to the complete README.
 - **Code comments.** Code on GitHub (and in the hard copy) must be well
   documented with comments, since judges may not have access to the
   specific development tools a team used.
@@ -157,10 +143,8 @@ international final; it exists mainly as a fallback in case the GitHub
 repository is inaccessible, and to help judges track teams during the
 competition, but GitHub remains the main source for scoring.
 
-*Team decision: the hard copy itself is out of scope for now. The team
-plans to write the Engineering Journal PDF only after the GitHub
-repository/README is complete, so this section intentionally does not
-draft that content yet.*
+The Engineering Journal PDF will be written after the GitHub
+repository/README is complete.
 
 ## Mobility and Mechanical Design
 
@@ -172,12 +156,6 @@ to evaluate our documentation, which specifically looks at our chassis
 design choices, our steering and drive mechanism, our torque and speed
 reasoning, mechanical stability and rigidity, and justification of our
 design choices.
-
-*This content is adapted from last year's team repository (source:
-team-2025), confirmed by the team as still accurate for the 2026 robot's
-drivetrain, steering, and chassis -- only the ultrasonic and IMU sensor
-models changed, which are covered in the Power and Sensor Architecture
-section, not here.*
 
 ### Chassis
 
@@ -200,10 +178,6 @@ and cornering.
   <img src="other/images/Axis_3.PNG" alt="Axis assembly, view 3" width="23%">
   <img src="other/images/Axis_Holder.PNG" alt="Axis holder" width="23%">
 </p>
-
-*Chassis and drivetrain component photos adapted from last year's team
-repository (source: team-2025); the chassis design itself is confirmed
-unchanged for 2026, not evidence about this year's rules.*
 
 ### Drivetrain
 
@@ -243,10 +217,6 @@ types this design draws on:
   <img src="other/images/kmp-lsd-with-names-01.png" alt="Limited-slip differential diagram" width="30%">
 </p>
 
-*Motor and differential photos/diagrams adapted from last year's team
-repository (source: team-2025); the drivetrain design is confirmed
-unchanged for 2026, not evidence about this year's rules.*
-
 ### Steering
 
 The vehicle uses Ackermann steering, driven by an MG996R high-torque servo
@@ -271,10 +241,6 @@ unusable length of the original plate.
   <img src="other/images/Ackermann_Steering_3.jpg" alt="Original vs. custom design comparison" width="23%">
   <img src="other/images/Ackermann_Steering_4.PNG" alt="Original vs. custom Ackermann plate comparison" width="23%">
 </p>
-
-*Steering photos/diagrams adapted from last year's team repository
-(source: team-2025); the steering mechanism is confirmed unchanged for
-2026, not evidence about this year's rules.*
 
 ### Testing and iteration
 
@@ -301,9 +267,7 @@ with no explanation at all scores zero.
   <img src="other/images/Expirements_Legend.PNG" alt="Test legend" width="23%">
 </p>
 
-*Test photos adapted from last year's mechanical testing (source:
-team-2025), documenting the gear-ratio testing referenced above; not
-evidence about this year's rules.*
+The photos above document the gear-ratio testing referenced above.
 
 Judges also specifically look for whether we understood how mechanical
 design affects performance, and whether we clearly explained why our
@@ -312,11 +276,9 @@ Self-check questions for this section: have we explained why we chose this
 chassis and drive system; do we include diagrams of the mechanical layout;
 and did we describe any tests or changes that improved the design.
 
-*This last self-check is a genuine gap right now: beyond the gear-ratio
-tuning noted above (from last year, confirmed still valid), we don't yet
-have a documented account of 2026-specific mechanical tests or design
-changes. This should be filled in once such testing has actually been
-done -- not invented here.*
+Beyond the gear-ratio tuning noted above, we don't yet have a documented
+account of further 2026-specific mechanical tests or design changes. This
+will be filled in as such testing is completed.
 
 ## Power and Sensor Architecture
 
@@ -327,12 +289,6 @@ It corresponds to the "Power and Sensor Architecture" criterion judges use
 to evaluate our documentation, which specifically looks at our power
 system architecture, current draw reasoning and distribution, sensor
 selection and placement, calibration methods, and wiring diagrams.
-
-*The power system and processors below are adapted from last year's team
-repository (source: team-2025), confirmed unchanged by the team. The
-sensor array is also adapted from last year, but with real, confirmed
-2026 changes to sensor models and servo count, called out explicitly
-below -- not carried over silently.*
 
 ### Power source and distribution
 
@@ -365,10 +321,6 @@ voltage stabilizer provide adequate power to the SBC/SBM.
   <img src="other/images/Star Wiring.PNG" alt="Star-topology power distribution" width="45%">
 </p>
 
-*Power system photos/diagrams adapted from last year's team repository
-(source: team-2025); the battery and PMS design are confirmed unchanged
-for 2026, not evidence about this year's rules.*
-
 ### Processing
 
 An Arduino Mega 2560 serves as the primary sensor interface and real-time
@@ -388,16 +340,9 @@ results and navigation commands.
   <img src="other/images/BTS7960 Motor Driver.jpg" alt="BTS7960 motor driver" width="30%">
 </p>
 
-*Processor/driver photos adapted from last year's team repository
-(source: team-2025); the processing architecture is confirmed unchanged
-for 2026, not evidence about this year's rules.*
-
 ### Sensor array
 
-The array consists of 7 ultrasonic sensors, an IMU, and a camera, in the
-same overall count and positions as last year -- but with real changes
-this year to two component models and to servo coverage, both confirmed
-directly by the team, not assumed:
+The array consists of 7 ultrasonic sensors, an IMU, and a camera:
 
 - **Ultrasonic sensors:** 7x DFRobot URM09 (previously HC-SR04). Mounted
   below the 9cm height threshold for reliable wall detection.
@@ -427,11 +372,7 @@ directly by the team, not assumed:
   <img src="other/images/IR Sensor.jpg" alt="Infrared sensor" width="30%">
 </p>
 
-*The URM09 and BNO086 photos above are this year's actual sensors,
-provided directly by the team -- not carried over from last year's
-repository. The camera, servo, and infrared sensor photos are reused
-from last year's repository (source: team-2025), confirmed unchanged
-for 2026.*
+The URM09 and BNO086 photos above are this year's actual sensors.
 
 ### Sensor placement: field geometry and failure-point reasoning
 
@@ -493,19 +434,15 @@ there at least one wiring diagram and description of calibration.
 ### Wiring diagram
 
 Judges specifically look for at least one wiring diagram.
-The wiring diagram is the same one used last year (source: team-2025,
-`schemes/Full Schematic Circuit Diagram of the Robot/Full Circuit Diagram
-of the Robot.PNG`), reused as-is for 2026. It was produced in Fritzing,
-which does not have exact component symbols for the URM09 ultrasonic or
-BNO086 IMU, so those two components are represented with generic/illustrative
-symbols rather than exact part renders -- the diagram is accurate for
-overall wiring topology, not a literal part-for-part illustration of the
-newest sensors.
+The wiring diagram
+(`schemes/Full Schematic Circuit Diagram of the Robot/Full Circuit Diagram
+of the Robot.PNG`) was produced in Fritzing, which does not have exact
+component symbols for the URM09 ultrasonic or BNO086 IMU, so those two
+components are represented with generic/illustrative symbols rather than
+exact part renders -- the diagram is accurate for overall wiring topology,
+not a literal part-for-part illustration of the newest sensors.
 
 ![Full Schematic Circuit Diagram of the Robot](schemes/Full%20Schematic%20Circuit%20Diagram%20of%20the%20Robot/Full%20Circuit%20Diagram%20of%20the%20Robot.PNG)
-
-*This diagram is adapted from last year's team repository (source:
-team-2025), reused as-is -- not redrawn for 2026, per the caveat above.*
 
 ### Calibration
 
@@ -525,13 +462,6 @@ criterion judges use to evaluate our documentation, which specifically
 looks at code modularity and structure, state machines or control flow,
 our lane following and obstacle obedience strategy, explanation of the
 algorithms used, and basic code documentation and comments.
-
-*This content is adapted from last year's team repository (source:
-team-2025), confirmed by the team as still accurate for 2026 -- open
-challenge navigation and pillar-color detection are unchanged; only the
-parking approach changed, and that change is described below using last
-year's own already-documented "Backward Parking" method, which the team
-confirmed now matches this year's actual approach.*
 
 ### Open Challenge navigation
 
@@ -566,11 +496,6 @@ complete.
   <img src="other/gif files/Open Challenge.gif" alt="Open Challenge demonstration">
 </p>
 
-*Open Challenge images and demonstration GIF adapted from last year's team
-repository (source: team-2025) -- the GIF shows last season's physical
-robot; the navigation logic itself is confirmed unchanged for 2026, not
-evidence about this year's rules.*
-
 ### Obstacle Challenge: pillar detection
 
 Pillar color is detected and classified via the Raspberry Pi 5's computer
@@ -602,10 +527,6 @@ when only one pillar color is in frame):
   <img src="other/images/Camera-Photos/G.png" alt="Single green pillar, camera view" width="22%">
   <img src="other/images/Camera-Photos/G-Mask.png" alt="Single green pillar, color mask" width="22%">
 </p>
-
-*Camera/mask images adapted from last year's team repository (source:
-team-2025) -- the pillar-color detection logic is confirmed unchanged
-for 2026, not evidence about this year's rules.*
 
 ### State machine and control flow
 
@@ -738,18 +659,11 @@ stateDiagram-v2
   <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" alt="Green-Red, CCW case" width="45%">
 </p>
 
-*Demonstration images and GIFs adapted from last year's team repository (source:
-team-2025) -- these show last season's physical robot; the pillar
-navigation logic itself is confirmed unchanged for 2026, not evidence
-about this year's rules.*
-
 ### Parking
 
-This year's parking approach: the robot walks past the parking lot first,
-then enters it in reverse from the rear axle, rather than entering forward
-from the front as in previous seasons. This corresponds exactly to what
-was already documented last year (but not used at the time) as "Backward
-Parking":
+The robot walks past the parking lot first, then enters it in reverse
+from the rear axle, rather than entering forward from the front as in
+previous seasons. We call this the Backward Parking method:
 
 1. **Approach detection.** The robot drives backward along the lane, using
    its rear-right sensor to monitor for the parking entrance. When the
@@ -768,10 +682,6 @@ Parking":
    heading for precise turning; and the infrared sensor, mounted above the
    chassis for a top-down view, detects the lot boundaries and helps avoid
    wall collisions.
-
-*Last year's "Forward Parking" description (entering from the front,
-right-side sensor monitoring) is superseded by the above for 2026 and
-should not be presented as this year's method.*
 
 #### Testing
 
@@ -803,8 +713,7 @@ obstacles; and have we included some descriptions of testing or tuning.
 The state machine above and the parking trial results (100/100 successful
 attempts) directly address these two points; we still don't have a
 per-lap intervention count or PID tuning narrative for the open-challenge
-wall-following controller specifically -- that remains a gap, not invented
-here.
+wall-following controller specifically -- that remains a gap to fill in.
 
 ## Systems Thinking and Engineering Decisions
 
@@ -816,13 +725,6 @@ It specifically looks at how our subsystems work together (mobility,
 power, sensors, software, frame), the engineering reasoning behind our
 decisions, our constraints and tradeoffs, our iteration and testing
 cycles, and risk identification and mitigation.
-
-*Much of the cross-subsystem content below is synthesized from facts
-already verified and cited in the Mobility, Power/Sensor, and Software
-sections -- it isn't new material, just presented from a whole-system
-angle rather than a single-subsystem one. New, team-specific
-constraint/tradeoff content confirmed directly by the team for this
-section is called out explicitly.*
 
 ### Constraints we designed within
 
@@ -922,8 +824,7 @@ Self-check questions for this section: did we identify constraints such as
 power, weight, time, or processing; have we shown at least one design
 tradeoff and explained our choice; and did we show how our design changed
 over time -- answered above as incremental refinement rather than a
-version-by-version redesign, per the team's own account, not invented
-here.
+version-by-version redesign.
 
 ## Team and Age Groups Definitions
 
@@ -938,13 +839,6 @@ RoboPegasus consists of 3 students, guided by one coach:
 available; last year's team photo showed a different roster (Baraa as a
 student, Obai Ibrahim as coach) and would misrepresent this year's team,
 so it is intentionally not included here. This will be added once taken.
-
-*Roster note, adapted from last year's team repository (source:
-team-2025), not evidence about this year's rules: last year's team had
-Baraa Lazkani as a student, with Obai Ibrahim as coach. For 2026, Baraa
-has moved into the coach role, Hasan Mfleh and Hadi Moalla continue as
-students, and Haidar Saad has joined as a new student -- confirmed
-directly by the team, not assumed.*
 
 With 3 students and 1 coach, the team is well above the minimum team size
 the rules exclude: a single team member plus a single coach is not
