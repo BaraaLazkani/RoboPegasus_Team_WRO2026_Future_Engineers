@@ -402,12 +402,9 @@ encountered.
 Single-pillar detection examples (used by the color duplication algorithm
 when only one pillar color is in frame):
 
-<p align="center">
-  <img src="other/images/Camera-Photos/R.png" alt="Single red pillar, camera view" width="22%">
-  <img src="other/images/Camera-Photos/R-Mask.png" alt="Single red pillar, color mask" width="22%">
-  <img src="other/images/Camera-Photos/G.png" alt="Single green pillar, camera view" width="22%">
-  <img src="other/images/Camera-Photos/G-Mask.png" alt="Single green pillar, color mask" width="22%">
-</p>
+| <img src="other/images/Camera-Photos/R.png" width="90%"> | <img src="other/images/Camera-Photos/R-Mask.png" width="90%"> | <img src="other/images/Camera-Photos/G.png" width="90%"> | <img src="other/images/Camera-Photos/G-Mask.png" width="90%"> |
+|:---:|:---:|:---:|:---:|
+| _Single red pillar, camera view_ | _Single red pillar, color mask_ | _Single green pillar, camera view_ | _Single green pillar, color mask_ |
 
 ### State machine and control flow
 
