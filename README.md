@@ -382,12 +382,25 @@ continues wall-following/turning until the required number of laps is
 complete.
 
 <p align="center">
-  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="18%">
-  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="18%">
-  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="18%">
-  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="18%">
-  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="18%">
+  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="50%">
 </p>
+
+<p align="center">
+  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="50%">
+</p>
+
+<p align="center">
+  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="50%">
+</p>
+
+<p align="center">
+  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="50%">
+</p>
+
+<p align="center">
+  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="50%">
+</p>
+
 <p align="center">
   <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="30%">
 </p>
