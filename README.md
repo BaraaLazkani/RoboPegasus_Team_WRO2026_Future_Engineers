@@ -24,12 +24,9 @@ self-driving vehicle for the WRO Future Engineers competition, season 2026.
 ### Repository
 
 Our 2026 repository is public at
-[github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers](https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers),
-which satisfies the requirement that GitHub repositories be set for public
-viewing with visible content.
-Per the rules, the repository has to stay public from the moment it is
-submitted for an international competition through at least 12 months
-afterward.
+[github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers](https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers).
+It will stay public through at least 12 months after the international
+competition.
 
 Note on access: a VPN may be required to view the repository from some
 restricted regions.
@@ -50,15 +47,10 @@ README.md    # This documentation
 LICENSE      # Project license
 ```
 
-This structure is intended to satisfy the requirement that the repository
-be clearly organized, with meaningful GitHub structure, correct file
-organization, and all of the required technical files -- CAD, code, and
-wiring information -- present and included.
-The repository's code covers all components programmed to participate in
-the competition, and may also include the files used by 3D printers and
-laser cutting machines to produce the vehicle's elements.
-The team has already produced this design data: 3D-printed part files
-(`models/STL Files/`) and laser-cut part files (`models/Cut/`).
+`src/` covers all components programmed to participate in the competition.
+`models/` holds the 3D-printed part files (`models/STL Files/`) and
+laser-cut part files (`models/Cut/`) used to produce the vehicle's
+elements.
 
 ### Videos
 
@@ -98,38 +90,19 @@ Full-resolution copies are in `v-photos/`.
 
 ### Commit history
 
-The rules require the repository's commit history to contain at least
-three commits on a fixed schedule: the first no later than 2 months before
-the competition, containing at least 1/5 of the final code; the second no
-later than 1 month before the competition; and the third no later than 2
-weeks before the competition, which is the commit primarily used for
-evaluation and scoring.
-
-The team's approach is to commit continuously as work is finished, rather
-than working to a fixed schedule, with contributions from every team
-member and as many commits as make sense (distributed roughly evenly
-across the team, without forcing an artificial split) -- as long as this
-still lands at least one real commit inside each of the three required
-windows above. This satisfies the rule that more commits than the minimum
-three are allowed, and supports a meaningful commit history.
+We commit continuously as work is finished, with contributions from every
+team member, distributed roughly evenly across the team.
 
 ### Hard copy
 
-A hard copy (the Engineering Journal) must also be submitted at the
-international final; it exists mainly as a fallback in case the GitHub
-repository is inaccessible, and to help judges track teams during the
-competition, but GitHub remains the main source for scoring.
-
-The Engineering Journal PDF will be written after the GitHub
-repository/README is complete.
+A hard copy of this documentation, the Engineering Journal
+(`Engineering-Journal.pdf`), is included in this repository.
 
 ## Mobility and Mechanical Design
 
-This section covers the discussion and motivation for the vehicle's mobility
-design, as part of the design discussion required for the repository's
-documentation, including our chassis design choices, our steering and
-drive mechanism, our torque and speed reasoning, mechanical stability and
-rigidity, and justification of our design choices.
+This section covers our chassis design choices, our steering and drive
+mechanism, our torque and speed reasoning, and mechanical stability and
+rigidity.
 
 ### Chassis
 
@@ -232,11 +205,9 @@ will be filled in as such testing is completed.
 
 ## Power and Sensor Architecture
 
-This section covers the discussion and motivation for the vehicle's power
-and sense design, as part of the design discussion required for the
-repository's documentation, including our power system architecture,
-current draw reasoning and distribution, sensor selection and placement,
-calibration methods, and wiring diagrams.
+This section covers our power system architecture, current draw reasoning
+and distribution, sensor selection and placement, calibration methods, and
+wiring diagrams.
 
 ### Power source and distribution
 
@@ -257,8 +228,7 @@ multiple competition runs per charge.
 
 The PMS includes a dedicated DC-DC step-down converter, which regulates
 and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
-(SBC) and Arduino Mega (SBM) require -- satisfying the requirement that a
-voltage stabilizer provide adequate power to the SBC/SBM.
+(SBC) and Arduino Mega (SBM) require.
 
 <p align="center">
   <img src="other/images/Li-Poly Battery.jpg" alt="Zeee Li-Poly battery, 11.1V 2200mAh" width="30%">
@@ -400,12 +370,8 @@ copied by other teams.
 
 ## Software Architecture and Obstacle Strategy
 
-This section covers the discussion and motivation for the vehicle's
-obstacle-management design, as part of the design discussion required for
-the repository's documentation, including code modularity and structure,
-state machines or control flow, our lane following and obstacle obedience
-strategy, explanation of the algorithms used, and basic code documentation
-and comments.
+This section covers code structure, control flow, our lane-following and
+obstacle-avoidance strategy, and the algorithms used.
 
 ### Open Challenge navigation
 
