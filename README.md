@@ -475,7 +475,10 @@ when only one pillar color is in frame):
 ### State machine and control flow
 
 The obstacle-challenge control flow is organized as a state machine built
-around per-pillar handling functions:
+around per-pillar handling functions. The diagram and the function names
+below describe the algorithm's structure and ideas, not a literal
+function-by-function map of the code in `src/` -- see `src/` for the
+actual function names.
 
 ```mermaid
 stateDiagram-v2
