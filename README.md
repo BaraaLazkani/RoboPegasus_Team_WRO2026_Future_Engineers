@@ -481,21 +481,18 @@ function-by-function map of the code in `src/` -- see `src/` for the
 actual function names.
 
 ```mermaid
-stateDiagram-v2
-    [*] --> Startup
-    Startup --> FirstPillar: exit parking (CW/CCW)
-    FirstPillar --> Reposition: photo + pass_first_pillar()
-    Reposition --> PillarLoop: reposition + photo
-
-    state PillarLoop {
-        [*] --> PhotoAndPass
-        PhotoAndPass --> PhotoAndPass: lap 1, color unknown: photo + pass
-        PhotoAndPass --> NoPhotoPass: lap 1 complete, color known
-        NoPhotoPass --> NoPhotoPass: pass directly, no photo
-    }
-
-    PillarLoop --> Parking: 3 laps complete
-    Parking --> [*]: backward parking
+flowchart TD
+    Start(["Start"]) --> Startup["Startup: exit parking (CW/CCW)"]
+    Startup --> FirstPillar["First pillar: photo + pass_first_pillar()"]
+    FirstPillar --> Reposition["Reposition + photo"]
+    Reposition --> LapCheck{"Lap 1 complete?"}
+    LapCheck -- "No: next pillar" --> PhotoPass["Photo + pass pillar"]
+    PhotoPass --> LapCheck
+    LapCheck -- "Yes" --> LapsCheck{"3 laps complete?"}
+    LapsCheck -- "No: next pillar" --> DirectPass["Pass pillar directly, no photo"]
+    DirectPass --> LapsCheck
+    LapsCheck -- "Yes" --> Parking["Backward parking"]
+    Parking --> End(["End"])
 ```
 
 1. **Startup.** The robot exits the parking section; the startup sequence
