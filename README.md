@@ -30,8 +30,8 @@ vehicle source code.
 This documentation lives primarily on GitHub, with all information and
 documentation for the international competition written in English.
 The Engineering Journal and this GitHub repository together are meant to
-demonstrate our engineering process (not only the final robot), let judges
-evaluate our design decisions and systems thinking, and provide enough
+demonstrate our engineering process (not only the final robot), our
+design decisions and systems thinking, and provide enough
 detail that another team could reproduce our robot.
 Documentation is worth 30 of the total competition points.
 
@@ -93,12 +93,10 @@ The team has already produced this design data: 3D-printed part files
   consists of, how they relate to the vehicle's electromechanical
   components, and the process to build/compile/upload the code to the
   vehicle's controllers.
-  README content and structure is itself one of the things judges evaluate
-  under the reproducibility criterion.
   This 5000-character requirement applies to the complete README.
 - **Code comments.** Code on GitHub (and in the hard copy) must be well
-  documented with comments, since judges may not have access to the
-  specific development tools a team used.
+  documented with comments, since reviewers may not have access to the
+  specific development tools we used.
 
 ### Build, compile, and upload
 
@@ -146,37 +144,7 @@ member and as many commits as make sense (distributed roughly evenly
 across the team, without forcing an artificial split) -- as long as this
 still lands at least one real commit inside each of the three required
 windows above. This satisfies the rule that more commits than the minimum
-three are allowed, and supports a meaningful commit history as evaluated
-under the reproducibility criterion and its corresponding checklist
-question.
-
-### Reproducibility and GitHub Quality
-
-This is one of five criteria judges use to evaluate our documentation,
-scored on the same four-level scale as the others (0/2/4/6 points).
-At the top level, judges look for a fully reproducible robot, a clear
-GitHub project structure, meaningful commit messages, a documented testing
-workflow, and versioning or release notes -- for example: *"Our GitHub
-repository contains all code, CAD, STL files and wiring diagrams. The
-README explains how to assemble the robot step by step. Each major change
-is recorded with a commit message ... Release v1.0 corresponds to the
-regional event, and v2.0 to the final international version."*
-A README of at least 5000 characters with required commits present and
-CAD/code/wiring included, such that another team could reproduce the
-robot with reasonable effort, scores at the next level down.
-A repository that exists but has poor structure, missing or unclear files,
-and limited reproducibility scores lower still, and a missing, empty, or
-inaccessible repository scores zero.
-
-Reproducibility of the robot itself is one of the things evaluators
-specifically look for, alongside professional, usable documentation and
-evidence that the repository reflects our actual engineering process, not
-just a final code dump.
-Self-check questions we should be able to answer "yes" to before
-submission: could another team rebuild our robot from our documentation;
-does our README explain how the system works and how to build it; and are
-CAD, wiring, and code files all inside the repository, including the
-STL and DXF part files in `models/`.
+three are allowed, and supports a meaningful commit history.
 
 ### Hard copy
 
@@ -192,12 +160,9 @@ repository/README is complete.
 
 This section covers the discussion and motivation for the vehicle's mobility
 design, as part of the design discussion required for the repository's
-documentation.
-It corresponds to the "Mobility and Mechanical Design" criterion judges use
-to evaluate our documentation, which specifically looks at our chassis
-design choices, our steering and drive mechanism, our torque and speed
-reasoning, mechanical stability and rigidity, and justification of our
-design choices.
+documentation, including our chassis design choices, our steering and
+drive mechanism, our torque and speed reasoning, mechanical stability and
+rigidity, and justification of our design choices.
 
 ### Chassis
 
@@ -287,20 +252,7 @@ unusable length of the original plate.
 ### Testing and iteration
 
 We tested our gear reduction and drivetrain configuration against our
-target performance before finalizing the design, and use of testing to
-refine the mechanical design is one of the things evaluators specifically
-look for -- for example, judges specifically credit documentation showing
-testing between alternative configurations with a measured, quantified
-outcome, such as *"We tested two gear ratios: 1:30 and 1:50 ... We
-selected 1:50 because it increased lap consistency from 60 percent to 85
-percent over 20 runs"*.
-By contrast, a description that only states the mechanism used (for
-example, *"Our robot uses a differential drive with two 12 V DC motors and
-omni wheels ... shown in Figure 3"*) without a testing/tuning narrative
-scores at the next level down, a description with no diagrams or reasoning
-(*"Our robot has a strong chassis with four wheels and two motors. It
-drives well and is stable on the track"*) scores lower still, and a photo
-with no explanation at all scores zero.
+target performance before finalizing the design.
 
 <p align="center">
   <img src="other/images/Expirement1.PNG" alt="Mechanical test 1" width="23%">
@@ -311,13 +263,6 @@ with no explanation at all scores zero.
 
 The photos above document the gear-ratio testing referenced above.
 
-Judges also specifically look for whether we understood how mechanical
-design affects performance, and whether we clearly explained why our
-particular drive and steering solution was selected.
-Self-check questions for this section: have we explained why we chose this
-chassis and drive system; do we include diagrams of the mechanical layout;
-and did we describe any tests or changes that improved the design.
-
 Beyond the gear-ratio tuning noted above, we don't yet have a documented
 account of further 2026-specific mechanical tests or design changes. This
 will be filled in as such testing is completed.
@@ -326,11 +271,9 @@ will be filled in as such testing is completed.
 
 This section covers the discussion and motivation for the vehicle's power
 and sense design, as part of the design discussion required for the
-repository's documentation.
-It corresponds to the "Power and Sensor Architecture" criterion judges use
-to evaluate our documentation, which specifically looks at our power
-system architecture, current draw reasoning and distribution, sensor
-selection and placement, calibration methods, and wiring diagrams.
+repository's documentation, including our power system architecture,
+current draw reasoning and distribution, sensor selection and placement,
+calibration methods, and wiring diagrams.
 
 ### Power source and distribution
 
@@ -416,8 +359,6 @@ The array consists of 7 ultrasonic sensors, an IMU, and a camera:
 
 ### Sensor placement: field geometry and failure-point reasoning
 
-Judges credit sensor placement justified by field geometry and evidence of
-failure-point/redundancy considerations, at the top rubric level.
 Our placement choices are driven directly by how the robot's own geometry
 changes relative to the walls during a maneuver, not just by a generic
 "more sensors is better" logic:
@@ -470,31 +411,8 @@ descriptions above and in Mobility and Mechanical Design:
 | Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 1 |
 | Power distribution | Custom PMS, star topology, DC-DC step-down converter | 1 |
 
-### What judges look for
-
-Judges specifically look for evidence that we planned power distribution,
-not just connected parts, justification for our sensor choices and
-positions, and consideration of noise, interference, shadows, and similar
-issues -- addressed above in the field-geometry and failure-point
-reasoning, and in the Wiring diagram and Calibration sections below.
-
-At the top level, judges credit a documented power budget with sensor
-trade-offs justified by real testing, such as: *"The total current draw
-during peak acceleration is approximately 3.2 A for the drive motors and
-0.8 A for electronics. We therefore selected a 5 A step down regulator. We
-tested two camera positions ... which reduced misdetection by 40 percent"*.
-A wiring diagram with sensor placement explained, but without that level
-of testing narrative, scores at the next level down.
-A bare component list without diagrams or explanation scores lower still,
-and no mention of power or sensor placement at all scores zero.
-
-Self-check questions for this section: do we show how power is distributed
-and regulated; have we justified our sensor choices and positions; and is
-there at least one wiring diagram and description of calibration.
-
 ### Wiring diagram
 
-Judges specifically look for at least one wiring diagram.
 The wiring diagram
 (`schemes/Full Schematic Circuit Diagram of the Robot/Full Circuit Diagram
 of the Robot.PNG`) was produced in Fritzing, which does not have exact
@@ -507,7 +425,6 @@ not a literal part-for-part illustration of the newest sensors.
 
 ### Calibration
 
-Judges specifically look for calibration methods.
 Neither the DFRobot URM09 ultrasonic sensors nor the SparkFun BNO086 IMU
 required a dedicated calibration procedure -- both performed reliably
 right out of the box, so no team-developed calibration methodology exists
@@ -522,12 +439,10 @@ copied by other teams.
 
 This section covers the discussion and motivation for the vehicle's
 obstacle-management design, as part of the design discussion required for
-the repository's documentation.
-It corresponds to the "Software Architecture and Obstacle Strategy"
-criterion judges use to evaluate our documentation, which specifically
-looks at code modularity and structure, state machines or control flow,
-our lane following and obstacle obedience strategy, explanation of the
-algorithms used, and basic code documentation and comments.
+the repository's documentation, including code modularity and structure,
+state machines or control flow, our lane following and obstacle obedience
+strategy, explanation of the algorithms used, and basic code documentation
+and comments.
 
 ### Open Challenge navigation
 
@@ -754,48 +669,21 @@ previous seasons. We call this the Backward Parking method:
 The reworked backward-entry parking maneuver has been tested 100 times,
 succeeding on all 100 attempts.
 
-### What judges look for
-
-At the top level, judges credit a justified control approach with a real
-state machine and a documented tuning process, such as: *"Our lane
-following uses a proportional controller ... We tried bang-bang control,
-but it produced oscillations near corners. The finite state machine ...
-shows states for LaneFollow, AvoidPillarLeft and AvoidPillarRight. We log
-the number of interventions per lap and tuned the controller to minimize
-these interventions"*.
-A flowchart with modules explained, but without that tuning narrative,
-scores at the next level down.
-A basic description without a clear structure scores lower still, and
-code with no explanation at all scores zero.
-
-Judges also specifically look for our understanding of how the software
-structure supports the robot's behavior, clear strategies for lane
-following, obstacle avoidance, and side obedience, and evidence of
-testing and tuning, not just final code.
-Self-check questions for this section: do we show a flowchart or state
-machine for our software; do we explain how we follow lanes and avoid
-obstacles; and have we included some descriptions of testing or tuning.
-
 The state machine above and the parking trial results (100/100 successful
-attempts) directly address these two points; we still don't have a
+attempts) demonstrate structured testing and tuning of our lane-following
+and obstacle-avoidance strategy; we still don't have a
 per-lap intervention count or PID tuning narrative for the open-challenge
 wall-following controller specifically -- that remains a gap to fill in.
 
 ## Systems Thinking and Engineering Decisions
 
-This section corresponds to the "Systems Thinking and Engineering
-Decisions" criterion judges use to evaluate our documentation -- the
-fourth of five criteria, and the one that looks across subsystems rather
-than at any single one of them.
-It specifically looks at how our subsystems work together (mobility,
-power, sensors, software, frame), the engineering reasoning behind our
-decisions, our constraints and tradeoffs, our iteration and testing
-cycles, and risk identification and mitigation.
+This section looks across subsystems rather than at any single one of
+them: how our subsystems work together (mobility, power, sensors,
+software, frame), the engineering reasoning behind our decisions, our
+constraints and tradeoffs, our iteration and testing cycles, and risk
+identification and mitigation.
 
 ### Constraints we designed within
-
-Judges specifically credit clear decisions made under constraints such as
-power, weight, processing, and time.
 
 **Vehicle envelope.** WRO caps overall vehicle dimensions at 300x200mm and
 300mm in height, and caps weight at 1.5kg.
@@ -861,33 +749,10 @@ level, not left as isolated sensor concerns:
   every relevant ultrasonic sensor perpendicular to the wall regardless of
   the robot's current attitude (see Power and Sensor Architecture).
 
-Evidence that the team thought about the robot as a system, not as
-separate parts, is exactly what this criterion evaluates -- these two
-mitigations are both cases where a single-subsystem fix (better IMU
-calibration, a single fixed sensor) wouldn't have worked, and the actual
-solution came from how two subsystems (sensing geometry and control
-software) interact.
-
-### What judges look for
-
-At the top level, judges credit documentation that names real constraints,
-a concrete data-driven decision, and a specific risk with its mitigation,
-such as: *"We considered two architectures: on board vision only and a
-split system with edge processing off the robot ... We reduced frame rate
-from 30 fps to 15 fps to keep CPU below 70 percent. Our risk table
-identified overheating as a failure mode, so we added a fan and verified
-temperatures stayed below 60 degrees Celsius"*.
-A block diagram of subsystems with a brief explanation of how they
-interact, but without that depth, scores at the next level down.
-A list of decisions made without detailed reasoning scores lower still,
-and documentation that only describes the final design with no mention of
-choices, tradeoffs, or problems scores zero.
-
-Self-check questions for this section: did we identify constraints such as
-power, weight, time, or processing; have we shown at least one design
-tradeoff and explained our choice; and did we show how our design changed
-over time -- answered above as incremental refinement rather than a
-version-by-version redesign.
+These two mitigations are both cases where a single-subsystem fix (better
+IMU calibration, a single fixed sensor) wouldn't have worked, and the
+actual solution came from how two subsystems (sensing geometry and
+control software) interact.
 
 ## Team and Age Groups Definitions
 
