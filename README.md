@@ -510,41 +510,15 @@ flowchart TD
 
 **Visual example -- Green-Red, counter-clockwise:**
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/20.PNG" alt="Green-Red CCW, step 1" width="75%">
-</p>
+| <img src="other/images/Obstacle-Challenge/20.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/21.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/22.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/23.PNG" width="90%"> |
+|:---:|:---:|:---:|:---:|
+| _Step 1_ | _Step 2_ | _Step 3_ | _Step 4_ |
+| <img src="other/images/Obstacle-Challenge/24.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/25.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/26.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/27.PNG" width="90%"> |
+| _Step 5_ | _Step 6_ | _Step 7_ | _Step 8_ |
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/21.PNG" alt="Green-Red CCW, step 2" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/22.PNG" alt="Green-Red CCW, step 3" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/23.PNG" alt="Green-Red CCW, step 4" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/24.PNG" alt="Green-Red CCW, step 5" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/25.PNG" alt="Green-Red CCW, step 6" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/26.PNG" alt="Green-Red CCW, step 7" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/27.PNG" alt="Green-Red CCW, step 8" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" alt="Green-Red, CCW case" width="75%">
-</p>
+| <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" width="90%"> |
+|:---:|
+| _Green-Red, CCW case_ |
 
 ### Parking
 
