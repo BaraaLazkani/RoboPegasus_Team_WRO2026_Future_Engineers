@@ -761,11 +761,6 @@ RoboPegasus consists of 3 students, guided by one coach:
 - **Coach:** Baraa Lazkani
 - **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
 
-**Team photo: pending.** A photo with our current 2026 roster is not yet
-available; last year's team photo showed a different roster (Baraa as a
-student, Obai Ibrahim as coach) and would misrepresent this year's team,
-so it is intentionally not included here. This will be added once taken.
-
 With 3 students and 1 coach, the team is well above the minimum team size
 the rules exclude: a single team member plus a single coach is not
 considered a valid team and cannot participate.
