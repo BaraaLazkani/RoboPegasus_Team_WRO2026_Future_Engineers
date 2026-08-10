@@ -263,14 +263,13 @@ The array consists of 7 ultrasonic sensors, an IMU, and a camera:
 - **Camera:** Arducam 64MP Hawk-Eye module, for computer vision tasks
   including pillar detection/classification and path planning.
 
-<p align="center">
-  <img src="other/images/urm09.jpg" alt="DFRobot URM09 ultrasonic sensor" width="30%">
-  <img src="other/images/BNO086.webp" alt="SparkFun BNO086 IMU" width="30%">
-  <img src="other/images/Arducam.jpeg" alt="Arducam 64MP Hawk-Eye camera" width="30%">
-</p>
-<p align="center">
-  <img src="other/images/SG90.webp" alt="SG90 servo, dynamic sensor positioning" width="30%">
-</p>
+| <img src="other/images/urm09.jpg" width="90%"> | <img src="other/images/BNO086.webp" width="90%"> | <img src="other/images/Arducam.jpeg" width="90%"> |
+|:---:|:---:|:---:|
+| _DFRobot URM09 ultrasonic sensor_ | _SparkFun BNO086 IMU_ | _Arducam 64MP Hawk-Eye camera_ |
+
+| <img src="other/images/SG90.webp" width="90%"> |
+|:---:|
+| _SG90 servo, dynamic sensor positioning_ |
 
 ### Sensor placement: field geometry and failure-point reasoning
 
