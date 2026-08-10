@@ -518,11 +518,15 @@ flowchart TD
 
 **Visual example -- Green-Red, counter-clockwise:**
 
-| <img src="other/images/Obstacle-Challenge/20.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/21.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/22.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/23.PNG" width="90%"> |
-|:---:|:---:|:---:|:---:|
-| _Step 1_ | _Step 2_ | _Step 3_ | _Step 4_ |
-| <img src="other/images/Obstacle-Challenge/24.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/25.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/26.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/27.PNG" width="90%"> |
-| _Step 5_ | _Step 6_ | _Step 7_ | _Step 8_ |
+| <img src="other/images/Obstacle-Challenge/20.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/21.PNG" width="90%"> |
+|:---:|:---:|
+| _Step 1_ | _Step 2_ |
+| <img src="other/images/Obstacle-Challenge/22.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/23.PNG" width="90%"> |
+| _Step 3_ | _Step 4_ |
+| <img src="other/images/Obstacle-Challenge/24.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/25.PNG" width="90%"> |
+| _Step 5_ | _Step 6_ |
+| <img src="other/images/Obstacle-Challenge/26.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/27.PNG" width="90%"> |
+| _Step 7_ | _Step 8_ |
 
 | <img src="other/gif files/Green-Red-CCW-Obstacle-challenge.gif" width="90%"> |
 |:---:|
