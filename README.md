@@ -8,6 +8,17 @@ RoboPegasus — WRO Future Engineers 2026
 This repository contains the engineering materials of RoboPegasus's
 self-driving vehicle for the WRO Future Engineers competition, season 2026.
 
+### Table of contents
+
+1. [Engineer's Documentation on GitHub](#engineers-documentation-on-github)
+2. [Mobility and Mechanical Design](#mobility-and-mechanical-design)
+3. [Power and Sensor Architecture](#power-and-sensor-architecture)
+4. [Software Architecture and Obstacle Strategy](#software-architecture-and-obstacle-strategy)
+5. [Systems Thinking and Engineering Decisions](#systems-thinking-and-engineering-decisions)
+6. [Team and Age Groups Definitions](#team-and-age-groups-definitions)
+7. [Responsibilities and Team's Own Work](#responsibilities-and-teams-own-work)
+8. [Vehicle Material & Regulations Compliance](#vehicle-material--regulations-compliance)
+
 ## Engineer's Documentation on GitHub
 
 ### Why this section exists
