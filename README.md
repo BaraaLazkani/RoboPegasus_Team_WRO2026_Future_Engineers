@@ -36,6 +36,7 @@ restricted regions.
 Our repository uses the following top-level folder structure:
 
 ```
+.github/     # GitHub issue templates
 t-photos/    # Team photos
 v-photos/    # Vehicle photos (all sides, top, bottom)
 video/       # Video demonstrations and links
@@ -45,6 +46,9 @@ models/      # 3D printed and laser cut parts
 other/       # Additional resources (images, files, GIFs)
 README.md    # This documentation
 LICENSE      # Project license
+CONTRIBUTING.md      # How to contribute
+CODE_OF_CONDUCT.md   # Community code of conduct
+SECURITY.md          # Security policy
 ```
 
 `src/` covers all components programmed to participate in the competition.
