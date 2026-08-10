@@ -78,8 +78,9 @@ The team has already produced this design data: 3D-printed part files
 
 - **Design discussion.** A discussion of, and motivation for, the vehicle's
   mobility, power and sense, and obstacle management design.
-  This content lives in this repository's dedicated design sections (to be
-  drafted separately), not duplicated here.
+  This content lives in this repository's dedicated design sections below:
+  Mobility and Mechanical Design, Power and Sensor Architecture, and
+  Software Architecture and Obstacle Strategy.
 - **Photos.** Photos of the vehicle from every side, from the top and
   bottom, plus a team photo. Vehicle photos are below in this section and
   in `v-photos/`; the team photo is still pending.
@@ -98,6 +99,22 @@ The team has already produced this design data: 3D-printed part files
 - **Code comments.** Code on GitHub (and in the hard copy) must be well
   documented with comments, since judges may not have access to the
   specific development tools a team used.
+
+### Build, compile, and upload
+
+The vehicle's control software has two parts, matching the two
+processors described in Power and Sensor Architecture:
+
+- **Arduino Mega code** (sensor acquisition, motor control, real-time
+  navigation): open the sketch in the Arduino IDE, select the Arduino
+  Mega 2560 board and the correct serial port, then upload over USB.
+- **Raspberry Pi code** (computer vision, pillar detection): run the
+  Python script directly on the Pi with Python 3; no separate build step
+  is required.
+
+The Arduino and the Pi communicate over a USB serial connection once both
+are running (see Power and Sensor Architecture: Processing). Source files
+for both live in `src/`.
 
 ### Vehicle photos
 
@@ -495,6 +512,11 @@ Neither the DFRobot URM09 ultrasonic sensors nor the SparkFun BNO086 IMU
 required a dedicated calibration procedure -- both performed reliably
 right out of the box, so no team-developed calibration methodology exists
 for either.
+The camera's color thresholds (used for pillar detection, see Software
+Architecture and Obstacle Strategy) are tuned through a dedicated
+calibration routine. That routine is intentionally not published in this
+repository, to avoid exposing our original color-detection work to being
+copied by other teams.
 
 ## Software Architecture and Obstacle Strategy
 
