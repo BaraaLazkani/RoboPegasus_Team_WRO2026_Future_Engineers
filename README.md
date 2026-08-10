@@ -220,14 +220,13 @@ The PMS includes a dedicated DC-DC step-down converter, which regulates
 and stabilizes the battery's raw voltage down to what the Raspberry Pi 5
 (SBC) and Arduino Mega (SBM) require.
 
-<p align="center">
-  <img src="other/images/Li-Poly Battery.jpg" alt="Zeee Li-Poly battery, 11.1V 2200mAh" width="30%">
-  <img src="other/images/PMS.PNG" alt="Custom Power Management System" width="30%">
-  <img src="other/images/PMS Diagram.PNG" alt="PMS schematic diagram" width="30%">
-</p>
-<p align="center">
-  <img src="other/images/Star Wiring.PNG" alt="Star-topology power distribution" width="45%">
-</p>
+| <img src="other/images/Li-Poly Battery.jpg" width="90%"> | <img src="other/images/PMS.PNG" width="90%"> | <img src="other/images/PMS Diagram.PNG" width="90%"> |
+|:---:|:---:|:---:|
+| _Zeee Li-Poly battery, 11.1V 2200mAh_ | _Custom Power Management System_ | _PMS schematic diagram_ |
+
+| <img src="other/images/Star Wiring.PNG" width="90%"> |
+|:---:|
+| _Star-topology power distribution_ |
 
 ### Processing
 
