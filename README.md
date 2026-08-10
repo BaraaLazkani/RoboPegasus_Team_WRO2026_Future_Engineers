@@ -170,12 +170,11 @@ reproduce that section's exact hole spacing and angular relationships at
 our compact scale, preserving the steering geometry while eliminating the
 unusable length of the original plate.
 
-<p align="center">
-  <img src="other/images/Servo Mg996R.webp" alt="MG996R steering servo" width="23%">
-  <img src="other/images/Ackermann_Steering_1.png" alt="Ackermann steering geometry" width="23%">
-  <img src="other/images/Ackermann_Steering_2.PNG" alt="Ackermann steering, how it works" width="23%">
-  <img src="other/images/Ackermann_Steering_3.jpg" alt="Original vs. custom design comparison" width="23%">
-</p>
+| <img src="other/images/Servo Mg996R.webp" width="90%"> | <img src="other/images/Ackermann_Steering_1.png" width="90%"> |
+|:---:|:---:|
+| _MG996R steering servo_ | _Ackermann steering geometry_ |
+| <img src="other/images/Ackermann_Steering_2.PNG" width="90%"> | <img src="other/images/Ackermann_Steering_3.jpg" width="90%"> |
+| _Ackermann steering, how it works_ | _Original vs. custom design comparison_ |
 
 ### Testing and iteration
 
