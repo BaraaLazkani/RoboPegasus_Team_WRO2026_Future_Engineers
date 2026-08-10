@@ -432,6 +432,27 @@ changes relative to the walls during a maneuver, not just by a generic
   wall regardless of the robot's current attitude, which is the whole
   reason the sensor count and servo count both grew for 2026 (see above).
 
+### Bill of materials
+
+Consolidated list of the vehicle's major components, gathered from the
+descriptions above and in Mobility and Mechanical Design:
+
+| Component | Part | Qty |
+|---|---|---|
+| Chassis | 3mm plexiglass panels + PLA 3D-printed parts | -- |
+| Drive motor | JGA25-370 DC motor, 3:1 gearbox | 1 |
+| Steering servo | MG996R high-torque servo | 1 |
+| Sensor-positioning servos | SG90 | 5 |
+| Motor driver | BTS7960 | 1 |
+| Primary controller (SBM) | Arduino Mega 2560 | 1 |
+| Vision processor (SBC) | Raspberry Pi 5, 8GB RAM, active cooling | 1 |
+| Ultrasonic sensors | DFRobot URM09 | 7 |
+| IMU | SparkFun BNO086 | 1 |
+| Camera | Arducam 64MP Hawk-Eye | 1 |
+| Infrared sensor | Infrared distance sensor (parking) | 1 |
+| Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 1 |
+| Power distribution | Custom PMS, star topology, DC-DC step-down converter | 1 |
+
 ### What judges look for
 
 Judges specifically look for evidence that we planned power distribution,
