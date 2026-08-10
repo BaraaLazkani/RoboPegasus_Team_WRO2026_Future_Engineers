@@ -323,20 +323,21 @@ changes relative to the walls during a maneuver, not just by a generic
 Consolidated list of the vehicle's major components, gathered from the
 descriptions above and in Mobility and Mechanical Design:
 
-| Component | Part | Qty |
-|---|---|---|
-| Chassis | 3mm plexiglass panels + PLA 3D-printed parts | -- |
-| Drive motor | JGA25-370 DC motor, 3:1 gearbox | 1 |
-| Steering servo | MG996R high-torque servo | 1 |
-| Sensor-positioning servos | SG90 | 5 |
-| Motor driver | BTS7960 | 1 |
-| Primary controller (SBM) | Arduino Mega 2560 | 1 |
-| Vision processor (SBC) | Raspberry Pi 5, 8GB RAM, active cooling | 1 |
-| Ultrasonic sensors | DFRobot URM09 | 7 |
-| IMU | SparkFun BNO086 | 1 |
-| Camera | Arducam 64MP Hawk-Eye | 1 |
-| Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 2 |
-| Power distribution | Custom PMS, star topology, DC-DC step-down converter | 1 |
+| Component | Part | Qty | Price (USD) |
+|---|---|---|---|
+| Chassis | 3mm plexiglass panels + PLA 3D-printed parts | -- | -- |
+| Drive motor | JGA25-370 DC motor, 3:1 gearbox | 1 | $20 |
+| Steering servo | MG996R high-torque servo | 1 | $8 |
+| Sensor-positioning servos | SG90 | 5 | $5 ($1 each) |
+| Motor driver | BTS7960 | 1 | $4 |
+| Primary controller (SBM) | Arduino Mega 2560 | 1 | $50 |
+| Vision processor (SBC) | Raspberry Pi 5, 8GB RAM, active cooling | 1 | $120 |
+| Ultrasonic sensors | DFRobot URM09 | 7 | $70 ($10 each) |
+| IMU | SparkFun BNO086 | 1 | $34 |
+| Camera | Arducam 64MP Hawk-Eye | 1 | $80 |
+| Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 2 | $80 |
+| Power distribution | Custom PMS, star topology, DC-DC step-down converter | 1 | $20 |
+| **Total** | | | **$491** (excludes chassis material cost) |
 
 ### Wiring diagram
 
