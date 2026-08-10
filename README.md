@@ -382,27 +382,27 @@ continues wall-following/turning until the required number of laps is
 complete.
 
 <p align="center">
-  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="50%">
+  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="75%">
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="50%">
+  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="75%">
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="50%">
+  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="75%">
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="50%">
+  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="75%">
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="50%">
+  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="75%">
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="50%">
+  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="75%">
 </p>
 <p align="center">
   <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart (combined)" width="60%">
@@ -523,7 +523,7 @@ flowchart TD
   <img src="other/images/Obstacle-Challenge/5.PNG" alt="Red pillar case, step 5" width="75%">
 </p>
 <p align="center">
-  <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="45%">
+  <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="75%">
 </p>
 
 **Green pillar case:**
@@ -556,19 +556,28 @@ flowchart TD
   <img src="other/images/Obstacle-Challenge/12.PNG" alt="Green pillar case, step 7" width="75%">
 </p>
 <p align="center">
-  <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" alt="Startup, CCW, green pillar case" width="45%">
+  <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" alt="Startup, CCW, green pillar case" width="75%">
 </p>
 
 **Clockwise (CW) navigation mode:**
 
 <p align="center">
-  <img src="other/images/Obstacle-Challenge/13.PNG" alt="CW navigation, step 1" width="23%">
-  <img src="other/images/Obstacle-Challenge/14.PNG" alt="CW navigation, step 2" width="23%">
-  <img src="other/images/Obstacle-Challenge/15.PNG" alt="CW navigation, step 3" width="23%">
-  <img src="other/images/Obstacle-Challenge/16.PNG" alt="CW navigation, step 4" width="23%">
+  <img src="other/images/Obstacle-Challenge/13.PNG" alt="CW navigation, step 1" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/14.PNG" alt="CW navigation, step 2" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/15.PNG" alt="CW navigation, step 3" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/16.PNG" alt="CW navigation, step 4" width="75%">
 </p>
 <p align="center">
-  <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" alt="Startup, CW case" width="45%">
+  <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" alt="Startup, CW case" width="75%">
 </p>
 
 **Example scenario -- post-CCW red pillar transition (corner positioning):**
