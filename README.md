@@ -70,12 +70,12 @@ The team has already produced this design data: 3D-printed part files
   This content lives in this repository's dedicated design sections (to be
   drafted separately), not duplicated here.
 - **Photos.** Photos of the vehicle from every side, from the top and
-  bottom, plus a team photo.
-  Status: not yet taken for 2026. This is a known gap; the vehicle and
-  team photos will be added once taken.
+  bottom, plus a team photo. Vehicle photos are below in this section and
+  in `v-photos/`; the team photo is still pending.
 - **Videos.** A YouTube link for each challenge showing the vehicle driving
   autonomously, with at least 30 seconds of actual driving shown per video.
-  Status: not yet recorded -- links to be added once available.
+  Open Challenge: [youtube.com/watch?v=jy_cDW6b-VM](https://www.youtube.com/watch?v=jy_cDW6b-VM).
+  Obstacle Challenge: [youtube.com/watch?v=_Zi2wvzxyvg](https://www.youtube.com/watch?v=_Zi2wvzxyvg).
 - **README.** A README.md with a description of the designed solution of
   at least 5000 characters in English, covering what modules the code
   consists of, how they relate to the vehicle's electromechanical
@@ -87,6 +87,21 @@ The team has already produced this design data: 3D-printed part files
 - **Code comments.** Code on GitHub (and in the hard copy) must be well
   documented with comments, since judges may not have access to the
   specific development tools a team used.
+
+### Vehicle photos
+
+<p align="center">
+  <img src="v-photos/Front.jpg" alt="Vehicle, front view" width="30%">
+  <img src="v-photos/Back.jpg" alt="Vehicle, rear view" width="30%">
+  <img src="v-photos/Left-Side.jpg" alt="Vehicle, left side view" width="30%">
+</p>
+<p align="center">
+  <img src="v-photos/Right-Side.jpg" alt="Vehicle, right side view" width="30%">
+  <img src="v-photos/Top.jpg" alt="Vehicle, top view" width="30%">
+  <img src="v-photos/Bottom.jpg" alt="Vehicle, bottom view" width="30%">
+</p>
+
+Full-resolution copies are in `v-photos/`.
 
 ### Commit history
 
