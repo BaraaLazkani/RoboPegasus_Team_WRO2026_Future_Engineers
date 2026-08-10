@@ -402,7 +402,7 @@ complete.
 </p>
 
 <p align="center">
-  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="30%">
+  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="50%">
 </p>
 <p align="center">
   <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart (combined)" width="60%">
