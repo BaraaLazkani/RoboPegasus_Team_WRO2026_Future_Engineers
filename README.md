@@ -583,10 +583,17 @@ flowchart TD
 **Example scenario -- post-CCW red pillar transition (corner positioning):**
 
 <p align="center">
-  <img src="other/images/Obstacle-Challenge/17.PNG" alt="Corner positioning, step 1" width="30%">
-  <img src="other/images/Obstacle-Challenge/18.PNG" alt="Corner positioning, step 2" width="30%">
-  <img src="other/images/Obstacle-Challenge/19.PNG" alt="Corner positioning, step 3" width="30%">
+  <img src="other/images/Obstacle-Challenge/17.PNG" alt="Corner positioning, step 1" width="75%">
 </p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/18.PNG" alt="Corner positioning, step 2" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/19.PNG" alt="Corner positioning, step 3" width="75%">
+</p>
+
 <p align="center">
   <img src="other/gif files/Corner-Positioning-Protocol-Obstacle-challenge.gif" alt="Corner positioning protocol" width="45%">
 </p>
