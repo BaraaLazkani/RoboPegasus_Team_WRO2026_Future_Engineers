@@ -1,0 +1,7 @@
+# .gitattributes
+
+# Exclude all files from language detection by default
+* linguist-detectable=false
+
+# Only include files in the src directory for language statistics
+src/** linguist-detectable=true
