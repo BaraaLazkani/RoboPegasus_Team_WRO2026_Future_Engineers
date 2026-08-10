@@ -241,11 +241,9 @@ temperatures such as summer competition conditions. The two processors
 communicate over a USB serial connection, exchanging computer vision
 results and navigation commands.
 
-<p align="center">
-  <img src="other/images/Arduino Mega.jpg" alt="Arduino Mega 2560" width="30%">
-  <img src="other/images/Pi with Active Cooler.avif" alt="Raspberry Pi 5 with active cooling" width="30%">
-  <img src="other/images/BTS7960 Motor Driver.jpg" alt="BTS7960 motor driver" width="30%">
-</p>
+| <img src="other/images/Arduino Mega.jpg" width="90%"> | <img src="other/images/Pi with Active Cooler.avif" width="90%"> | <img src="other/images/BTS7960 Motor Driver.jpg" width="90%"> |
+|:---:|:---:|:---:|
+| _Arduino Mega 2560_ | _Raspberry Pi 5 with active cooling_ | _BTS7960 motor driver_ |
 
 ### Sensor array
 
