@@ -488,24 +488,15 @@ flowchart TD
 
 **Clockwise (CW) navigation mode:**
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/13.PNG" alt="CW navigation, step 1" width="75%">
-</p>
+| <img src="other/images/Obstacle-Challenge/13.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/14.PNG" width="90%"> |
+|:---:|:---:|
+| _Step 1_ | _Step 2_ |
+| <img src="other/images/Obstacle-Challenge/15.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/16.PNG" width="90%"> |
+| _Step 3_ | _Step 4_ |
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/14.PNG" alt="CW navigation, step 2" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/15.PNG" alt="CW navigation, step 3" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/16.PNG" alt="CW navigation, step 4" width="75%">
-</p>
-<p align="center">
-  <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" alt="Startup, CW case" width="75%">
-</p>
+| <img src="other/gif files/Startup-CW-Obstacle-challenge.gif" width="90%"> |
+|:---:|
+| _Startup, CW case_ |
 
 **Example scenario -- post-CCW red pillar transition (corner positioning):**
 
