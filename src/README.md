@@ -1,6 +1,8 @@
 Control software
 ====
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
+- `open_challenge/open_challenge.ino` -- Arduino Mega code for the Open Challenge.
+- `obstacle_challenge/arduino_code/arduino_code.ino` -- Arduino Mega code for the Obstacle Challenge.
+- `obstacle_challenge/python_code/Obsatcle-Challenge.py` -- Raspberry Pi computer-vision code for the Obstacle Challenge (pillar color detection).
 
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
+See the main README's "Build, compile, and upload" section for how to run this code on the vehicle's controllers.
