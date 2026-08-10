@@ -366,39 +366,23 @@ adapting its turning logic to the section geometry it detects, and
 continues wall-following/turning until the required number of laps is
 complete.
 
-<p align="center">
-  <img src="other/images/Open-Challenge/1.PNG" alt="Open Challenge: initial position assessment" width="75%">
-</p>
+| <img src="other/images/Open-Challenge/1.PNG" width="90%"> | <img src="other/images/Open-Challenge/2.PNG" width="90%"> | <img src="other/images/Open-Challenge/3.PNG" width="90%"> |
+|:---:|:---:|:---:|
+| _Initial position assessment_ | _Right wall avoidance, step 1_ | _Right wall avoidance, step 2_ |
+| <img src="other/images/Open-Challenge/4.PNG" width="90%"> | <img src="other/images/Open-Challenge/5.PNG" width="90%"> | <img src="other/images/Open-Challenge/6.PNG" width="90%"> |
+| _Reference tracking control_ | _Turn initiation condition_ | _Turn execution_ |
 
-<p align="center">
-  <img src="other/images/Open-Challenge/2.PNG" alt="Open Challenge: right wall avoidance, step 1" width="75%">
-</p>
+| <img src="other/images/Open-Challenge/Algorithm Flowchart Part1.PNG" width="90%"> | <img src="other/images/Open-Challenge/Algorithm Flowchart Part2.PNG" width="90%"> |
+|:---:|:---:|
+| _Algorithm flowchart, part 1_ | _Algorithm flowchart, part 2_ |
 
-<p align="center">
-  <img src="other/images/Open-Challenge/3.PNG" alt="Open Challenge: right wall avoidance, step 2" width="75%">
-</p>
+| <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" width="90%"> |
+|:---:|
+| _Algorithm flowchart, combined_ |
 
-<p align="center">
-  <img src="other/images/Open-Challenge/4.PNG" alt="Open Challenge: reference tracking control" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Open-Challenge/5.PNG" alt="Open Challenge: turn initiation condition" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Open-Challenge/6.PNG" alt="Open Challenge: turn execution" width="75%">
-</p>
-<p align="center">
-  <img src="other/images/Open-Challenge/Algorithm Flowchart.PNG" alt="Open Challenge algorithm flowchart (combined)" width="60%">
-</p>
-<p align="center">
-  <img src="other/images/Open-Challenge/Algorithm Flowchart Part1.PNG" alt="Open Challenge algorithm flowchart, part 1" width="45%">
-  <img src="other/images/Open-Challenge/Algorithm Flowchart Part2.PNG" alt="Open Challenge algorithm flowchart, part 2" width="45%">
-</p>
-<p align="center">
-  <img src="other/gif files/Open Challenge.gif" alt="Open Challenge demonstration">
-</p>
+| <img src="other/gif files/Open Challenge.gif" width="90%"> |
+|:---:|
+| _Open Challenge demonstration_ |
 
 ### Obstacle Challenge: pillar detection
 
