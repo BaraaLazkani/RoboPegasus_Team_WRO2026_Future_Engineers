@@ -504,11 +504,23 @@ flowchart TD
 **Red pillar case:**
 
 <p align="center">
-  <img src="other/images/Obstacle-Challenge/1.PNG" alt="Red pillar case, step 1" width="18%">
-  <img src="other/images/Obstacle-Challenge/2.PNG" alt="Red pillar case, step 2" width="18%">
-  <img src="other/images/Obstacle-Challenge/3.PNG" alt="Red pillar case, step 3" width="18%">
-  <img src="other/images/Obstacle-Challenge/4.PNG" alt="Red pillar case, step 4" width="18%">
-  <img src="other/images/Obstacle-Challenge/5.PNG" alt="Red pillar case, step 5" width="18%">
+  <img src="other/images/Obstacle-Challenge/1.PNG" alt="Red pillar case, step 1" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/2.PNG" alt="Red pillar case, step 2" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/3.PNG" alt="Red pillar case, step 3" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/4.PNG" alt="Red pillar case, step 4" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/5.PNG" alt="Red pillar case, step 5" width="75%">
 </p>
 <p align="center">
   <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="45%">
@@ -517,13 +529,31 @@ flowchart TD
 **Green pillar case:**
 
 <p align="center">
-  <img src="other/images/Obstacle-Challenge/6.PNG" alt="Green pillar case, step 1" width="13%">
-  <img src="other/images/Obstacle-Challenge/7.PNG" alt="Green pillar case, step 2" width="13%">
-  <img src="other/images/Obstacle-Challenge/8.PNG" alt="Green pillar case, step 3" width="13%">
-  <img src="other/images/Obstacle-Challenge/9.PNG" alt="Green pillar case, step 4" width="13%">
-  <img src="other/images/Obstacle-Challenge/10.PNG" alt="Green pillar case, step 5" width="13%">
-  <img src="other/images/Obstacle-Challenge/11.PNG" alt="Green pillar case, step 6" width="13%">
-  <img src="other/images/Obstacle-Challenge/12.PNG" alt="Green pillar case, step 7" width="13%">
+  <img src="other/images/Obstacle-Challenge/6.PNG" alt="Green pillar case, step 1" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/7.PNG" alt="Green pillar case, step 2" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/8.PNG" alt="Green pillar case, step 3" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/9.PNG" alt="Green pillar case, step 4" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/10.PNG" alt="Green pillar case, step 5" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/11.PNG" alt="Green pillar case, step 6" width="75%">
+</p>
+
+<p align="center">
+  <img src="other/images/Obstacle-Challenge/12.PNG" alt="Green pillar case, step 7" width="75%">
 </p>
 <p align="center">
   <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" alt="Startup, CCW, green pillar case" width="45%">
