@@ -114,17 +114,13 @@ rear plexi panel is positioned slightly lower than the front panel, which
 shifts the center of mass forward to improve stability during acceleration
 and cornering.
 
-<p align="center">
-  <img src="other/images/Back_Plexi.PNG" alt="Rear plexi panel with differential mechanism" width="30%">
-  <img src="other/images/Motor_Holder.PNG" alt="Motor holder" width="30%">
-  <img src="other/images/Hexagonal Rod.PNG" alt="Hexagonal drive rod" width="30%">
-</p>
-<p align="center">
-  <img src="other/images/Axis_1.PNG" alt="Axis assembly, view 1" width="23%">
-  <img src="other/images/Axis_2.PNG" alt="Axis assembly, view 2" width="23%">
-  <img src="other/images/Axis_3.PNG" alt="Axis assembly, view 3" width="23%">
-  <img src="other/images/Axis_Holder.PNG" alt="Axis holder" width="23%">
-</p>
+| <img src="other/images/Back_Plexi.PNG" width="90%"> | <img src="other/images/Motor_Holder.PNG" width="90%"> | <img src="other/images/Hexagonal Rod.PNG" width="90%"> |
+|:---:|:---:|:---:|
+| _Rear plexi panel with differential mechanism_ | _Motor holder_ | _Hexagonal drive rod_ |
+
+| <img src="other/images/Axis_1.PNG" width="90%"> | <img src="other/images/Axis_2.PNG" width="90%"> | <img src="other/images/Axis_3.PNG" width="90%"> | <img src="other/images/Axis_Holder.PNG" width="90%"> |
+|:---:|:---:|:---:|:---:|
+| _Axis assembly, view 1_ | _Axis assembly, view 2_ | _Axis assembly, view 3_ | _Axis holder_ |
 
 ### Drivetrain
 
