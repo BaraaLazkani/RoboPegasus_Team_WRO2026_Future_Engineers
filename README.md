@@ -55,6 +55,7 @@ elements.
 ### Videos
 
 Open Challenge: [youtube.com/watch?v=jy_cDW6b-VM](https://www.youtube.com/watch?v=jy_cDW6b-VM).
+
 Obstacle Challenge: [youtube.com/watch?v=_Zi2wvzxyvg](https://www.youtube.com/watch?v=_Zi2wvzxyvg).
 
 ### Build, compile, and upload
