@@ -6,8 +6,8 @@ We welcome contributions to improve our robot design and documentation! Here's h
 
 1. **🍴 Fork the Repository**
    ```bash
-   git clone https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2025
-   cd RoboPegasus_Team_WRO2025
+   git clone https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers
+   cd RoboPegasus_Team_WRO2026_Future_Engineers
    ```
 
 2. **🌿 Create a Feature Branch**
@@ -74,5 +74,5 @@ Found a bug or have a suggestion? Please:
 
 ### Questions?
 
-- 📧 **Email:** **baraa.la2004@gmail.com**
+- 📧 **Email:** **lazkani.baraa.official@gmail.com**
 - 💬 **Discussions:** Use GitHub Discussions tab
