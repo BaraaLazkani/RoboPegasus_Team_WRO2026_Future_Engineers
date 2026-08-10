@@ -478,13 +478,15 @@ flowchart TD
 
 **Green pillar case:**
 
-| <img src="other/images/Obstacle-Challenge/6.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/7.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/8.PNG" width="90%"> |
-|:---:|:---:|:---:|
-| _Step 1_ | _Step 2_ | _Step 3_ |
-| <img src="other/images/Obstacle-Challenge/9.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/10.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/11.PNG" width="90%"> |
-| _Step 4_ | _Step 5_ | _Step 6_ |
-| <img src="other/images/Obstacle-Challenge/12.PNG" width="90%"> | | |
-| _Step 7_ | | |
+| <img src="other/images/Obstacle-Challenge/6.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/7.PNG" width="90%"> |
+|:---:|:---:|
+| _Step 1_ | _Step 2_ |
+| <img src="other/images/Obstacle-Challenge/8.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/9.PNG" width="90%"> |
+| _Step 3_ | _Step 4_ |
+| <img src="other/images/Obstacle-Challenge/10.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/11.PNG" width="90%"> |
+| _Step 5_ | _Step 6_ |
+| <img src="other/images/Obstacle-Challenge/12.PNG" width="90%"> | |
+| _Step 7_ | |
 
 | <img src="other/gif files/Startup-CCW-Green-Obstacle-challenge.gif" width="90%"> |
 |:---:|
