@@ -139,23 +139,19 @@ efficiency factored in) -- substantial reserve capacity above and beyond
 the minimum required for propulsion, which we rely on for acceleration and
 dynamic maneuvering.
 
-<p align="center">
-  <img src="other/images/DC_Motor.jpg" alt="JGA25-370 DC motor" width="23%">
-  <img src="other/images/Our_Differentisl_Replica.PNG" alt="Custom differential replica" width="23%">
-  <img src="other/images/Our_Differential2.jpg" alt="Custom differential, view 2" width="23%">
-  <img src="other/images/Our_Differential3.jpg" alt="Custom differential, view 3" width="23%">
-  <img src="other/images/Differential_Holder.PNG" alt="Differential holder" width="23%">
-</p>
+| <img src="other/images/DC_Motor.jpg" width="90%"> | <img src="other/images/Our_Differentisl_Replica.PNG" width="90%"> | <img src="other/images/Our_Differential2.jpg" width="90%"> |
+|:---:|:---:|:---:|
+| _JGA25-370 DC motor_ | _Custom differential replica_ | _Custom differential, view 2_ |
+| <img src="other/images/Our_Differential3.jpg" width="90%"> | <img src="other/images/Differential_Holder.PNG" width="90%"> | |
+| _Custom differential, view 3_ | _Differential holder_ | |
 
 Our rear axle uses a custom differential mechanism (not an electronic,
 one-motor-per-side setup) -- for reference, the two broad differential
 types this design draws on:
 
-<p align="center">
-  <img src="other/images/Differential-Image-1.webp" alt="Open differential diagram" width="30%">
-  <img src="other/images/locking diff.jpg" alt="Locking differential diagram" width="30%">
-  <img src="other/images/kmp-lsd-with-names-01.png" alt="Limited-slip differential diagram" width="30%">
-</p>
+| <img src="other/images/Differential-Image-1.webp" width="90%"> | <img src="other/images/locking diff.jpg" width="90%"> | <img src="other/images/kmp-lsd-with-names-01.png" width="90%"> |
+|:---:|:---:|:---:|
+| _Open differential_ | _Locking differential_ | _Limited-slip differential_ |
 
 ### Steering
 
