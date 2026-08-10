@@ -80,16 +80,11 @@ for both live in `src/`.
 
 ### Vehicle photos
 
-<p align="center">
-  <img src="v-photos/Front.jpg" alt="Vehicle, front view" width="30%">
-  <img src="v-photos/Back.jpg" alt="Vehicle, rear view" width="30%">
-  <img src="v-photos/Left-Side.jpg" alt="Vehicle, left side view" width="30%">
-</p>
-<p align="center">
-  <img src="v-photos/Right-Side.jpg" alt="Vehicle, right side view" width="30%">
-  <img src="v-photos/Top.jpg" alt="Vehicle, top view" width="30%">
-  <img src="v-photos/Bottom.jpg" alt="Vehicle, bottom view" width="30%">
-</p>
+| <img src="v-photos/Front.jpg" width="90%"> | <img src="v-photos/Back.jpg" width="90%"> | <img src="v-photos/Left-Side.jpg" width="90%"> |
+|:---:|:---:|:---:|
+| _Front_ | _Back_ | _Left_ |
+| <img src="v-photos/Right-Side.jpg" width="90%"> | <img src="v-photos/Top.jpg" width="90%"> | <img src="v-photos/Bottom.jpg" width="90%"> |
+| _Right_ | _Top_ | _Bottom_ |
 
 Full-resolution copies are in `v-photos/`.
 
