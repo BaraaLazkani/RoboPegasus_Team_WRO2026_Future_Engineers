@@ -21,20 +21,6 @@ self-driving vehicle for the WRO Future Engineers competition, season 2026.
 
 ## Engineer's Documentation on GitHub
 
-### Why this section exists
-
-Real engineering means not only building a solution but communicating it, so
-alongside the vehicle design and code, our team must provide documentation
-of our engineering progress, the final vehicle design, and the final
-vehicle source code.
-This documentation lives primarily on GitHub, with all information and
-documentation for the international competition written in English.
-The Engineering Journal and this GitHub repository together are meant to
-demonstrate our engineering process (not only the final robot), our
-design decisions and systems thinking, and provide enough
-detail that another team could reproduce our robot.
-Documentation is worth 30 of the total competition points.
-
 ### Repository
 
 Our 2026 repository is public at
@@ -74,29 +60,10 @@ laser cutting machines to produce the vehicle's elements.
 The team has already produced this design data: 3D-printed part files
 (`models/STL Files/`) and laser-cut part files (`models/Cut/`).
 
-### What the documentation must include
+### Videos
 
-- **Design discussion.** A discussion of, and motivation for, the vehicle's
-  mobility, power and sense, and obstacle management design.
-  This content lives in this repository's dedicated design sections below:
-  Mobility and Mechanical Design, Power and Sensor Architecture, and
-  Software Architecture and Obstacle Strategy.
-- **Photos.** Photos of the vehicle from every side, from the top and
-  bottom, plus a team photo. Vehicle photos are below in this section and
-  in `v-photos/`; the team photo is still pending.
-- **Videos.** A YouTube link for each challenge showing the vehicle driving
-  autonomously, with at least 30 seconds of actual driving shown per video.
-  Open Challenge: [youtube.com/watch?v=jy_cDW6b-VM](https://www.youtube.com/watch?v=jy_cDW6b-VM).
-  Obstacle Challenge: [youtube.com/watch?v=_Zi2wvzxyvg](https://www.youtube.com/watch?v=_Zi2wvzxyvg).
-- **README.** A README.md with a description of the designed solution of
-  at least 5000 characters in English, covering what modules the code
-  consists of, how they relate to the vehicle's electromechanical
-  components, and the process to build/compile/upload the code to the
-  vehicle's controllers.
-  This 5000-character requirement applies to the complete README.
-- **Code comments.** Code on GitHub (and in the hard copy) must be well
-  documented with comments, since reviewers may not have access to the
-  specific development tools we used.
+Open Challenge: [youtube.com/watch?v=jy_cDW6b-VM](https://www.youtube.com/watch?v=jy_cDW6b-VM).
+Obstacle Challenge: [youtube.com/watch?v=_Zi2wvzxyvg](https://www.youtube.com/watch?v=_Zi2wvzxyvg).
 
 ### Build, compile, and upload
 
