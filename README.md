@@ -181,12 +181,11 @@ unusable length of the original plate.
 We tested our gear reduction and drivetrain configuration against our
 target performance before finalizing the design.
 
-<p align="center">
-  <img src="other/images/Expirement1.PNG" alt="Mechanical test 1" width="23%">
-  <img src="other/images/Expirement2.PNG" alt="Mechanical test 2" width="23%">
-  <img src="other/images/Expirement3.PNG" alt="Mechanical test 3" width="23%">
-  <img src="other/images/Expirements_Legend.PNG" alt="Test legend" width="23%">
-</p>
+| <img src="other/images/Expirement1.PNG" width="90%"> | <img src="other/images/Expirement2.PNG" width="90%"> |
+|:---:|:---:|
+| _Mechanical test 1_ | _Mechanical test 2_ |
+| <img src="other/images/Expirement3.PNG" width="90%"> | <img src="other/images/Expirements_Legend.PNG" width="90%"> |
+| _Mechanical test 3_ | _Test legend_ |
 
 The photos above document the gear-ratio testing referenced above.
 
