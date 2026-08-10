@@ -464,11 +464,13 @@ flowchart TD
 
 **Red pillar case:**
 
-| <img src="other/images/Obstacle-Challenge/1.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/2.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/3.PNG" width="90%"> |
-|:---:|:---:|:---:|
-| _Step 1_ | _Step 2_ | _Step 3_ |
-| <img src="other/images/Obstacle-Challenge/4.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/5.PNG" width="90%"> | |
-| _Step 4_ | _Step 5_ | |
+| <img src="other/images/Obstacle-Challenge/1.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/2.PNG" width="90%"> |
+|:---:|:---:|
+| _Step 1_ | _Step 2_ |
+| <img src="other/images/Obstacle-Challenge/3.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/4.PNG" width="90%"> |
+| _Step 3_ | _Step 4_ |
+| <img src="other/images/Obstacle-Challenge/5.PNG" width="90%"> | |
+| _Step 5_ | |
 
 | <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" width="90%"> |
 |:---:|
