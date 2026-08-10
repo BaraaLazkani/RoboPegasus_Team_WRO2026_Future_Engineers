@@ -462,28 +462,15 @@ flowchart TD
 
 **Red pillar case:**
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/1.PNG" alt="Red pillar case, step 1" width="75%">
-</p>
+| <img src="other/images/Obstacle-Challenge/1.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/2.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/3.PNG" width="90%"> |
+|:---:|:---:|:---:|
+| _Step 1_ | _Step 2_ | _Step 3_ |
+| <img src="other/images/Obstacle-Challenge/4.PNG" width="90%"> | <img src="other/images/Obstacle-Challenge/5.PNG" width="90%"> | |
+| _Step 4_ | _Step 5_ | |
 
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/2.PNG" alt="Red pillar case, step 2" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/3.PNG" alt="Red pillar case, step 3" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/4.PNG" alt="Red pillar case, step 4" width="75%">
-</p>
-
-<p align="center">
-  <img src="other/images/Obstacle-Challenge/5.PNG" alt="Red pillar case, step 5" width="75%">
-</p>
-<p align="center">
-  <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" alt="Startup, CCW, red pillar case" width="75%">
-</p>
+| <img src="other/gif files/Startup-CCW-Red-Obstacle-challenge.gif" width="90%"> |
+|:---:|
+| _Startup, CCW, red pillar case_ |
 
 **Green pillar case:**
 
