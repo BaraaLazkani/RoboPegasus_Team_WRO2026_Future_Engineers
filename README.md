@@ -275,10 +275,6 @@ The array consists of 7 ultrasonic sensors, an IMU, and a camera:
   array for navigation.
 - **Camera:** Arducam 64MP Hawk-Eye module, for computer vision tasks
   including pillar detection/classification and path planning.
-- **Infrared sensor:** mounted on a long holder above the chassis for a
-  top-down view, used specifically during parking maneuvers to detect lot
-  boundaries and avoid wall collisions, positioned at maximum distance from
-  the chassis to minimize reflection interference.
 
 <p align="center">
   <img src="other/images/urm09.jpg" alt="DFRobot URM09 ultrasonic sensor" width="30%">
@@ -287,7 +283,6 @@ The array consists of 7 ultrasonic sensors, an IMU, and a camera:
 </p>
 <p align="center">
   <img src="other/images/SG90.webp" alt="SG90 servo, dynamic sensor positioning" width="30%">
-  <img src="other/images/IR Sensor.jpg" alt="Infrared sensor" width="30%">
 </p>
 
 ### Sensor placement: field geometry and failure-point reasoning
@@ -340,8 +335,7 @@ descriptions above and in Mobility and Mechanical Design:
 | Ultrasonic sensors | DFRobot URM09 | 7 |
 | IMU | SparkFun BNO086 | 1 |
 | Camera | Arducam 64MP Hawk-Eye | 1 |
-| Infrared sensor | Infrared distance sensor (parking) | 1 |
-| Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 1 |
+| Battery | Zeee Li-Poly, 11.1V (3S), 2200mAh, 50C, XT60 | 2 |
 | Power distribution | Custom PMS, star topology, DC-DC step-down converter | 1 |
 
 ### Wiring diagram
@@ -579,9 +573,7 @@ previous seasons. We call this the Backward Parking method:
    mounted on the sides and rear measure distance from the parking lot
    walls and detect the entrance gap; the IMU (now the SparkFun BNO086,
    see the Power and Sensor Architecture section) provides orientation and
-   heading for precise turning; and the infrared sensor, mounted above the
-   chassis for a top-down view, detects the lot boundaries and helps avoid
-   wall collisions.
+   heading for precise turning.
 
 #### Testing
 
