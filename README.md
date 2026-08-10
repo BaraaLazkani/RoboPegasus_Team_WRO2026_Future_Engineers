@@ -393,18 +393,11 @@ side of the lane to keep. Detected color masks feed directly into the
 navigation logic to decide the lane-keeping side for each pillar
 encountered.
 
-<p align="center">
-  <img src="other/images/Camera-Photos/RG.png" alt="Red-Green case, camera view" width="22%">
-  <img src="other/images/Camera-Photos/RG-Mask.png" alt="Red-Green case, color mask" width="22%">
-  <img src="other/images/Camera-Photos/GR.png" alt="Green-Red case, camera view" width="22%">
-  <img src="other/images/Camera-Photos/GR-MAsk.png" alt="Green-Red case, color mask" width="22%">
-</p>
-<p align="center">
-  <img src="other/images/Camera-Photos/RR.png" alt="Red-Red case, camera view" width="22%">
-  <img src="other/images/Camera-Photos/RR-Mask.png" alt="Red-Red case, color mask" width="22%">
-  <img src="other/images/Camera-Photos/GG.png" alt="Green-Green case, camera view" width="22%">
-  <img src="other/images/Camera-Photos/GG-Mask.png" alt="Green-Green case, color mask" width="22%">
-</p>
+| <img src="other/images/Camera-Photos/RG.png" width="90%"> | <img src="other/images/Camera-Photos/RG-Mask.png" width="90%"> | <img src="other/images/Camera-Photos/GR.png" width="90%"> | <img src="other/images/Camera-Photos/GR-MAsk.png" width="90%"> |
+|:---:|:---:|:---:|:---:|
+| _Red-Green, camera view_ | _Red-Green, color mask_ | _Green-Red, camera view_ | _Green-Red, color mask_ |
+| <img src="other/images/Camera-Photos/RR.png" width="90%"> | <img src="other/images/Camera-Photos/RR-Mask.png" width="90%"> | <img src="other/images/Camera-Photos/GG.png" width="90%"> | <img src="other/images/Camera-Photos/GG-Mask.png" width="90%"> |
+| _Red-Red, camera view_ | _Red-Red, color mask_ | _Green-Green, camera view_ | _Green-Green, color mask_ |
 
 Single-pillar detection examples (used by the color duplication algorithm
 when only one pillar color is in frame):
