@@ -366,11 +366,13 @@ adapting its turning logic to the section geometry it detects, and
 continues wall-following/turning until the required number of laps is
 complete.
 
-| <img src="other/images/Open-Challenge/1.PNG" width="90%"> | <img src="other/images/Open-Challenge/2.PNG" width="90%"> | <img src="other/images/Open-Challenge/3.PNG" width="90%"> |
-|:---:|:---:|:---:|
-| _Initial position assessment_ | _Right wall avoidance, step 1_ | _Right wall avoidance, step 2_ |
-| <img src="other/images/Open-Challenge/4.PNG" width="90%"> | <img src="other/images/Open-Challenge/5.PNG" width="90%"> | <img src="other/images/Open-Challenge/6.PNG" width="90%"> |
-| _Reference tracking control_ | _Turn initiation condition_ | _Turn execution_ |
+| <img src="other/images/Open-Challenge/1.PNG" width="90%"> | <img src="other/images/Open-Challenge/2.PNG" width="90%"> |
+|:---:|:---:|
+| _Initial position assessment_ | _Right wall avoidance, step 1_ |
+| <img src="other/images/Open-Challenge/3.PNG" width="90%"> | <img src="other/images/Open-Challenge/4.PNG" width="90%"> |
+| _Right wall avoidance, step 2_ | _Reference tracking control_ |
+| <img src="other/images/Open-Challenge/5.PNG" width="90%"> | <img src="other/images/Open-Challenge/6.PNG" width="90%"> |
+| _Turn initiation condition_ | _Turn execution_ |
 
 | <img src="other/images/Open-Challenge/Algorithm Flowchart Part1.PNG" width="90%"> | <img src="other/images/Open-Challenge/Algorithm Flowchart Part2.PNG" width="90%"> |
 |:---:|:---:|
