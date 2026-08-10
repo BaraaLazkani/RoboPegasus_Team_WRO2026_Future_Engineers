@@ -171,14 +171,11 @@ the minimum required for propulsion, which we rely on for acceleration and
 dynamic maneuvering.
 
 <p align="center">
-  <img src="other/images/DC_Motor.jpg" alt="JGA25-370 DC motor" width="30%">
+  <img src="other/images/DC_Motor.jpg" alt="JGA25-370 DC motor" width="23%">
   <img src="other/images/Our_Differentisl_Replica.PNG" alt="Custom differential replica" width="23%">
   <img src="other/images/Our_Differential2.jpg" alt="Custom differential, view 2" width="23%">
   <img src="other/images/Our_Differential3.jpg" alt="Custom differential, view 3" width="23%">
   <img src="other/images/Differential_Holder.PNG" alt="Differential holder" width="23%">
-</p>
-<p align="center">
-  <img src="other/images/Our_Differential2.PNG" alt="Custom differential, final assembly" width="40%">
 </p>
 
 Our rear axle uses a custom differential mechanism (not an electronic,
@@ -209,11 +206,10 @@ our compact scale, preserving the steering geometry while eliminating the
 unusable length of the original plate.
 
 <p align="center">
-  <img src="other/images/Servo Mg996R.webp" alt="MG996R steering servo" width="30%">
+  <img src="other/images/Servo Mg996R.webp" alt="MG996R steering servo" width="23%">
   <img src="other/images/Ackermann_Steering_1.png" alt="Ackermann steering geometry" width="23%">
   <img src="other/images/Ackermann_Steering_2.PNG" alt="Ackermann steering, how it works" width="23%">
   <img src="other/images/Ackermann_Steering_3.jpg" alt="Original vs. custom design comparison" width="23%">
-  <img src="other/images/Ackermann_Steering_4.PNG" alt="Original vs. custom Ackermann plate comparison" width="23%">
 </p>
 
 ### Testing and iteration
