@@ -483,29 +483,19 @@ actual function names.
 ```mermaid
 stateDiagram-v2
     [*] --> Startup
-    Startup --> FirstPillar: exits parking section (CW/CCW-dependent sequence)
-    FirstPillar --> Reposition: take photo, call pass_first_pillar(color, direction)
-    Reposition --> PillarLoop: maneuver into position for next section + photo
+    Startup --> FirstPillar: exit parking (CW/CCW)
+    FirstPillar --> Reposition: photo + pass_first_pillar()
+    Reposition --> PillarLoop: reposition + photo
 
     state PillarLoop {
         [*] --> PhotoAndPass
-        PhotoAndPass --> PhotoAndPass: next pillar, lap 1 (colors still unknown -- take photo, call Color_Color_direction())
-        PhotoAndPass --> NoPhotoPass: first lap complete, colors now known
-        NoPhotoPass --> NoPhotoPass: pass pillar directly (no photo)
+        PhotoAndPass --> PhotoAndPass: lap 1, color unknown: photo + pass
+        PhotoAndPass --> NoPhotoPass: lap 1 complete, color known
+        NoPhotoPass --> NoPhotoPass: pass directly, no photo
     }
 
-    PillarLoop --> Parking: three laps complete
-    Parking --> [*]: Backward Parking (reverse_cw_to_ccw flips direction if needed)
-
-    note right of PillarLoop
-        Shared control primitives used by
-        every pillar-passing function:
-        turn_right / turn_left
-        dual_pid (heading + wall distance)
-        MPU_PID (heading only)
-        Color_None_direction variants exist
-        for the Surprise Rule
-    end note
+    PillarLoop --> Parking: 3 laps complete
+    Parking --> [*]: backward parking
 ```
 
 1. **Startup.** The robot exits the parking section; the startup sequence
