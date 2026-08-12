@@ -187,9 +187,9 @@ drivetrain setup against our target performance figures.
 
 The photos above show the gear-ratio testing described earlier.
 
-Beyond the gear-ratio tuning noted above, we don't yet have a documented
-account of further 2026-specific mechanical tests or design changes. This
-will be filled in as such testing is completed.
+Aside from the gear-ratio tuning covered above, we haven't yet written up
+any further 2026-specific mechanical tests or design changes; that will
+be added as the testing happens.
 
 ## Power and Sensor Architecture
 
