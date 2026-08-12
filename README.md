@@ -101,9 +101,9 @@ Engineering Journal (`Engineering-Journal.pdf`).
 
 ## Mobility and Mechanical Design
 
-This section covers our chassis design choices, our steering and drive
-mechanism, our torque and speed reasoning, and mechanical stability and
-rigidity.
+This section describes our chassis design choices, the steering and
+drive mechanism, our torque/speed reasoning, and how we approached
+mechanical stability and rigidity.
 
 ### Chassis
 
