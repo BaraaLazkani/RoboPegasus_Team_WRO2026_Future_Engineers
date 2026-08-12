@@ -557,11 +557,12 @@ previous seasons. We call this the Backward Parking method:
 The reworked backward-entry parking maneuver has been tested 100 times,
 succeeding on all 100 attempts.
 
-The state machine above and the parking trial results (100/100 successful
-attempts) demonstrate structured testing and tuning of our lane-following
-and obstacle-avoidance strategy; we still don't have a
-per-lap intervention count or PID tuning narrative for the open-challenge
-wall-following controller specifically -- that remains a gap to fill in.
+Together, the state machine above and the parking trial results (100/100
+successful attempts) show structured testing and tuning of our
+lane-following and obstacle-avoidance strategy; a per-lap intervention
+count or PID tuning narrative for the open-challenge wall-following
+controller specifically is still missing -- that gap remains to be
+filled.
 
 ## Systems Thinking and Engineering Decisions
 
