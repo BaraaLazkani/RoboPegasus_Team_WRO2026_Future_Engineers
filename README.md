@@ -304,8 +304,8 @@ changes relative to the walls during a maneuver, not just by a generic
 
 ### Bill of materials
 
-Consolidated list of the vehicle's major components, gathered from the
-descriptions above and in Mobility and Mechanical Design:
+A consolidated list of the vehicle's major components, pulled together
+from the descriptions above and in Mobility and Mechanical Design:
 
 | Component | Part | Qty | Price (USD) |
 |---|---|---|---|
