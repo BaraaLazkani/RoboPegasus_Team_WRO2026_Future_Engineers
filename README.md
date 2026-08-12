@@ -615,12 +615,11 @@ window.
 
 ### Iteration and testing
 
-Aside from the specific, already-documented 2026 changes -- the
-DFRobot URM09/SparkFun BNO086 sensor swap, the added servos, the 4cm
-wheelbase-extension rod, the reworked backward-entry parking maneuver, and
-the Pi startup-time optimization above -- this year is mostly an
-incremental refinement of last year's platform rather than a ground-up
-redesign.
+Apart from the specific 2026 changes already documented -- the DFRobot
+URM09/SparkFun BNO086 sensor swap, the added servos, the 4cm
+wheelbase-extension rod, the reworked backward-entry parking maneuver,
+and the Pi startup-time optimization above -- this season is largely an
+incremental refinement of last year's platform, not a ground-up redesign.
 
 ### Risk identification and mitigation
 
