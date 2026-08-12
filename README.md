@@ -730,10 +730,9 @@ and Power and Sensor Architecture.
 
 ### Size and weight
 
-Our vehicle measures 29cm x 17.5cm x 29cm and weighs 1,475g (see Mobility
-and Mechanical Design), comfortably within the rules' limits: dimensions
-must not exceed 300x200mm and 300mm in height, and weight must not exceed
-1.5 kilograms.
+At 29cm x 17.5cm x 29cm and 1,475g (see Mobility and Mechanical Design),
+our vehicle sits comfortably within the rules' limits: dimensions capped
+at 300x200mm and 300mm in height, weight capped at 1.5 kilograms.
 
 ### Drivetrain and wheels
 
