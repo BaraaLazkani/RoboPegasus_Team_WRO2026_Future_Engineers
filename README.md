@@ -659,9 +659,8 @@ a valid team and can't participate.
 
 This season the team competes only in the Future Engineers category,
 in line with the rule limiting a team to one WRO category per season.
-Each of our three students -- Hasan, Hadi, and Haidar -- participates on
-this team only, in accordance with the rule that any student may
-participate in one team only.
+Hasan, Hadi, and Haidar each belong to this team exclusively, following
+the rule that a student may only be on one team.
 
 ### Age eligibility
 
