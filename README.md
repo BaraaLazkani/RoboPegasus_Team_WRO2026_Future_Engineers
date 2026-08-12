@@ -75,9 +75,9 @@ processors described in Power and Sensor Architecture:
   Python script directly on the Pi with Python 3; no separate build step
   is required.
 
-The Arduino and the Pi communicate over a USB serial connection once both
-are running (see Power and Sensor Architecture: Processing). Source files
-for both live in `src/`.
+Once both boards are running, the Arduino and the Pi talk to each other
+over a USB serial connection (see Power and Sensor Architecture:
+Processing); source files for both live in `src/`.
 
 ### Vehicle photos
 
