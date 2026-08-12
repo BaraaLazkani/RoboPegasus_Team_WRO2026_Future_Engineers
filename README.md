@@ -53,8 +53,8 @@ SECURITY.md          # Security policy
 ```
 
 `src/` contains every component we programmed for the competition.
-`models/` holds the 3D-printed part files (`models/STL Files/`) and
-laser-cut part files (`models/Cut/`) used to produce the vehicle's
+`models/` contains the 3D-printed part files (`models/STL Files/`) and
+laser-cut part files (`models/Cut/`) we used to fabricate the vehicle's
 elements.
 
 ### Videos
