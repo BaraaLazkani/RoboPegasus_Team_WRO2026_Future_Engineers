@@ -176,8 +176,8 @@ unusable length of the original plate.
 
 ### Testing and iteration
 
-We tested our gear reduction and drivetrain configuration against our
-target performance before finalizing the design.
+Before locking in the design, we validated our gear reduction and
+drivetrain setup against our target performance figures.
 
 | <img src="other/images/Expirement1.PNG" width="90%"> | <img src="other/images/Expirement2.PNG" width="90%"> |
 |:---:|:---:|
