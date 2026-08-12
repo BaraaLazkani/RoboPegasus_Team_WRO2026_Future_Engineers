@@ -675,7 +675,7 @@ Hasan Mfleh and Hadi Moalla were both born in 2005.
 Our coach, Baraa Lazkani, was also born in 2004 -- turning 22 in 2026,
 comfortably above the minimum coach age of 18 years old required at
 international events.
-Coaches are permitted to work with more than one team.
+A coach is allowed to work with more than one team.
 
 ## Responsibilities and Team's Own Work
 
