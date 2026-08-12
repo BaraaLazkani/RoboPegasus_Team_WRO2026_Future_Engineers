@@ -664,7 +664,7 @@ the rule that a student may only be on one team.
 
 ### Age eligibility
 
-The 2026 age group for this category covers students aged 14-22, born
+For 2026, this category's age group spans students aged 14-22, born
 between 2004 and 2012.
 This age window is evaluated by the age a participant turns during the
 2026 calendar year, not their age on the day of competition.
