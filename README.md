@@ -96,8 +96,8 @@ contributing roughly evenly over time.
 
 ### Hard copy
 
-A hard copy of this documentation, the Engineering Journal
-(`Engineering-Journal.pdf`), is included in this repository.
+This repository also includes a hard copy of this documentation, the
+Engineering Journal (`Engineering-Journal.pdf`).
 
 ## Mobility and Mechanical Design
 
