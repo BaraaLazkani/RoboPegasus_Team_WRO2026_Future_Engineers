@@ -703,9 +703,9 @@ Design).
 
 ### Competition-day conduct
 
-While the competition is running, our team will not communicate in any
-way with people outside the competition area, except where a judge
-specifically allows supervised communication.
+During the competition, our team will not communicate in any way with
+anyone outside the competition area, except where a judge specifically
+permits supervised communication.
 Team members will not bring or use mobile phones or any other
 communication device in the competition area.
 We will not destroy or tamper with competition courts, tables, materials,
