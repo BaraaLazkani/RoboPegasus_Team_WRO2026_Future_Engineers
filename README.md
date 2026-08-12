@@ -271,9 +271,9 @@ The sensor array is made up of 7 ultrasonic sensors, an IMU, and a camera:
 
 ### Sensor placement: field geometry and failure-point reasoning
 
-Our placement choices are driven directly by how the robot's own geometry
-changes relative to the walls during a maneuver, not just by a generic
-"more sensors is better" logic:
+We chose sensor placement based on how the robot's own geometry shifts
+relative to the walls during a maneuver, not on a generic "more sensors
+is better" logic:
 
 - **Two rear ultrasonics** let the parking routine know when the robot is
   fully inside the parking lot -- a distinct requirement from the side
