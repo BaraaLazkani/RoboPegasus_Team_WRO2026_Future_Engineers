@@ -637,10 +637,10 @@ level, rather than treating them as isolated sensor concerns:
   every relevant ultrasonic sensor perpendicular to the wall regardless of
   the robot's current attitude (see Power and Sensor Architecture).
 
-These two mitigations are both cases where a single-subsystem fix (better
-IMU calibration, a single fixed sensor) wouldn't have worked, and the
-actual solution came from how two subsystems (sensing geometry and
-control software) interact.
+In both cases, a single-subsystem fix (better IMU calibration, a single
+fixed sensor) wouldn't have been enough -- the real solution came from
+the interaction between two subsystems (sensing geometry and control
+software).
 
 ## Team and Age Groups Definitions
 
