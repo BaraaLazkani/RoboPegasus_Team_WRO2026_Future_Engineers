@@ -646,7 +646,7 @@ control software) interact.
 
 ### Our team
 
-RoboPegasus consists of 3 students, guided by one coach:
+RoboPegasus is made up of 3 students, guided by a single coach:
 
 - **Coach:** Baraa Lazkani
 - **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
