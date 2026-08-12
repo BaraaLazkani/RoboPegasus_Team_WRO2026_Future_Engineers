@@ -623,8 +623,8 @@ incremental refinement of last year's platform, not a ground-up redesign.
 
 ### Risk identification and mitigation
 
-Two concrete failure modes were identified and addressed at the system
-level, not left as isolated sensor concerns:
+We identified and addressed two concrete failure modes at the system
+level, rather than treating them as isolated sensor concerns:
 
 - **IMU drift.** The MPU/IMU heading reference can drift over time. We
   mitigate this using the geometric relationship between each side's two
