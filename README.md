@@ -349,8 +349,8 @@ copied by other teams.
 
 ## Software Architecture and Obstacle Strategy
 
-This section covers code structure, control flow, our lane-following and
-obstacle-avoidance strategy, and the algorithms used.
+This section explains our code structure and control flow, along with the
+lane-following and obstacle-avoidance strategy and algorithms behind it.
 
 ### Open Challenge navigation
 
