@@ -91,8 +91,8 @@ Full-resolution copies are in `v-photos/`.
 
 ### Commit history
 
-We commit continuously as work is finished, with contributions from every
-team member, distributed roughly evenly across the team.
+Commits go up continuously as work wraps, with every team member
+contributing roughly evenly over time.
 
 ### Hard copy
 
