@@ -565,11 +565,11 @@ wall-following controller specifically -- that remains a gap to fill in.
 
 ## Systems Thinking and Engineering Decisions
 
-This section looks across subsystems rather than at any single one of
-them: how our subsystems work together (mobility, power, sensors,
-software, frame), the engineering reasoning behind our decisions, our
-constraints and tradeoffs, our iteration and testing cycles, and risk
-identification and mitigation.
+Rather than treating each subsystem in isolation, this section looks at
+how they work together (mobility, power, sensors, software, frame), the
+reasoning behind our engineering decisions, the constraints and tradeoffs
+we navigated, our iteration and testing cycles, and how we identified and
+mitigated risk.
 
 ### Constraints we designed within
 
