@@ -185,7 +185,7 @@ drivetrain setup against our target performance figures.
 | <img src="other/images/Expirement3.PNG" width="90%"> | <img src="other/images/Expirements_Legend.PNG" width="90%"> |
 | _Mechanical test 3_ | _Test legend_ |
 
-The photos above document the gear-ratio testing referenced above.
+The photos above show the gear-ratio testing described earlier.
 
 Beyond the gear-ratio tuning noted above, we don't yet have a documented
 account of further 2026-specific mechanical tests or design changes. This
