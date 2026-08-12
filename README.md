@@ -708,7 +708,7 @@ anyone outside the competition area, except where a judge specifically
 permits supervised communication.
 Team members will not bring or use mobile phones or any other
 communication device in the competition area.
-We will not destroy or tamper with competition courts, tables, materials,
+We won't damage or interfere with competition courts, tables, materials,
 or other teams' vehicles.
 
 ### Consequences of violations
