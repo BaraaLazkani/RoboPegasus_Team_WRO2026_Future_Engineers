@@ -87,7 +87,7 @@ Processing); source files for both live in `src/`.
 | <img src="v-photos/Right-Side.jpg" width="90%"> | <img src="v-photos/Top.jpg" width="90%"> | <img src="v-photos/Bottom.jpg" width="90%"> |
 | _Right_ | _Top_ | _Bottom_ |
 
-Full-resolution copies are in `v-photos/`.
+Full-resolution versions of these photos live in `v-photos/`.
 
 ### Commit history
 
