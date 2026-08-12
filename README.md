@@ -681,10 +681,10 @@ Coaches are permitted to work with more than one team.
 
 ## Responsibilities and Team's Own Work
 
-Our team plays fair and is respectful towards other teams, coaches,
-judges, and competition organizers. By competing in WRO, we accept the
-WRO Guiding Principles.
-Every team member and our coach have already signed the WRO Ethics Code.
+Our team competes fairly and treats other teams, coaches, judges, and
+organizers with respect. Taking part in WRO means we accept its Guiding
+Principles, and every team member plus our coach have already signed the
+WRO Ethics Code.
 
 ### Ownership of the work
 
