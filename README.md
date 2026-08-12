@@ -725,8 +725,8 @@ competition even if they would otherwise place well.
 
 ## Vehicle Material & Regulations Compliance
 
-This section confirms our vehicle meets the rules' physical and
-material regulations, cross-referencing the actual measurements and
+This section verifies our vehicle satisfies the rules' physical and
+material requirements, referencing back to the measurements and
 component choices already documented in Mobility and Mechanical Design
 and Power and Sensor Architecture.
 
