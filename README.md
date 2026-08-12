@@ -399,8 +399,8 @@ encountered.
 | <img src="other/images/Camera-Photos/RR.png" width="90%"> | <img src="other/images/Camera-Photos/RR-Mask.png" width="90%"> | <img src="other/images/Camera-Photos/GG.png" width="90%"> | <img src="other/images/Camera-Photos/GG-Mask.png" width="90%"> |
 | _Red-Red, camera view_ | _Red-Red, color mask_ | _Green-Green, camera view_ | _Green-Green, color mask_ |
 
-Single-pillar detection examples (used by the color duplication algorithm
-when only one pillar color is in frame):
+Examples of single-pillar detection (used by the color duplication
+algorithm when only one pillar color appears in frame):
 
 | <img src="other/images/Camera-Photos/R.png" width="90%"> | <img src="other/images/Camera-Photos/R-Mask.png" width="90%"> | <img src="other/images/Camera-Photos/G.png" width="90%"> | <img src="other/images/Camera-Photos/G-Mask.png" width="90%"> |
 |:---:|:---:|:---:|:---:|
