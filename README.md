@@ -52,7 +52,7 @@ CODE_OF_CONDUCT.md   # Community code of conduct
 SECURITY.md          # Security policy
 ```
 
-`src/` covers all components programmed to participate in the competition.
+`src/` contains every component we programmed for the competition.
 `models/` holds the 3D-printed part files (`models/STL Files/`) and
 laser-cut part files (`models/Cut/`) used to produce the vehicle's
 elements.
