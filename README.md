@@ -29,8 +29,8 @@ Our 2026 repository is public at
 It will stay public through at least 12 months after the international
 competition.
 
-Note on access: a VPN may be required to view the repository from some
-restricted regions.
+Access note: viewers in some restricted regions may need a VPN to reach
+the repository.
 
 ### Repository structure
 
