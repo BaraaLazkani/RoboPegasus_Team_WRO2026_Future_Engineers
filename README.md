@@ -245,7 +245,7 @@ results and navigation commands.
 
 ### Sensor array
 
-The array consists of 7 ultrasonic sensors, an IMU, and a camera:
+The sensor array is made up of 7 ultrasonic sensors, an IMU, and a camera:
 
 - **Ultrasonic sensors:** 7x DFRobot URM09 (previously HC-SR04). Mounted
   below the 9cm height threshold for reliable wall detection.
