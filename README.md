@@ -108,11 +108,8 @@ rigidity.
 
 The chassis uses a hybrid material approach: 3mm plexiglass panels for
 primary structural elements, combined with PLA 3D-printed components for
-complex mechanical interfaces. Overall vehicle dimensions are 29cm length
-x 17.5cm width x 29cm height, with a total system weight of 1,475g. The
-rear plexi panel is positioned slightly lower than the front panel, which
-shifts the center of mass forward to improve stability during acceleration
-and cornering.
+complex mechanical interfaces. Overall vehicle dimensions are 24cm length
+x 15cm width x 29cm height, with a total system weight of 1.45kg.
 
 | <img src="other/images/Back_Plexi.PNG" width="90%"> | <img src="other/images/Motor_Holder.PNG" width="90%"> | <img src="other/images/Hexagonal Rod.PNG" width="90%"> |
 |:---:|:---:|:---:|
