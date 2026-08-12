@@ -26,7 +26,7 @@ competition.
 
 Our 2026 repository is public at
 [github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers](https://github.com/BaraaLazkani/RoboPegasus_Team_WRO2026_Future_Engineers).
-It will stay public through at least 12 months after the international
+It will remain public for at least 12 months following the international
 competition.
 
 Access note: viewers in some restricted regions may need a VPN to reach
