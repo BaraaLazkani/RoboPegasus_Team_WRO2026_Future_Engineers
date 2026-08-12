@@ -65,7 +65,7 @@ Obstacle Challenge: [youtube.com/watch?v=_Zi2wvzxyvg](https://www.youtube.com/wa
 
 ### Build, compile, and upload
 
-The vehicle's control software has two parts, matching the two
+The vehicle's control software splits into two parts, one for each of the
 processors described in Power and Sensor Architecture:
 
 - **Arduino Mega code** (sensor acquisition, motor control, real-time
