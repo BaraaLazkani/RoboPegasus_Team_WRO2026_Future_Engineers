@@ -666,8 +666,8 @@ the rule that a student may only be on one team.
 
 For 2026, this category's age group spans students aged 14-22, born
 between 2004 and 2012.
-This age window is evaluated by the age a participant turns during the
-2026 calendar year, not their age on the day of competition.
+Eligibility for this window is based on the age a participant turns
+during the 2026 calendar year, not their age on competition day.
 All three of our students fall within this window: Haidar Saad was born
 in 2004 (turning 22 in 2026, the oldest age this category allows), and
 Hasan Mfleh and Hadi Moalla were both born in 2005.
