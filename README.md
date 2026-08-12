@@ -193,9 +193,9 @@ will be filled in as such testing is completed.
 
 ## Power and Sensor Architecture
 
-This section covers our power system architecture, current draw reasoning
-and distribution, sensor selection and placement, calibration methods, and
-wiring diagrams.
+This section walks through our power system architecture, the reasoning
+behind our current draw and distribution, how sensors were chosen and
+placed, our calibration approach, and the wiring diagrams.
 
 ### Power source and distribution
 
