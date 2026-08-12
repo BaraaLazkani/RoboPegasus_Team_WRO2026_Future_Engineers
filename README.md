@@ -713,9 +713,9 @@ or other teams' vehicles.
 
 ### Consequences of violations
 
-If any of these rules are broken, judges may interview the team or
-individual members about the vehicle or program before deciding on
-consequences.
+Should any of these rules be broken, judges may interview the team or
+individual members about the vehicle or program before deciding what
+consequences apply.
 Suspected violations specifically related to independent construction
 (rule 3.3) or original work (rule 3.7) can trigger an investigation, with
 consequences up to preventing the team from progressing to the next
