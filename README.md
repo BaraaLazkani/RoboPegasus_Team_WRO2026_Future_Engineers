@@ -768,9 +768,9 @@ communication.
 
 ### Controllers and materials
 
-Our controllers are a Raspberry Pi 5 (SBC) and an Arduino Mega 2560 (SBM)
-(see Power and Sensor Architecture), matching the rule that either type
-of controller is allowed with no brand restriction.
+Our controllers -- a Raspberry Pi 5 (SBC) and an Arduino Mega 2560 (SBM)
+(see Power and Sensor Architecture) -- satisfy the rule allowing either
+controller type with no brand restriction.
 Our chassis uses a plexiglass and PLA 3D-printed hybrid construction (see
 Mobility and Mechanical Design), which the rules permit -- any material or
 building system is allowed, with no restriction to a specific type.
