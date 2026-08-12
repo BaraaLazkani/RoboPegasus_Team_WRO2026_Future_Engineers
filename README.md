@@ -651,9 +651,9 @@ RoboPegasus is made up of 3 students, guided by a single coach:
 - **Coach:** Baraa Lazkani
 - **Students:** Hasan Mfleh, Hadi Moalla, Haidar Saad
 
-With 3 students and 1 coach, the team is well above the minimum team size
-the rules exclude: a single team member plus a single coach is not
-considered a valid team and cannot participate.
+At 3 students and 1 coach, our team is comfortably above the minimum size
+the rules exclude -- a lone team member paired with a single coach isn't
+a valid team and can't participate.
 
 ### Category and team membership
 
